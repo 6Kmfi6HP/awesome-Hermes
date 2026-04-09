@@ -2,10 +2,21 @@
 
 > A curated list of awesome resources for Hermes Agent — the self-improving AI agent built by Nous Research.
 
-Hermes Agent is an autonomous AI agent with a built-in learning loop: it creates skills from experience, improves them during use, remembers across sessions, searches its own conversation history, and can run across CLI, Telegram, Discord, Slack, WhatsApp, Signal, and more.
+Hermes Agent is an autonomous AI agent with a built-in learning loop: it creates skills from experience, improves them during use, remembers across sessions, searches its own conversation history, and runs across CLI, Telegram, Discord, Slack, WhatsApp, Signal, and more.
+
+This repository collects the best official docs, guides, references, architecture notes, skills material, automation patterns, and ecosystem links for learning, using, extending, and deploying Hermes Agent.
+
+If you're new to Hermes, start with the official repository and documentation. If you're already using it, this list is meant to be the fastest way to jump to the right guide or reference page.
 
 Official repo: https://github.com/NousResearch/hermes-agent
 Official docs: https://hermes-agent.nousresearch.com/docs/
+
+## Why Hermes?
+
+- Built-in learning loop with memory, session search, and self-improving skills
+- Works across terminal and messaging surfaces, not just inside an IDE
+- Strong automation story: cron jobs, delegation, MCP, browser control, code execution
+- Useful for both end users and developers extending the system
 
 ## Contents
 
