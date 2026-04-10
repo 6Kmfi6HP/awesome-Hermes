@@ -29,6 +29,8 @@ Official docs: https://hermes-agent.nousresearch.com/docs/
 - [Skills & Extensions](#skills--extensions)
 - [Developer Docs](#developer-docs)
 - [Reference](#reference)
+- [Ecosystem Projects](#ecosystem-projects)
+- [Guides, Books & Media](#guides-books--media)
 - [Community](#community)
 
 ## Official
@@ -137,6 +139,24 @@ Official docs: https://hermes-agent.nousresearch.com/docs/
 - [MCP Config Reference](https://hermes-agent.nousresearch.com/docs/reference/mcp-config-reference) - MCP configuration keys.
 - [Profile Commands Reference](https://hermes-agent.nousresearch.com/docs/reference/profile-commands) - Profile management commands.
 - [FAQ](https://hermes-agent.nousresearch.com/docs/reference/faq) - Common questions and troubleshooting.
+
+## Ecosystem Projects
+
+- [Hermes Workspace](https://github.com/outsourc-e/hermes-workspace) - Web workspace for Hermes Agent with chat, terminal, memory, skills, and inspector. Homepage: https://hermes-workspace.com
+- [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution) - Uses DSPy + GEPA to evolve Hermes skills, prompts, tool descriptions, and eventually code.
+- [Hermes Paperclip Adapter](https://github.com/NousResearch/hermes-paperclip-adapter) - Adapter for running Hermes as a managed employee inside Paperclip.
+- [Autonovel](https://github.com/NousResearch/autonovel) - Autonomous novel-writing pipeline built around Hermes Agent workflows.
+- [Hermes Home Assistant Integration](https://github.com/WolframRavenwolf/hermes-ha-integration) - Custom Home Assistant integration that exposes Hermes as a conversation agent.
+- [Honcho Self-Hosted for Hermes](https://github.com/elkimek/honcho-self-hosted) - Self-hosted Honcho memory layer setup for Hermes without patching Hermes itself.
+- [Hermes Ecosystem](https://github.com/ksimback/hermes-ecosystem) - Community ecosystem map of tools, skills, plugins, and integrations. Homepage: https://hermes-ecosystem.vercel.app
+
+## Guides, Books & Media
+
+- [Hermes Agent Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) - Community-written practical guide/book for Hermes Agent, with English and Chinese PDF editions.
+- [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) - Another curated community index of Hermes Agent resources, skills, and integrations.
+- [Hermes Agent Setup: Install, Configure, and Run It 100% Free](https://www.youtube.com/watch?v=9v1DyzP7-58) - Video walkthrough focused on installation and setup.
+- [I am Switching to Hermes Agent](https://www.youtube.com/watch?v=J-kSdzHr9Ek) - Community video overview from an active user perspective.
+- [Hermes AI Agent Explained: Persistent AI That Runs 24/7](https://www.youtube.com/watch?v=ZhCIZ-ZTcyE) - High-level explainer on Hermes as a persistent agent system.
 
 ## Community
 
