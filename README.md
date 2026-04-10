@@ -1,184 +1,249 @@
 # awesome-Hermes
 
-> A curated list of awesome resources for Hermes Agent — the self-improving AI agent built by Nous Research.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Hermes Agent is an autonomous AI agent with a built-in learning loop: it creates skills from experience, improves them during use, remembers across sessions, searches its own conversation history, and runs across CLI, Telegram, Discord, Slack, WhatsApp, Signal, and more.
+English | [中文](./README.zh-CN.md)
 
-This repository collects the best official docs, guides, references, architecture notes, skills material, automation patterns, and ecosystem links for learning, using, extending, and deploying Hermes Agent.
+A curated, original collection of resources for learning, using, extending, and deploying Hermes Agent.
 
-If you're new to Hermes, start with the official repository and documentation. If you're already using it, this list is meant to be the fastest way to jump to the right guide or reference page.
+Hermes Agent is a self-improving AI agent from Nous Research. It combines persistent memory, session search, skills, tool use, messaging gateways, delegation, browser automation, cron jobs, MCP, and multiple execution backends in one system.
 
 Official repo: https://github.com/NousResearch/hermes-agent
 Official docs: https://hermes-agent.nousresearch.com/docs/
 
-## Why Hermes?
+## What’s in this list
 
-- Built-in learning loop with memory, session search, and self-improving skills
-- Works across terminal and messaging surfaces, not just inside an IDE
-- Strong automation story: cron jobs, delegation, MCP, browser control, code execution
-- Useful for both end users and developers extending the system
+- official docs and release references
+- practical setup and operator guides
+- community workspaces, plugins, and utilities
+- skills and agentskills.io ecosystem projects
+- integrations, bridges, and domain-specific projects
+- videos, books, and other learning material
+
+## Start here
+
+If you are new to Hermes, this order works well:
+
+1. Read the official docs quickstart
+2. Learn the core concepts: memory, skills, tools, and profiles
+3. Pick a runtime surface: CLI, Telegram, Discord, or API
+4. Add a workspace or plugin only after the basics are stable
 
 ## Contents
 
-- [Official](#official)
+- [Official Foundations](#official-foundations)
 - [Getting Started](#getting-started)
-- [Core Concepts](#core-concepts)
-- [Features](#features)
-- [Messaging & Voice](#messaging--voice)
-- [Automation & Orchestration](#automation--orchestration)
-- [Skills & Extensions](#skills--extensions)
-- [Developer Docs](#developer-docs)
-- [Reference](#reference)
-- [Ecosystem Projects](#ecosystem-projects)
-- [Guides, Books & Media](#guides-books--media)
+- [Core Concepts and Features](#core-concepts-and-features)
+- [Messaging, Voice, and Automation](#messaging-voice-and-automation)
+- [Workspaces and User Interfaces](#workspaces-and-user-interfaces)
+- [Skills, Plugins, and Extensions](#skills-plugins-and-extensions)
+- [Deployment and Operations](#deployment-and-operations)
+- [Integrations and Bridges](#integrations-and-bridges)
+- [Research, Multi-Agent, and Domain Projects](#research-multi-agent-and-domain-projects)
+- [Guides, Books, Videos, and Related Lists](#guides-books-videos-and-related-lists)
 - [Community](#community)
+- [Contributing](#contributing)
 
-## Official
+## Official Foundations
 
-- [Hermes Agent GitHub repository](https://github.com/NousResearch/hermes-agent) - Main source code.
-- [Hermes Agent documentation](https://hermes-agent.nousresearch.com/docs/) - Full docs site.
-- [Documentation index](https://hermes-agent.nousresearch.com/docs/) - Top-level map of the docs and key entry points.
-- [Nous Research](https://nousresearch.com) - The lab behind Hermes Agent.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) — main repository.
+- [Official Documentation](https://hermes-agent.nousresearch.com/docs/) — central documentation hub.
+- [Releases](https://github.com/NousResearch/hermes-agent/releases) — changelogs and notable features by version.
+- [Nous Research](https://nousresearch.com) — the team behind Hermes.
+- [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution) — research project for improving Hermes behavior with evolutionary methods.
+- [Hermes Paperclip Adapter](https://github.com/NousResearch/hermes-paperclip-adapter) — run Hermes inside Paperclip-style company workflows.
+- [Autonovel](https://github.com/NousResearch/autonovel) — long-form autonomous writing workflow built around Hermes.
 
 ## Getting Started
 
-- [Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation) - Install Hermes on Linux, macOS, or WSL2.
-- [Quickstart](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart) - First conversation, key commands, and first features to try.
-- [Learning Path](https://hermes-agent.nousresearch.com/docs/getting-started/learning-path) - Best docs to read based on your experience level.
-- [Configuration](https://hermes-agent.nousresearch.com/docs/user-guide/configuration) - Providers, config values, and runtime setup.
-- [CLI Guide](https://hermes-agent.nousresearch.com/docs/user-guide/cli) - Terminal interface, slash commands, and daily usage.
-- [Profiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles) - Profile-aware Hermes homes and separated environments.
-- [Updating](https://hermes-agent.nousresearch.com/docs/getting-started/updating) - Upgrade Hermes safely.
+- [Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
+- [Quickstart](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart)
+- [Learning Path](https://hermes-agent.nousresearch.com/docs/getting-started/learning-path)
+- [Updating](https://hermes-agent.nousresearch.com/docs/getting-started/updating)
+- [Configuration](https://hermes-agent.nousresearch.com/docs/user-guide/configuration)
+- [CLI Guide](https://hermes-agent.nousresearch.com/docs/user-guide/cli)
+- [Profiles](https://hermes-agent.nousresearch.com/docs/user-guide/profiles)
+- [FAQ](https://hermes-agent.nousresearch.com/docs/reference/faq)
 
-## Core Concepts
+## Core Concepts and Features
 
-- [Architecture](https://hermes-agent.nousresearch.com/docs/developer-guide/architecture) - High-level map of the system, major subsystems, and data flow.
-- [Prompt Assembly](https://hermes-agent.nousresearch.com/docs/developer-guide/prompt-assembly) - How Hermes builds its system prompt from SOUL, memory, skills, and context files.
-- [Context Compression & Prompt Caching](https://hermes-agent.nousresearch.com/docs/developer-guide/context-compression-and-caching) - How long sessions stay usable and efficient.
-- [Persistent Memory](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory) - MEMORY.md, USER.md, and what Hermes should remember.
-- [Skills System](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills) - Progressive-disclosure procedural memory and slash-command skills.
-- [Context Files](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files) - Project-specific instructions via AGENTS.md and related files.
-- [Use SOUL.md with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-soul-with-hermes) - Shape Hermes' default personality and communication style.
-- [Session Storage](https://hermes-agent.nousresearch.com/docs/developer-guide/session-storage) - How conversations are persisted and searched.
+- [Architecture](https://hermes-agent.nousresearch.com/docs/developer-guide/architecture)
+- [Prompt Assembly](https://hermes-agent.nousresearch.com/docs/developer-guide/prompt-assembly)
+- [Session Storage](https://hermes-agent.nousresearch.com/docs/developer-guide/session-storage)
+- [Persistent Memory](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory)
+- [Memory Providers](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory-providers)
+- [Skills](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills)
+- [Context Files](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files)
+- [Tools](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools)
+- [Tool Reference](https://hermes-agent.nousresearch.com/docs/reference/tools-reference)
+- [Toolsets Reference](https://hermes-agent.nousresearch.com/docs/reference/toolsets-reference)
+- [Browser Automation](https://hermes-agent.nousresearch.com/docs/user-guide/features/browser)
+- [Vision](https://hermes-agent.nousresearch.com/docs/user-guide/features/vision)
+- [Code Execution](https://hermes-agent.nousresearch.com/docs/user-guide/features/code-execution)
+- [Provider Routing](https://hermes-agent.nousresearch.com/docs/user-guide/features/provider-routing)
+- [Fallback Providers](https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers)
+- [Security](https://hermes-agent.nousresearch.com/docs/user-guide/security)
+- [Checkpoints and Rollback](https://hermes-agent.nousresearch.com/docs/user-guide/checkpoints-and-rollback)
+- [Docker Usage](https://hermes-agent.nousresearch.com/docs/user-guide/docker)
 
-## Features
+## Messaging, Voice, and Automation
 
-- [Tools & Toolsets](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools) - Built-in tools, toolsets, and terminal backends.
-- [Built-in Tools Reference](https://hermes-agent.nousresearch.com/docs/reference/tools-reference) - Authoritative code-derived tool catalog.
-- [Toolsets Reference](https://hermes-agent.nousresearch.com/docs/reference/toolsets-reference) - Tool grouping and platform presets.
-- [Browser Automation](https://hermes-agent.nousresearch.com/docs/user-guide/features/browser) - Interactive browser workflows with text and vision.
-- [Vision](https://hermes-agent.nousresearch.com/docs/user-guide/features/vision) - Image analysis and multimodal understanding.
-- [Code Execution](https://hermes-agent.nousresearch.com/docs/user-guide/features/code-execution) - Sandboxed Python execution for multi-step logic.
-- [Batch Processing](https://hermes-agent.nousresearch.com/docs/user-guide/features/batch-processing) - Trajectory generation and bulk processing.
-- [RL Training](https://hermes-agent.nousresearch.com/docs/user-guide/features/rl-training) - Atropos environments and research workflows.
-- [Fallback Providers](https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers) - Provider failover and routing resilience.
-- [Provider Routing](https://hermes-agent.nousresearch.com/docs/user-guide/features/provider-routing) - Route requests across providers and models.
-- [Credential Pools](https://hermes-agent.nousresearch.com/docs/user-guide/features/credential-pools) - Shared credential management for providers.
-- [Checkpoints & Rollback](https://hermes-agent.nousresearch.com/docs/user-guide/checkpoints-and-rollback) - Restoreable agent state for risky work.
-- [Docker Usage](https://hermes-agent.nousresearch.com/docs/user-guide/docker) - Safer containerized execution.
-- [Security](https://hermes-agent.nousresearch.com/docs/user-guide/security) - Command approval, isolation, and messaging authorization.
+- [Messaging Overview](https://hermes-agent.nousresearch.com/docs/user-guide/messaging)
+- [Telegram](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/telegram)
+- [Discord](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord)
+- [WhatsApp](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/whatsapp)
+- [Slack](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/slack)
+- [Signal](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal)
+- [Email](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/email)
+- [Home Assistant](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/homeassistant)
+- [Voice Mode](https://hermes-agent.nousresearch.com/docs/user-guide/features/voice-mode)
+- [Scheduled Tasks / Cron](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)
+- [Subagent Delegation](https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation)
+- [MCP](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp)
+- [API Server](https://hermes-agent.nousresearch.com/docs/user-guide/features/api-server)
+- [Hooks](https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks)
+- [Webhooks](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/webhooks)
+- [Team Telegram Assistant Guide](https://hermes-agent.nousresearch.com/docs/guides/team-telegram-assistant)
+- [Daily Briefing Bot Guide](https://hermes-agent.nousresearch.com/docs/guides/daily-briefing-bot)
+- [Automate with Cron](https://hermes-agent.nousresearch.com/docs/guides/automate-with-cron)
+- [Use MCP with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-mcp-with-hermes)
+- [Use SOUL.md with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-soul-with-hermes)
+- [Use Voice Mode with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-voice-mode-with-hermes)
 
-## Messaging & Voice
+## Workspaces and User Interfaces
 
-- [Messaging Overview](https://hermes-agent.nousresearch.com/docs/user-guide/messaging) - Supported platforms and gateway model.
-- [Telegram Guide](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/telegram) - Run Hermes through Telegram.
-- [Discord Guide](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord) - Discord deployment and usage.
-- [WhatsApp Guide](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/whatsapp) - WhatsApp integration.
-- [Slack Guide](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/slack) - Slack integration.
-- [Signal Guide](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/signal) - Signal integration.
-- [Email Guide](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/email) - Email as a Hermes surface.
-- [Home Assistant Guide](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/homeassistant) - Home automation integration.
-- [Voice Mode](https://hermes-agent.nousresearch.com/docs/user-guide/features/voice-mode) - Speech input/output across CLI and messaging.
-- [Use Voice Mode with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-voice-mode-with-hermes) - Practical voice setup and workflows.
-- [Tutorial: Team Telegram Assistant](https://hermes-agent.nousresearch.com/docs/guides/team-telegram-assistant) - Shared team bot on Telegram.
-- [Tutorial: Daily Briefing Bot](https://hermes-agent.nousresearch.com/docs/guides/daily-briefing-bot) - Scheduled summaries delivered through the gateway.
+- [Hermes Workspace](https://github.com/outsourc-e/hermes-workspace) — the best-known browser workspace for Hermes with chat, terminal, memory, skills, and inspector.
+- [Pan UI](https://github.com/Euraika-Labs/pan-ui) — another self-hosted workspace focused on operating Hermes with a fuller control panel.
+- [Hermes Desktop](https://github.com/dodo-reach/hermes-desktop) — native Mac desktop workspace approach.
+- [Hermes WebUI](https://github.com/sanchomuzax/hermes-webui) — lightweight web dashboard for monitoring and configuration.
+- [Portable Hermes Agent](https://github.com/rookiemann/portable-hermes-agent) — packaged desktop-style distribution for users who want an easier Windows path.
 
-## Automation & Orchestration
+## Skills, Plugins, and Extensions
 
-- [Scheduled Tasks (Cron)](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron) - Unified cronjob tool and lifecycle actions.
-- [Automate Anything with Cron](https://hermes-agent.nousresearch.com/docs/guides/automate-with-cron) - Real-world automation patterns.
-- [Subagent Delegation](https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation) - Spawn isolated child agents for parallel work.
-- [MCP (Model Context Protocol)](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp) - Connect Hermes to external tool servers.
-- [Use MCP with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-mcp-with-hermes) - Practical MCP setup and usage patterns.
-- [API Server](https://hermes-agent.nousresearch.com/docs/user-guide/features/api-server) - Use Hermes as a service.
-- [Hooks](https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks) - Event-driven extensions and automation.
-- [Webhooks](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/webhooks) - Trigger Hermes from external systems.
+### Skills and skill ecosystems
 
-## Skills & Extensions
+- [Bundled Skills Catalog](https://hermes-agent.nousresearch.com/docs/reference/skills-catalog)
+- [Optional Skills Catalog](https://hermes-agent.nousresearch.com/docs/reference/optional-skills-catalog)
+- [Creating Skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills)
+- [Work with Skills](https://hermes-agent.nousresearch.com/docs/guides/work-with-skills)
+- [agentskills.io](https://agentskills.io) — open skill ecosystem used across multiple agent stacks.
+- [wondelai/skills](https://github.com/wondelai/skills) — broad community skill collection.
+- [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) — large security-oriented skill library.
+- [chainlink-agent-skills](https://github.com/smartcontractkit/chainlink-agent-skills) — agent skills around Chainlink workflows.
+- [black-forest-labs/skills](https://github.com/black-forest-labs/skills) — skills around FLUX and image workflows.
+- [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) — typed, structured skill workflows.
+- [litprog-skill](https://github.com/tlehman/litprog-skill) — literate-programming-oriented skill workflow.
+- [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) — generates reusable skills from repeated work.
+- [hermeshub](https://github.com/amanning3390/hermeshub) — community discovery hub for Hermes skills.
+- [skilldock.io](https://github.com/chigwell/skilldock.io) — cross-agent skill registry.
 
-- [Bundled Skills Catalog](https://hermes-agent.nousresearch.com/docs/reference/skills-catalog) - Skills that ship with Hermes.
-- [Official Optional Skills Catalog](https://hermes-agent.nousresearch.com/docs/reference/optional-skills-catalog) - Extra official skills you can install explicitly.
-- [Creating Skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills) - How to author and publish skills.
-- [Work with Skills](https://hermes-agent.nousresearch.com/docs/guides/work-with-skills) - Practical skill usage and installation patterns.
-- [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins) - Extend Hermes with plugin systems.
-- [Memory Providers](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory-providers) - Swap or extend memory backends.
-- [Memory Provider Plugin Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/memory-provider-plugin) - Build your own memory provider plugin.
-- [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations) - Supported providers and broader integrations.
-- [Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers) - Provider ecosystem and configuration details.
+### Plugins and add-ons
 
-## Developer Docs
+- [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
+- [Memory Provider Plugin Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/memory-provider-plugin)
+- [hermes-plugins](https://github.com/42-evey/hermes-plugins) — community plugin bundle with operational add-ons.
+- [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) — richer web-search routing.
+- [hermes-weather-plugin](https://github.com/FahrenheitResearch/hermes-weather-plugin) — weather-oriented plugin stack.
+- [hermes-wxtrain-plugin](https://github.com/FahrenheitResearch/hermes-wxtrain-plugin) — training-data workflows for weather use cases.
+- [hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles) — browser profile switching.
+- [hermes-cloudflare](https://github.com/raulvidis/hermes-cloudflare) — alternative browser/rendering path.
+- [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) — payment-control oriented plugin.
 
-- [Contributing](https://hermes-agent.nousresearch.com/docs/developer-guide/contributing) - Dev setup, testing, and PR workflow.
-- [Agent Loop](https://hermes-agent.nousresearch.com/docs/developer-guide/agent-loop) - Core synchronous conversation loop.
-- [Tools Runtime](https://hermes-agent.nousresearch.com/docs/developer-guide/tools-runtime) - Tool registration, dispatch, and availability checking.
-- [Adding Tools](https://hermes-agent.nousresearch.com/docs/developer-guide/adding-tools) - Extend Hermes with native tools.
-- [Adding Providers](https://hermes-agent.nousresearch.com/docs/developer-guide/adding-providers) - Add model providers and runtime wiring.
-- [Gateway Internals](https://hermes-agent.nousresearch.com/docs/developer-guide/gateway-internals) - Message flow, adapters, and delivery model.
-- [Cron Internals](https://hermes-agent.nousresearch.com/docs/developer-guide/cron-internals) - Scheduler model and job execution.
-- [Provider Runtime](https://hermes-agent.nousresearch.com/docs/developer-guide/provider-runtime) - Resolution precedence and API mode selection.
-- [Environments](https://hermes-agent.nousresearch.com/docs/developer-guide/environments) - RL and execution environments.
-- [ACP Internals](https://hermes-agent.nousresearch.com/docs/developer-guide/acp-internals) - IDE/editor integration details.
-- [Extending the CLI](https://hermes-agent.nousresearch.com/docs/developer-guide/extending-the-cli) - Command registry and CLI architecture.
-- [Trajectory Format](https://hermes-agent.nousresearch.com/docs/developer-guide/trajectory-format) - Training-data export format.
+## Deployment and Operations
 
-## Reference
+- [Contributing Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/contributing)
+- [Gateway Internals](https://hermes-agent.nousresearch.com/docs/developer-guide/gateway-internals)
+- [Cron Internals](https://hermes-agent.nousresearch.com/docs/developer-guide/cron-internals)
+- [Tools Runtime](https://hermes-agent.nousresearch.com/docs/developer-guide/tools-runtime)
+- [Provider Runtime](https://hermes-agent.nousresearch.com/docs/developer-guide/provider-runtime)
+- [Trajectory Format](https://hermes-agent.nousresearch.com/docs/developer-guide/trajectory-format)
+- [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) — Nix/NixOS packaging.
+- [hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker) — simple Docker image approach.
+- [hermes-agent-template](https://github.com/Crustocean/hermes-agent-template) — deployment template for cloud setups.
+- [portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes) — Portainer and Docker Compose style deployment.
+- [hermes-autonomous-server](https://github.com/JackTheGit/hermes-autonomous-server) — unattended server-style deployment.
+- [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) — migration helper for older OpenClaw users.
+- [Honcho Self-Hosted for Hermes](https://github.com/elkimek/honcho-self-hosted) — self-hosted memory backend setup.
+- [Hindsight](https://github.com/vectorize-io/hindsight) — another long-term memory layer that can complement Hermes workflows.
 
-- [CLI Commands Reference](https://hermes-agent.nousresearch.com/docs/reference/cli-commands) - Standalone CLI commands.
-- [Slash Commands Reference](https://hermes-agent.nousresearch.com/docs/reference/slash-commands) - In-chat slash commands.
-- [Environment Variables Reference](https://hermes-agent.nousresearch.com/docs/reference/environment-variables) - Configurable env vars.
-- [MCP Config Reference](https://hermes-agent.nousresearch.com/docs/reference/mcp-config-reference) - MCP configuration keys.
-- [Profile Commands Reference](https://hermes-agent.nousresearch.com/docs/reference/profile-commands) - Profile management commands.
-- [FAQ](https://hermes-agent.nousresearch.com/docs/reference/faq) - Common questions and troubleshooting.
+## Integrations and Bridges
 
-## Ecosystem Projects
+- [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations)
+- [Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers)
+- [Hermes Home Assistant Integration](https://github.com/WolframRavenwolf/hermes-ha-integration)
+- [hermes-android](https://github.com/raulvidis/hermes-android) — Android bridge.
+- [hermes-miniverse](https://github.com/teknium1/hermes-miniverse) — bridge into Miniverse environments.
+- [hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) — bridge patterns for Hermes with other coding agents.
+- [evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) — Hermes and Claude Code bridge idea.
+- [reina](https://github.com/Crustocean/reina) — Hermes-oriented integration inside the Crustocean platform.
+- [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) — blockchain analytics via MCP-style integration.
+- [hermes-council](https://github.com/Ridwannurudeen/hermes-council) — adversarial multi-view decision support.
 
-- [Hermes Workspace](https://github.com/outsourc-e/hermes-workspace) - Web workspace for Hermes Agent with chat, terminal, memory, skills, and inspector. Homepage: https://hermes-workspace.com
-- [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution) - Uses DSPy + GEPA to evolve Hermes skills, prompts, tool descriptions, and eventually code.
-- [Hermes Paperclip Adapter](https://github.com/NousResearch/hermes-paperclip-adapter) - Adapter for running Hermes as a managed employee inside Paperclip.
-- [Autonovel](https://github.com/NousResearch/autonovel) - Autonomous novel-writing pipeline built around Hermes Agent workflows.
-- [Hermes Home Assistant Integration](https://github.com/WolframRavenwolf/hermes-ha-integration) - Custom Home Assistant integration that exposes Hermes as a conversation agent.
-- [Honcho Self-Hosted for Hermes](https://github.com/elkimek/honcho-self-hosted) - Self-hosted Honcho memory layer setup for Hermes without patching Hermes itself.
-- [Hermes Ecosystem](https://github.com/ksimback/hermes-ecosystem) - Community ecosystem map of tools, skills, plugins, and integrations. Homepage: https://hermes-ecosystem.vercel.app
+## Research, Multi-Agent, and Domain Projects
 
-## Guides, Books & Media
+### Research and multi-agent work
 
-- [Hermes Agent Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) - Community-written practical guide/book for Hermes Agent, with English and Chinese PDF editions.
-- [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) - Another curated community index of Hermes Agent resources, skills, and integrations.
-- [Hermes Agent Setup: Install, Configure, and Run It 100% Free](https://www.youtube.com/watch?v=9v1DyzP7-58) - Video walkthrough focused on installation and setup.
-- [I am Switching to Hermes Agent](https://www.youtube.com/watch?v=J-kSdzHr9Ek) - Community video overview from an active user perspective.
-- [Hermes AI Agent Explained: Persistent AI That Runs 24/7](https://www.youtube.com/watch?v=ZhCIZ-ZTcyE) - High-level explainer on Hermes as a persistent agent system.
+- [Ankh.md](https://github.com/Abruptive/Ankh.md) — swarm-style multi-agent coordination.
+- [bigiron](https://github.com/supermodeltools/bigiron) — AI-native software delivery with multiple agent roles.
+- [gladiator](https://github.com/runtimenoteslabs/gladiator) — experiment in autonomous competitive agent companies.
+- [opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) — multi-agent orchestration around OpenCode and Hermes.
+- [NemoHermes](https://github.com/Hmbown/NemoHermes) — GPU/capability routing layer idea.
+
+### Domain-specific applications
+
+- [hermescraft](https://github.com/bigph00t/hermescraft) — persistent Minecraft companion.
+- [hermes-embodied](https://github.com/bryercowan/hermes-embodied) — robotics-oriented project.
+- [Hermes-mars-rover](https://github.com/Snehal707/Hermes-mars-rover) — rover simulation use case.
+- [anihermes](https://github.com/rodmarkun/anihermes) — anime/media server style interface.
+- [job-scout-agent](https://github.com/Christabel337/job-scout-agent) — job search automation.
+- [hermes-ai-infrastructure-monitoring-toolkit](https://github.com/JackTheGit/hermes-ai-infrastructure-monitoring-toolkit) — infra monitoring and alerting.
+- [hermes-legal](https://github.com/Lethe044/hermes-legal) — legal review use case.
+- [hermes-startup-architect](https://github.com/dlkakbs/hermes-startup-architect) — startup planning and materials generation.
+- [mercury](https://github.com/hxsteric/mercury) — blockchain and cash-flow analysis.
+- [hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent) — autonomous research workflow.
+
+## Guides, Books, Videos, and Related Lists
+
+### Community docs and guides
+
+- [hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) — community docs supplement.
+- [HermesWiki](https://github.com/martymcenroe/HermesWiki) — community-maintained wiki.
+- [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) — Windows WSL2 setup path.
+- [Hermes Ecosystem](https://github.com/ksimback/hermes-ecosystem) — ecosystem map project.
+- [Hermes Agent Ecosystem Map](https://hermes-ecosystem.vercel.app/) — web view of the broader ecosystem.
+
+### Books and curated lists
+
+- [Hermes Agent Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) — practical community guide/book.
+- [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — another curated resource list worth checking alongside this repo.
+
+### Videos
+
+- [Hermes Agent Setup: Install, Configure, and Run It 100% Free](https://www.youtube.com/watch?v=9v1DyzP7-58)
+- [I am Switching to Hermes Agent](https://www.youtube.com/watch?v=J-kSdzHr9Ek)
+- [Hermes AI Agent Explained: Persistent AI That Runs 24/7](https://www.youtube.com/watch?v=ZhCIZ-ZTcyE)
 
 ## Community
 
-- [Discord](https://discord.gg/NousResearch) - Community chat.
-- [GitHub Issues](https://github.com/NousResearch/hermes-agent/issues) - Bug reports and feature requests.
-- [GitHub Discussions](https://github.com/NousResearch/hermes-agent/discussions) - Longer-form discussion.
-- [agentskills.io](https://agentskills.io) - Open skill ecosystem referenced by Hermes.
+- [Discord](https://discord.gg/NousResearch)
+- [GitHub Issues](https://github.com/NousResearch/hermes-agent/issues)
+- [GitHub Discussions](https://github.com/NousResearch/hermes-agent/discussions)
 
 ## Contributing
 
-Contributions are welcome. If you know a great Hermes resource, open a pull request or issue.
+Contributions are welcome.
 
-Suggested additions:
+Good additions include:
 
-- tutorials
-- blog posts
-- videos and talks
-- community examples
-- notable skills and MCP servers
-- deployment guides
-- integrations built on top of Hermes
+- production deployments
+- serious plugins and skills
+- high-signal tutorials
+- case studies and write-ups
+- domain applications that are still maintained
+- ecosystem maps, dashboards, and operational tooling
+
+Please avoid low-effort forks, abandoned experiments with no README, or duplicate links that do not add new value.
 
 ## License
 
-MIT for this list unless noted otherwise by individual linked resources.
+MIT for this repository unless a linked resource states otherwise.
