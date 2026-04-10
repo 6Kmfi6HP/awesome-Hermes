@@ -103,6 +103,7 @@ If you are new to Hermes, this order works well:
 - [API Server](https://hermes-agent.nousresearch.com/docs/user-guide/features/api-server)
 - [Hooks](https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks)
 - [Webhooks](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/webhooks)
+- [Open WebUI](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/open-webui/) — use Hermes as an OpenAI-compatible backend behind Open WebUI.
 - [Team Telegram Assistant Guide](https://hermes-agent.nousresearch.com/docs/guides/team-telegram-assistant)
 - [Daily Briefing Bot Guide](https://hermes-agent.nousresearch.com/docs/guides/daily-briefing-bot)
 - [Automate with Cron](https://hermes-agent.nousresearch.com/docs/guides/automate-with-cron)
@@ -115,10 +116,12 @@ If you are new to Hermes, this order works well:
 - [Hermes Workspace](https://github.com/outsourc-e/hermes-workspace) — the best-known browser workspace for Hermes with chat, terminal, memory, skills, and inspector.
 - [Pan UI](https://github.com/Euraika-Labs/pan-ui) — another self-hosted workspace focused on operating Hermes with a fuller control panel.
 - [Hermes Desktop](https://github.com/fathah/hermes-desktop) — native desktop companion that handles install, setup, chat, sessions, memory, skills, and settings.
-- [Hermes WebUI](https://github.com/sanchomuzax/hermes-webui) — lightweight web dashboard for monitoring and configuration.
+- [Hermes WebUI](https://github.com/nesquena/hermes-webui) — mature browser UI that aims for near CLI parity, including chat, sessions, file browsing, and remote access workflows.
+- [Hermes WebUI (ops dashboard)](https://github.com/sanchomuzax/hermes-webui) — read-only monitoring and configuration dashboard for sessions, cron, skills, and config data.
 - [Hermes for Web](https://github.com/reallygood83/hermes-for-web) — personalized browser workbench with onboarding packs, artifacts, and memory-aware startup flows.
 - [Portable Hermes Agent](https://github.com/rookiemann/portable-hermes-agent) — packaged desktop-style distribution for users who want an easier Windows path.
 - [Hermes Dashboard](https://github.com/Bichev/hermes-dashboard) — analytics and cost-monitoring dashboard for sessions, tools, and API usage.
+- [Hermes Dashboard (live wiki)](https://github.com/Kori-x/hermes-dashboard) — real-time observability dashboard plus an auto-generated local wiki for skills, plugins, tools, memory, and soul files.
 
 ## Skills, Plugins, and Extensions
 
