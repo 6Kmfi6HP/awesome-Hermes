@@ -114,9 +114,11 @@ If you are new to Hermes, this order works well:
 
 - [Hermes Workspace](https://github.com/outsourc-e/hermes-workspace) — the best-known browser workspace for Hermes with chat, terminal, memory, skills, and inspector.
 - [Pan UI](https://github.com/Euraika-Labs/pan-ui) — another self-hosted workspace focused on operating Hermes with a fuller control panel.
-- [Hermes Desktop](https://github.com/dodo-reach/hermes-desktop) — native Mac desktop workspace approach.
+- [Hermes Desktop](https://github.com/fathah/hermes-desktop) — native desktop companion that handles install, setup, chat, sessions, memory, skills, and settings.
 - [Hermes WebUI](https://github.com/sanchomuzax/hermes-webui) — lightweight web dashboard for monitoring and configuration.
+- [Hermes for Web](https://github.com/reallygood83/hermes-for-web) — personalized browser workbench with onboarding packs, artifacts, and memory-aware startup flows.
 - [Portable Hermes Agent](https://github.com/rookiemann/portable-hermes-agent) — packaged desktop-style distribution for users who want an easier Windows path.
+- [Hermes Dashboard](https://github.com/Bichev/hermes-dashboard) — analytics and cost-monitoring dashboard for sessions, tools, and API usage.
 
 ## Skills, Plugins, and Extensions
 
@@ -143,6 +145,8 @@ If you are new to Hermes, this order works well:
 - [Memory Provider Plugin Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/memory-provider-plugin)
 - [hermes-plugins](https://github.com/42-evey/hermes-plugins) — community plugin bundle with operational add-ons.
 - [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) — richer web-search routing.
+- [hermes-opencode-plugin](https://github.com/zaycruz/hermes-opencode-plugin) — lets Hermes hand software-engineering tasks to OpenCode’s multi-agent harness.
+- [hermes-lcm](https://github.com/stephenschoettler/hermes-lcm) — lossless context-management layer built around DAG summaries and drill-back tools.
 - [hermes-weather-plugin](https://github.com/FahrenheitResearch/hermes-weather-plugin) — weather-oriented plugin stack.
 - [hermes-wxtrain-plugin](https://github.com/FahrenheitResearch/hermes-wxtrain-plugin) — training-data workflows for weather use cases.
 - [hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles) — browser profile switching.
@@ -162,6 +166,8 @@ If you are new to Hermes, this order works well:
 - [hermes-agent-template](https://github.com/Crustocean/hermes-agent-template) — deployment template for cloud setups.
 - [portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes) — Portainer and Docker Compose style deployment.
 - [hermes-autonomous-server](https://github.com/JackTheGit/hermes-autonomous-server) — unattended server-style deployment.
+- [hermes-ha-addon](https://github.com/WolframRavenwolf/hermes-ha-addon) — packages Hermes as a Home Assistant add-on with persistent terminal and gateway access.
+- [hermesclaw](https://github.com/TheAiSingularity/hermesclaw) — runs Hermes inside NVIDIA OpenShell-style sandbox boundaries for stronger containment.
 - [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) — migration helper for older OpenClaw users.
 - [Honcho Self-Hosted for Hermes](https://github.com/elkimek/honcho-self-hosted) — self-hosted memory backend setup.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — another long-term memory layer that can complement Hermes workflows.
@@ -178,6 +184,7 @@ If you are new to Hermes, this order works well:
 - [reina](https://github.com/Crustocean/reina) — Hermes-oriented integration inside the Crustocean platform.
 - [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) — blockchain analytics via MCP-style integration.
 - [hermes-council](https://github.com/Ridwannurudeen/hermes-council) — adversarial multi-view decision support.
+- [hermes-CCC](https://github.com/AlexAI-MCP/hermes-CCC) — ports core Hermes ideas and skill workflows into Claude Code Channel.
 
 ## Research, Multi-Agent, and Domain Projects
 
@@ -188,6 +195,8 @@ If you are new to Hermes, this order works well:
 - [gladiator](https://github.com/runtimenoteslabs/gladiator) — experiment in autonomous competitive agent companies.
 - [opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent) — multi-agent orchestration around OpenCode and Hermes.
 - [NemoHermes](https://github.com/Hmbown/NemoHermes) — GPU/capability routing layer idea.
+- [hermes-nightshift-glm](https://github.com/Microck/hermes-nightshift-glm) — overnight code-quality bot that plans, implements, reviews, and opens PRs or issues.
+- [Hermes-Agent-Online-RL](https://github.com/ar0cket1/Hermes-Agent-Online-RL) — online RL loop for adapting Hermes-backed local or hosted models from live feedback.
 
 ### Domain-specific applications
 
@@ -208,6 +217,10 @@ If you are new to Hermes, this order works well:
 
 - [hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) — community docs supplement.
 - [HermesWiki](https://github.com/martymcenroe/HermesWiki) — community-maintained wiki.
+- [Hermes-Wiki](https://github.com/cclank/Hermes-Wiki) — source-verified architecture wiki with deep codebase pages.
+- [hermes-agent-anatomy](https://github.com/anneheartrecord/hermes-agent-anatomy) — Chinese codebase anatomy series with diagrams and module-by-module analysis.
+- [hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — practical setup, migration, LightRAG, Telegram, and skill-building guide.
+- [Hermes-Agent-Action-Plan](https://github.com/vectrocomputers/Hermes-Agent-Action-Plan) — privacy-first operating philosophy and configuration playbook.
 - [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) — Windows WSL2 setup path.
 - [Hermes Ecosystem](https://github.com/ksimback/hermes-ecosystem) — ecosystem map project.
 - [Hermes Agent Ecosystem Map](https://hermes-ecosystem.vercel.app/) — web view of the broader ecosystem.
