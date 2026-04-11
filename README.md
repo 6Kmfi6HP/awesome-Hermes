@@ -123,6 +123,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Dashboard](https://github.com/Bichev/hermes-dashboard) — analytics and cost-monitoring dashboard for sessions, tools, and API usage.
 - [Hermes Dashboard (live wiki)](https://github.com/Kori-x/hermes-dashboard) — real-time observability dashboard plus an auto-generated local wiki for skills, plugins, tools, memory, and soul files.
 - [Hermes HUD UI](https://github.com/joeynyc/hermes-hudui) — browser-based consciousness monitor for Hermes that visualizes memory, token costs, skills, cron jobs, and growth snapshots directly from ~/.hermes/.
+- [Hermes HUD](https://github.com/joeynyc/hermes-hud) — terminal-first companion to the HUD UI for live inspection of memory, skills, mistakes, tool usage, and ongoing agent growth.
 
 ## Skills, Plugins, and Extensions
 
