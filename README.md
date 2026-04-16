@@ -157,6 +157,8 @@ If you are new to Hermes, this order works well:
 - [hermes-opencode-plugin](https://github.com/zaycruz/hermes-opencode-plugin) — lets Hermes hand software-engineering tasks to OpenCode’s multi-agent harness.
 - [hermes-provider-switcher](https://github.com/tmdgusya/hermes-provider-switcher) — runs Claude Code through GLM, Kimi, MiniMax, and similar providers without manual shell env switching.
 - [hermes-lcm](https://github.com/stephenschoettler/hermes-lcm) — lossless context-management layer built around DAG summaries and drill-back tools.
+- [hermes-mindgraph-plugin](https://github.com/shuruheel/hermes-mindgraph-plugin) — semantic graph memory plugin that injects hybrid-retrieved goals, decisions, and structured knowledge into Hermes sessions.
+- [Icarus Plugin](https://github.com/esaradev/icarus-plugin) — shared memory and self-training plugin for Hermes with training-data extraction plus fine-tune, evaluation, switch, and rollback workflows.
 - [hermes-weather-plugin](https://github.com/FahrenheitResearch/hermes-weather-plugin) — weather-oriented plugin stack.
 - [hermes-wxtrain-plugin](https://github.com/FahrenheitResearch/hermes-wxtrain-plugin) — training-data workflows for weather use cases.
 - [hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles) — browser profile switching.
@@ -228,6 +230,7 @@ If you are new to Hermes, this order works well:
 - [hermes-agent-docs](https://github.com/mudrii/hermes-agent-docs) — community docs supplement.
 - [HermesWiki](https://github.com/martymcenroe/HermesWiki) — community-maintained wiki.
 - [Hermes-Wiki](https://github.com/cclank/Hermes-Wiki) — source-verified architecture wiki with deep codebase pages.
+- [llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) — general tool for compiling raw sources into an interlinked markdown wiki that Hermes users can query and extend over time.
 - [hermes-agent-anatomy](https://github.com/anneheartrecord/hermes-agent-anatomy) — Chinese codebase anatomy series with diagrams and module-by-module analysis.
 - [hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — practical setup, migration, LightRAG, Telegram, and skill-building guide.
 - [Hermes-Agent-Action-Plan](https://github.com/vectrocomputers/Hermes-Agent-Action-Plan) — privacy-first operating philosophy and configuration playbook.
