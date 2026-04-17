@@ -164,6 +164,7 @@ If you are new to Hermes, this order works well:
 - [hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles) — browser profile switching.
 - [hermes-cloudflare](https://github.com/raulvidis/hermes-cloudflare) — alternative browser/rendering path.
 - [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) — payment-control oriented plugin.
+- [Hermes Dojo](https://github.com/Yonkoo11/hermes-dojo) — self-improvement loop that mines session failures, patches weak skills, and automates overnight analyze→improve→report cycles.
 
 ## Deployment and Operations
 
@@ -209,6 +210,8 @@ If you are new to Hermes, this order works well:
 - [NemoHermes](https://github.com/Hmbown/NemoHermes) — GPU/capability routing layer idea.
 - [hermes-nightshift-glm](https://github.com/Microck/hermes-nightshift-glm) — overnight code-quality bot that plans, implements, reviews, and opens PRs or issues.
 - [Hermes-Agent-Online-RL](https://github.com/ar0cket1/Hermes-Agent-Online-RL) — online RL loop for adapting Hermes-backed local or hosted models from live feedback.
+- [Hermes Incident Commander](https://github.com/Lethe044/hermes-incident-commander) — autonomous SRE operator that detects incidents, fans out diagnosis with subagents, heals services, and turns novel incidents into reusable prevention skills.
+- [Hermes Skill Forge](https://github.com/Lethe044/hermes-skill-marketplace) — experimental self-evolving agent that turns repeated work into tested, publishable skills instead of stopping at one-off task completion.
 
 ### Domain-specific applications
 
