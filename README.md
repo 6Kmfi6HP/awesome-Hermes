@@ -120,9 +120,11 @@ If you are new to Hermes, this order works well:
 - [Hermes Desktop (native macOS over SSH)](https://github.com/dodo-reach/hermes-desktop) — native Mac workspace that connects straight to a Hermes host over SSH, keeps the remote machine as the source of truth, and exposes sessions, skills, usage views, and a real terminal without a browser layer.
 - [Hermes WebUI](https://github.com/nesquena/hermes-webui) — mature browser UI that aims for near CLI parity, including chat, sessions, file browsing, and remote access workflows.
 - [Hermes WebUI (ops dashboard)](https://github.com/sanchomuzax/hermes-webui) — read-only monitoring and configuration dashboard for sessions, cron, skills, and config data.
+- [Hermes Agent WebUI](https://github.com/laolaoshiren/hermes-agent-webui) — chat-first self-hosted frontend that focuses on multi-session conversation workflows and safer public deployment defaults instead of a control-panel-heavy layout.
 - [Hermes Control Interface](https://github.com/xaspx/hermes-control-interface) — self-hosted control surface with a browser terminal, file explorer, profile and gateway controls, cron/session monitoring, token analytics, and system metrics behind a simple password gate.
 - [Hermes for Web](https://github.com/reallygood83/hermes-for-web) — personalized browser workbench with onboarding packs, artifacts, and memory-aware startup flows.
 - [Portable Hermes Agent](https://github.com/rookiemann/portable-hermes-agent) — packaged desktop-style distribution for users who want an easier Windows path.
+- [hermes-agent-desktop](https://github.com/comedy1024/hermes-agent-desktop) — all-in-one Docker desktop that bundles Hermes Agent, Hermes WebUI, and a browser-accessible Debian KDE environment for users who want GUI access plus a ready-made self-hosted runtime.
 - [Hermes Dashboard](https://github.com/Bichev/hermes-dashboard) — analytics and cost-monitoring dashboard for sessions, tools, and API usage.
 - [Hermes Dashboard (live wiki)](https://github.com/Kori-x/hermes-dashboard) — real-time observability dashboard plus an auto-generated local wiki for skills, plugins, tools, memory, and soul files.
 - [Hermes HUD UI](https://github.com/joeynyc/hermes-hudui) — browser-based consciousness monitor for Hermes that visualizes memory, token costs, skills, cron jobs, and growth snapshots directly from ~/.hermes/.
@@ -162,6 +164,7 @@ If you are new to Hermes, this order works well:
 - [hermes-weather-plugin](https://github.com/FahrenheitResearch/hermes-weather-plugin) — weather-oriented plugin stack.
 - [hermes-wxtrain-plugin](https://github.com/FahrenheitResearch/hermes-wxtrain-plugin) — training-data workflows for weather use cases.
 - [hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles) — browser profile switching.
+- [hermes-claude-code-rc](https://github.com/kevinmarmstrong/hermes-claude-code-rc) — plugin that exposes `/cc` commands through Hermes so you can start or monitor Claude Code remote-control sessions, headless runs, and shell commands from Telegram while keeping execution on your own machine.
 - [hermes-cloudflare](https://github.com/raulvidis/hermes-cloudflare) — alternative browser/rendering path.
 - [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) — payment-control oriented plugin.
 - [Hermes Dojo](https://github.com/Yonkoo11/hermes-dojo) — self-improvement loop that mines session failures, patches weak skills, and automates overnight analyze→improve→report cycles.
