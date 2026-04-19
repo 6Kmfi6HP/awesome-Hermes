@@ -105,6 +105,8 @@ If you are new to Hermes, this order works well:
 - [Webhooks](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/webhooks)
 - [Open WebUI](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/open-webui/) — use Hermes as an OpenAI-compatible backend behind Open WebUI.
 - [Open WebUI Hermes Agent Guide](https://docs.openwebui.com/getting-started/quick-start/connect-an-agent/hermes-agent/) — Open WebUI’s own connector guide, including Docker networking and `/v1` troubleshooting details.
+- [Web Dashboard](https://hermes-agent.nousresearch.com/docs/user-guide/features/web-dashboard) — official browser dashboard for config, keys, sessions, logs, analytics, skills, and cron management.
+- [Dashboard Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/dashboard-plugins) — official guide for adding custom tabs and backend endpoints to the built-in Hermes dashboard.
 - [Team Telegram Assistant Guide](https://hermes-agent.nousresearch.com/docs/guides/team-telegram-assistant)
 - [Daily Briefing Bot Guide](https://hermes-agent.nousresearch.com/docs/guides/daily-briefing-bot)
 - [Automate with Cron](https://hermes-agent.nousresearch.com/docs/guides/automate-with-cron)
@@ -154,6 +156,7 @@ If you are new to Hermes, this order works well:
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
 - [Memory Provider Plugin Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/memory-provider-plugin)
 - [MemPalace](https://github.com/neilharding/hermes_memorypalace) — workspace-scoped hierarchical memory provider with local ChromaDB + SQLite recall and explicit/implicit memory lanes.
+- [agentmemory](https://github.com/rohitg00/agentmemory) — external long-term memory engine with a dedicated Hermes memory-provider plugin, REST/MCP access, session replay, and a real-time viewer for cross-session recall.
 - [hermes-plugins](https://github.com/42-evey/hermes-plugins) — community plugin bundle with operational add-ons.
 - [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) — richer web-search routing.
 - [hermes-opencode-plugin](https://github.com/zaycruz/hermes-opencode-plugin) — lets Hermes hand software-engineering tasks to OpenCode’s multi-agent harness.
