@@ -119,6 +119,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Workspace](https://github.com/outsourc-e/hermes-workspace) — the best-known browser workspace for Hermes with chat, terminal, memory, skills, and inspector.
 - [Pan UI](https://github.com/Euraika-Labs/pan-ui) — another self-hosted workspace focused on operating Hermes with a fuller control panel.
 - [Hermes Desktop (cross-platform companion)](https://github.com/fathah/hermes-desktop) — desktop wrapper that helps with install, provider setup, chat, sessions, memory, skills, and settings across macOS and Linux.
+- [Scarf](https://github.com/awizemann/scarf) — native macOS GUI with multi-window local/remote server support over SSH, covering chat, dashboard, sessions, memory, cron, MCP, and config workflows from one desktop app.
 - [Hermes Desktop (native macOS over SSH)](https://github.com/dodo-reach/hermes-desktop) — native Mac workspace that connects straight to a Hermes host over SSH, keeps the remote machine as the source of truth, and exposes sessions, skills, usage views, and a real terminal without a browser layer.
 - [Hermes WebUI](https://github.com/nesquena/hermes-webui) — mature browser UI that aims for near CLI parity, including chat, sessions, file browsing, and remote access workflows.
 - [Hermes WebUI (ops dashboard)](https://github.com/sanchomuzax/hermes-webui) — read-only monitoring and configuration dashboard for sessions, cron, skills, and config data.
