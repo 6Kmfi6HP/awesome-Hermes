@@ -129,7 +129,9 @@ If you are new to Hermes, this order works well:
 - [Portable Hermes Agent](https://github.com/rookiemann/portable-hermes-agent) — packaged desktop-style distribution for users who want an easier Windows path.
 - [hermes-agent-desktop](https://github.com/comedy1024/hermes-agent-desktop) — all-in-one Docker desktop that bundles Hermes Agent, Hermes WebUI, and a browser-accessible Debian KDE environment for users who want GUI access plus a ready-made self-hosted runtime.
 - [Hermes Dashboard](https://github.com/Bichev/hermes-dashboard) — analytics and cost-monitoring dashboard for sessions, tools, and API usage.
+- [Hermes Dashboard (gateway control panel)](https://github.com/chrisryugj/hermes-dashboard) — full web control surface for the Hermes gateway with config editing, MCP management, cron controls, skill browsing, logs, and model switching without using the CLI.
 - [Hermes Dashboard (live wiki)](https://github.com/Kori-x/hermes-dashboard) — real-time observability dashboard plus an auto-generated local wiki for skills, plugins, tools, memory, and soul files.
+- [Web3Hermes](https://github.com/Web3CZ/Web3Hermes) — lightweight Chinese-localized WebUI focused on desktop browser chat, sessions, workspace, and task views for mainland users.
 - [Hermes HUD UI](https://github.com/joeynyc/hermes-hudui) — browser-based consciousness monitor for Hermes that visualizes memory, token costs, skills, cron jobs, and growth snapshots directly from ~/.hermes/.
 - [Hermes HUD](https://github.com/joeynyc/hermes-hud) — terminal-first companion to the HUD UI for live inspection of memory, skills, mistakes, tool usage, and ongoing agent growth.
 
@@ -158,7 +160,9 @@ If you are new to Hermes, this order works well:
 - [Memory Provider Plugin Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/memory-provider-plugin)
 - [MemPalace](https://github.com/neilharding/hermes_memorypalace) — workspace-scoped hierarchical memory provider with local ChromaDB + SQLite recall and explicit/implicit memory lanes.
 - [agentmemory](https://github.com/rohitg00/agentmemory) — external long-term memory engine with a dedicated Hermes memory-provider plugin, REST/MCP access, session replay, and a real-time viewer for cross-session recall.
+- [hermes-observational-memory](https://github.com/intertwine/hermes-observational-memory) — standalone memory-provider plugin that lets Hermes share a local markdown memory store with Claude Code and Codex, with searchable observations and optional writeback.
 - [hermes-plugins](https://github.com/42-evey/hermes-plugins) — community plugin bundle with operational add-ons.
+- [hermes-notification](https://github.com/itgoyo/hermes-notification) — tiny cross-platform plugin that fires native desktop notifications and sound when Hermes finishes a response.
 - [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) — richer web-search routing.
 - [hermes-opencode-plugin](https://github.com/zaycruz/hermes-opencode-plugin) — lets Hermes hand software-engineering tasks to OpenCode’s multi-agent harness.
 - [hermes-provider-switcher](https://github.com/tmdgusya/hermes-provider-switcher) — runs Claude Code through GLM, Kimi, MiniMax, and similar providers without manual shell env switching.
@@ -197,6 +201,7 @@ If you are new to Hermes, this order works well:
 - [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations)
 - [Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers)
 - [Hermes Home Assistant Integration](https://github.com/WolframRavenwolf/hermes-ha-integration)
+- [gridmint/hermes-telegram](https://github.com/gridmint/hermes-telegram) — MTProto / Telethon adapter that lets Hermes operate as a real Telegram user account instead of only through the Bot API gateway.
 - [hermes-android](https://github.com/raulvidis/hermes-android) — Android bridge.
 - [hermes-miniverse](https://github.com/teknium1/hermes-miniverse) — bridge into Miniverse environments.
 - [hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) — bridge patterns for Hermes with other coding agents.
@@ -244,6 +249,7 @@ If you are new to Hermes, this order works well:
 - [hermes-agent-anatomy](https://github.com/anneheartrecord/hermes-agent-anatomy) — Chinese codebase anatomy series with diagrams and module-by-module analysis.
 - [hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — practical setup, migration, LightRAG, Telegram, and skill-building guide.
 - [Hermes-Agent-Action-Plan](https://github.com/vectrocomputers/Hermes-Agent-Action-Plan) — privacy-first operating philosophy and configuration playbook.
+- [LLM-WIKI-TO-AGENT-Template](https://github.com/AlexChanshuo/LLM-WIKI-TO-AGENT-Template) — reproducible blueprint for combining an Obsidian vault, a Hermes Telegram librarian, and GitHub backups into a single personal knowledge workflow.
 - [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) — Windows WSL2 setup path.
 - [Hermes Ecosystem](https://github.com/ksimback/hermes-ecosystem) — ecosystem map project.
 - [Hermes Agent Ecosystem Map](https://hermes-ecosystem.vercel.app/) — web view of the broader ecosystem.
