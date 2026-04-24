@@ -181,7 +181,9 @@ If you are new to Hermes, this order works well:
 - [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) — payment-control oriented plugin.
 - [Hermes Dojo](https://github.com/Yonkoo11/hermes-dojo) — self-improvement loop that mines session failures, patches weak skills, and automates overnight analyze→improve→report cycles.
 - [Ladybug Memory Plugin](https://github.com/Ladybug-Memory/hermes-memory-plugin) — local-first memory provider that keeps Hermes recall in a single on-disk `.lbdb` graph database with typed memories, weighted recall, and optional entity extraction.
+- [Membase for Hermes](https://github.com/aristoapp/hermes-membase) — persistent memory plugin that pairs hybrid vector plus knowledge-graph recall with wiki retrieval and mirroring of Hermes’s built-in `MEMORY.md`, giving teams a shared long-term memory layer beyond local files.
 - [Hermes Dashboard Plugin](https://github.com/tmdgusya/hermes-dashboard-plugin) — lightweight neubrutalist dashboard add-on built on the official plugin SDK, giving Hermes web users a unified tab for sessions, skills, profiles, token usage, and editable memory files.
+- [Agent Analytics Hermes Plugin](https://github.com/Agent-Analytics/agent-analytics-hermes-plugin) — dashboard-only analytics add-on that embeds account connection, project selection, and read-only web analytics inside the Hermes dashboard for operators who want campaign or site signals next to agent activity.
 
 ## Deployment and Operations
 
