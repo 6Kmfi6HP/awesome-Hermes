@@ -177,6 +177,8 @@ If you are new to Hermes, this order works well:
 - [hermes-wxtrain-plugin](https://github.com/FahrenheitResearch/hermes-wxtrain-plugin) — training-data workflows for weather use cases.
 - [hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles) — browser profile switching.
 - [hermes-claude-code-rc](https://github.com/kevinmarmstrong/hermes-claude-code-rc) — plugin that exposes `/cc` commands through Hermes so you can start or monitor Claude Code remote-control sessions, headless runs, and shell commands from Telegram while keeping execution on your own machine.
+- [hermes-a2a](https://github.com/iamagenius00/hermes-a2a) — zero-patch A2A plugin that injects messages into Hermes’s currently running session, stores separate conversation logs, and wakes the agent instantly via HMAC-signed webhooks instead of polling.
+- [hermes-local-rig-accounting](https://github.com/GumbyEnder/hermes-local-rig-accounting) — plugin for local-LLM rig cost accounting that benchmarks throughput and converts electricity plus hardware depreciation into transparent per-token pricing for Hermes.
 - [hermes-cloudflare](https://github.com/raulvidis/hermes-cloudflare) — alternative browser/rendering path.
 - [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) — payment-control oriented plugin.
 - [Hermes Dojo](https://github.com/Yonkoo11/hermes-dojo) — self-improvement loop that mines session failures, patches weak skills, and automates overnight analyze→improve→report cycles.
