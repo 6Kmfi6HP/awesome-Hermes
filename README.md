@@ -258,12 +258,11 @@ If you are new to Hermes, this order works well:
 - [llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) — general tool for compiling raw sources into an interlinked markdown wiki that Hermes users can query and extend over time.
 - [hermes-agent-anatomy](https://github.com/anneheartrecord/hermes-agent-anatomy) — Chinese codebase anatomy series with diagrams and module-by-module analysis.
 - [hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — practical setup, migration, LightRAG, Telegram, and skill-building guide.
-- [Hermes Atlas](https://github.com/ksimback/hermes-ecosystem) — community-maintained ecosystem map and companion site covering vetted Hermes projects, themed resource lists, live repo metadata, and narrative reports on the broader ecosystem.
+- [Hermes Atlas](https://github.com/ksimback/hermes-ecosystem) — community-maintained ecosystem map and companion site covering vetted Hermes projects, themed resource lists, live repo metadata, beginner guides, and narrative reports on the broader ecosystem.
+- [Hermes Atlas MCP](https://github.com/ksimback/hermes-atlas-mcp) — MCP server that exposes the live Hermes Atlas catalog to Claude Desktop, Cursor, Continue, and other MCP-aware clients so they can search Hermes tools, guides, and ecosystem projects from inside the agent.
 - [Hermes-Agent-Action-Plan](https://github.com/vectrocomputers/Hermes-Agent-Action-Plan) — privacy-first operating philosophy and configuration playbook.
 - [LLM-WIKI-TO-AGENT-Template](https://github.com/AlexChanshuo/LLM-WIKI-TO-AGENT-Template) — reproducible blueprint for combining an Obsidian vault, a Hermes Telegram librarian, and GitHub backups into a single personal knowledge workflow.
 - [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) — Windows WSL2 setup path.
-- [Hermes Ecosystem](https://github.com/ksimback/hermes-ecosystem) — ecosystem map project.
-- [Hermes Agent Ecosystem Map](https://hermes-ecosystem.vercel.app/) — web view of the broader ecosystem.
 
 ### Books and curated lists
 
