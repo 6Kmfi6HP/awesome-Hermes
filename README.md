@@ -267,6 +267,7 @@ If you are new to Hermes, this order works well:
 ### Books and curated lists
 
 - [Hermes Agent Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) — bilingual community book with downloadable PDFs that goes beyond setup into memory, skills, self-improvement loops, and multi-agent usage patterns.
+- [Hermes Agent Guide (白皮书 / Whitepaper)](https://github.com/jwangkun/hermes-agent-guide) — large Chinese markdown book that turns scattered docs into a structured path covering architecture, deployment, migration, monetization, and multi-agent operation.
 - [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — another curated resource list worth checking alongside this repo.
 
 ### Videos
