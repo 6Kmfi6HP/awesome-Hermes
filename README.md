@@ -186,6 +186,8 @@ If you are new to Hermes, this order works well:
 - [Membase for Hermes](https://github.com/aristoapp/hermes-membase) — persistent memory plugin that pairs hybrid vector plus knowledge-graph recall with wiki retrieval and mirroring of Hermes’s built-in `MEMORY.md`, giving teams a shared long-term memory layer beyond local files.
 - [Hermes Dashboard Plugin](https://github.com/tmdgusya/hermes-dashboard-plugin) — lightweight neubrutalist dashboard add-on built on the official plugin SDK, giving Hermes web users a unified tab for sessions, skills, profiles, token usage, and editable memory files.
 - [Agent Analytics Hermes Plugin](https://github.com/Agent-Analytics/agent-analytics-hermes-plugin) — dashboard-only analytics add-on that embeds account connection, project selection, and read-only web analytics inside the Hermes dashboard for operators who want campaign or site signals next to agent activity.
+- [Hermes Labyrinth](https://github.com/stainlu/hermes-labyrinth) — read-only dashboard plugin that treats Hermes like a flight recorder, turning prompts, tool calls, failures, approvals, memory hits, cron runs, and subagents into exportable observability trails instead of another chat UI.
+- [Honcho Memory Plugin](https://github.com/GumbyEnder/hermes-plugins) — dashboard plugin bundle centered on a Honcho memory panel with live stats, queue health, semantic search, and drill-down views for documents and message history.
 
 ## Deployment and Operations
 
@@ -258,6 +260,8 @@ If you are new to Hermes, this order works well:
 - [llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) — general tool for compiling raw sources into an interlinked markdown wiki that Hermes users can query and extend over time.
 - [hermes-agent-anatomy](https://github.com/anneheartrecord/hermes-agent-anatomy) — Chinese codebase anatomy series with diagrams and module-by-module analysis.
 - [hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — practical setup, migration, LightRAG, Telegram, and skill-building guide.
+- [Hermes Agent + Honcho](https://docs.honcho.dev/v3/guides/integrations/hermes) — Honcho’s own integration guide explaining how Hermes uses peer modeling, durable writeback, and semantic memory tools beyond the built-in local files.
+- [Hermes Agent Book](https://github.com/ZhangHanDong/hermes-book) — source-level Chinese book that walks through Hermes architecture, prompt assembly, tools, memory providers, CLI/gateway internals, and runtime design tradeoffs chapter by chapter.
 - [Hermes Atlas](https://github.com/ksimback/hermes-ecosystem) — community-maintained ecosystem map and companion site covering vetted Hermes projects, themed resource lists, live repo metadata, beginner guides, and narrative reports on the broader ecosystem.
 - [Hermes Atlas MCP](https://github.com/ksimback/hermes-atlas-mcp) — MCP server that exposes the live Hermes Atlas catalog to Claude Desktop, Cursor, Continue, and other MCP-aware clients so they can search Hermes tools, guides, and ecosystem projects from inside the agent.
 - [Hermes-Agent-Action-Plan](https://github.com/vectrocomputers/Hermes-Agent-Action-Plan) — privacy-first operating philosophy and configuration playbook.
