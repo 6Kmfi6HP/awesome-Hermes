@@ -147,6 +147,7 @@ If you are new to Hermes, this order works well:
 - [Optional Skills Catalog](https://hermes-agent.nousresearch.com/docs/reference/optional-skills-catalog)
 - [Creating Skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills)
 - [Work with Skills](https://hermes-agent.nousresearch.com/docs/guides/work-with-skills)
+- [Shopify Skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/productivity/productivity-shopify) — official optional commerce skill for managing Shopify products, orders, inventory, customers, and fulfillments directly from Hermes via GraphQL.
 - [agentskills.io](https://agentskills.io) — open skill ecosystem used across multiple agent stacks.
 - [wondelai/skills](https://github.com/wondelai/skills) — broad community skill collection.
 - [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) — large security-oriented skill library.
@@ -278,6 +279,8 @@ If you are new to Hermes, this order works well:
 
 ### Videos
 
+- [Hermes Agent Skills Tutorial](https://www.youtube.com/watch?v=cyn2JPlvTG4) — focused walkthrough on using and creating custom skills.
+- [Hermes Agent Dashboard (Setup Guide and Overview)](https://www.youtube.com/watch?v=GfQEdMZ9LlA) — practical tour of the local web dashboard for operators who prefer a browser control surface.
 - [Hermes Agent Setup: Install, Configure, and Run It 100% Free](https://www.youtube.com/watch?v=9v1DyzP7-58)
 - [I am Switching to Hermes Agent](https://www.youtube.com/watch?v=J-kSdzHr9Ek)
 - [Hermes AI Agent Explained: Persistent AI That Runs 24/7](https://www.youtube.com/watch?v=ZhCIZ-ZTcyE)
