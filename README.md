@@ -206,6 +206,7 @@ If you are new to Hermes, this order works well:
 - [portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes) — Portainer and Docker Compose style deployment.
 - [hermes-autonomous-server](https://github.com/JackTheGit/hermes-autonomous-server) — unattended server-style deployment.
 - [hermes-ha-addon](https://github.com/WolframRavenwolf/hermes-ha-addon) — packages Hermes as a Home Assistant add-on with persistent terminal and gateway access.
+- [Unofficial Hermes Agent Helm Chart](https://github.com/ultraworkers/hermes-agent-helm-chart) — Kubernetes packaging with explicit single-writer storage guardrails, values schema, and cloud-native composition points for teams that want a more operator-friendly deployment path than raw Docker Compose.
 - [hermesclaw](https://github.com/TheAiSingularity/hermesclaw) — runs Hermes inside NVIDIA OpenShell-style sandbox boundaries for stronger containment.
 - [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) — migration helper for older OpenClaw users.
 - [Honcho Self-Hosted for Hermes](https://github.com/elkimek/honcho-self-hosted) — self-hosted memory backend setup.
@@ -215,6 +216,7 @@ If you are new to Hermes, this order works well:
 
 - [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations)
 - [Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers)
+- [QQ Bot](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/qqbot) — official guide for connecting Hermes to QQ via the official QQ Bot API v2, including private chat, group @ mentions, guild messages, and voice transcription.
 - [Hermes Home Assistant Integration](https://github.com/WolframRavenwolf/hermes-ha-integration)
 - [gridmint/hermes-telegram](https://github.com/gridmint/hermes-telegram) — MTProto / Telethon adapter that lets Hermes operate as a real Telegram user account instead of only through the Bot API gateway.
 - [hermes-android](https://github.com/raulvidis/hermes-android) — Android bridge.
