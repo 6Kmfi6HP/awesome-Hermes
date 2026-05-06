@@ -166,6 +166,8 @@ If you are new to Hermes, this order works well:
 - [Memory Provider Plugin Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/memory-provider-plugin)
 - [Hermes Memory UI](https://github.com/xraysight/hermes-memory-ui) — read-only dashboard plugin for inspecting `MEMORY.md`, `USER.md`, and optional holographic SQLite memory without bypassing Hermes’s normal memory-write safeguards.
 - [MemPalace](https://github.com/neilharding/hermes_memorypalace) — workspace-scoped hierarchical memory provider with local ChromaDB + SQLite recall and explicit/implicit memory lanes.
+- [Mnemosyne](https://github.com/AxDSan/mnemosyne) — local-first SQLite memory provider for Hermes with sub-millisecond retrieval, optional vector/FTS recall, MCP tools, and migration paths from cloud memory backends.
+- [MemOS](https://github.com/MemTensor/MemOS) — broader memory OS that now ships a Hermes local plugin with hybrid retrieval, smart deduplication, visual memory management, and a shared multi-agent knowledge layer.
 - [agentmemory](https://github.com/rohitg00/agentmemory) — external long-term memory engine with a dedicated Hermes memory-provider plugin, REST/MCP access, session replay, and a real-time viewer for cross-session recall.
 - [hermes-observational-memory](https://github.com/intertwine/hermes-observational-memory) — standalone memory-provider plugin that lets Hermes share a local markdown memory store with Claude Code and Codex, with searchable observations and optional writeback.
 - [hermes-plugins](https://github.com/42-evey/hermes-plugins) — community plugin bundle with operational add-ons.
