@@ -107,6 +107,7 @@ If you are new to Hermes, this order works well:
 - [Open WebUI Hermes Agent Guide](https://docs.openwebui.com/getting-started/quick-start/connect-an-agent/hermes-agent/) — Open WebUI’s own connector guide, including Docker networking and `/v1` troubleshooting details.
 - [Web Dashboard](https://hermes-agent.nousresearch.com/docs/user-guide/features/web-dashboard) — official browser dashboard for config, keys, sessions, logs, analytics, skills, and cron management.
 - [Dashboard Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/dashboard-plugins) — official guide for adding custom tabs and backend endpoints to the built-in Hermes dashboard.
+- [Extending the Dashboard](https://hermes-agent.nousresearch.com/docs/user-guide/features/extending-the-dashboard) — canonical runtime extension guide for reskinning the official dashboard with themes, custom tabs, shell slots, and plugin backend APIs without forking Hermes.
 - [Team Telegram Assistant Guide](https://hermes-agent.nousresearch.com/docs/guides/team-telegram-assistant)
 - [Daily Briefing Bot Guide](https://hermes-agent.nousresearch.com/docs/guides/daily-briefing-bot)
 - [Automate with Cron](https://hermes-agent.nousresearch.com/docs/guides/automate-with-cron)
@@ -164,6 +165,8 @@ If you are new to Hermes, this order works well:
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
 - [Built-in Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/built-in-plugins) — official catalog of opt-in bundled plugins such as disk cleanup, Langfuse tracing, Spotify control, Google Meet joining, image backends, and dashboard examples that ship inside Hermes itself.
 - [Memory Provider Plugin Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/memory-provider-plugin)
+- [Model Provider Plugins](https://hermes-agent.nousresearch.com/docs/developer-guide/model-provider-plugin) — official guide to shipping first-class inference backends as drop-in plugins, including provider profiles, auto-discovery, CLI wiring, and override behavior for custom or patched model routes.
+- [Context Engine Plugins](https://hermes-agent.nousresearch.com/docs/developer-guide/context-engine-plugin) — official reference for replacing Hermes’s built-in context compressor with custom engines such as DAG-based or lossless context-management strategies.
 - [Hermes Memory UI](https://github.com/xraysight/hermes-memory-ui) — read-only dashboard plugin for inspecting `MEMORY.md`, `USER.md`, and optional holographic SQLite memory without bypassing Hermes’s normal memory-write safeguards.
 - [MemPalace](https://github.com/neilharding/hermes_memorypalace) — workspace-scoped hierarchical memory provider with local ChromaDB + SQLite recall and explicit/implicit memory lanes.
 - [Mnemosyne](https://github.com/AxDSan/mnemosyne) — local-first SQLite memory provider for Hermes with sub-millisecond retrieval, optional vector/FTS recall, MCP tools, and migration paths from cloud memory backends.
@@ -201,6 +204,7 @@ If you are new to Hermes, this order works well:
 - [Cron Internals](https://hermes-agent.nousresearch.com/docs/developer-guide/cron-internals)
 - [Tools Runtime](https://hermes-agent.nousresearch.com/docs/developer-guide/tools-runtime)
 - [Provider Runtime](https://hermes-agent.nousresearch.com/docs/developer-guide/provider-runtime)
+- [Adding Providers](https://hermes-agent.nousresearch.com/docs/developer-guide/adding-providers) — official contributor guide for adding or overriding first-class inference providers, including the plugin fast path for OpenAI-compatible backends and the deeper path for native adapters.
 - [Trajectory Format](https://hermes-agent.nousresearch.com/docs/developer-guide/trajectory-format)
 - [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) — Nix/NixOS packaging.
 - [hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker) — simple Docker image approach.
@@ -218,6 +222,7 @@ If you are new to Hermes, this order works well:
 
 - [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations)
 - [Providers](https://hermes-agent.nousresearch.com/docs/integrations/providers)
+- [Adding a Platform Adapter](https://hermes-agent.nousresearch.com/docs/developer-guide/adding-platform-adapters) — official guide for shipping new messaging-platform adapters through the plugin system, covering gateway registration, auth, config, cron delivery, and prompt hints.
 - [QQ Bot](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/qqbot) — official guide for connecting Hermes to QQ via the official QQ Bot API v2, including private chat, group @ mentions, guild messages, and voice transcription.
 - [Hermes Home Assistant Integration](https://github.com/WolframRavenwolf/hermes-ha-integration)
 - [gridmint/hermes-telegram](https://github.com/gridmint/hermes-telegram) — MTProto / Telethon adapter that lets Hermes operate as a real Telegram user account instead of only through the Bot API gateway.
