@@ -193,6 +193,9 @@ If you are new to Hermes, this order works well:
 - [Ladybug Memory Plugin](https://github.com/Ladybug-Memory/hermes-memory-plugin) — local-first memory provider that keeps Hermes recall in a single on-disk `.lbdb` graph database with typed memories, weighted recall, and optional entity extraction.
 - [Membase for Hermes](https://github.com/aristoapp/hermes-membase) — persistent memory plugin that pairs hybrid vector plus knowledge-graph recall with wiki retrieval and mirroring of Hermes’s built-in `MEMORY.md`, giving teams a shared long-term memory layer beyond local files.
 - [Hermes Dashboard Plugin](https://github.com/tmdgusya/hermes-dashboard-plugin) — lightweight neubrutalist dashboard add-on built on the official plugin SDK, giving Hermes web users a unified tab for sessions, skills, profiles, token usage, and editable memory files.
+- [Hermes Prompt Vault](https://github.com/LeventeNagy/hermes-prompt-vault) — prompt library plugin with /vault commands and a dashboard UI for saving, searching, and reusing prompts from any platform.
+- [Hermes Workspace Dashboard Plugin](https://github.com/outsourc-e/hermes-workspace-plugin) — dashboard tab that embeds Hermes Workspace chat, with local port auto-detection and one-command install.
+- [Hermes Achievements](https://github.com/PCinkusz/hermes-achievements) — badge system for turning real Hermes session history into collectible dashboard achievements.
 - [Agent Analytics Hermes Plugin](https://github.com/Agent-Analytics/agent-analytics-hermes-plugin) — dashboard-only analytics add-on that embeds account connection, project selection, and read-only web analytics inside the Hermes dashboard for operators who want campaign or site signals next to agent activity.
 - [Hermes Labyrinth](https://github.com/stainlu/hermes-labyrinth) — read-only dashboard plugin that treats Hermes like a flight recorder, turning prompts, tool calls, failures, approvals, memory hits, cron runs, and subagents into exportable observability trails instead of another chat UI.
 - [Honcho Memory Plugin](https://github.com/GumbyEnder/hermes-plugins) — dashboard plugin bundle centered on a Honcho memory panel with live stats, queue health, semantic search, and drill-down views for documents and message history.
@@ -209,6 +212,7 @@ If you are new to Hermes, this order works well:
 - [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) — Nix/NixOS packaging.
 - [hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker) — simple Docker image approach.
 - [hermes-agent-template](https://github.com/Crustocean/hermes-agent-template) — deployment template for cloud setups.
+- [HermesHQ](https://github.com/jpalmae/hermeshq) — Docker-first control plane for managing multiple Hermes Agent instances from one web app.
 - [portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes) — Portainer and Docker Compose style deployment.
 - [hermes-autonomous-server](https://github.com/JackTheGit/hermes-autonomous-server) — unattended server-style deployment.
 - [hermes-ha-addon](https://github.com/WolframRavenwolf/hermes-ha-addon) — packages Hermes as a Home Assistant add-on with persistent terminal and gateway access.
