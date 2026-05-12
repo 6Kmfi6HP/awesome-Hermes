@@ -134,6 +134,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Dashboard (live wiki)](https://github.com/Kori-x/hermes-dashboard) — real-time observability dashboard plus an auto-generated local wiki for skills, plugins, tools, memory, and soul files.
 - [Hermes Web UI](https://github.com/EKKOLearnAI/hermes-web-ui) — npm-installable Vue dashboard that brings multi-platform chat, profile switching, model management, analytics, logs, web terminal, and channel configuration into one operational console.
 - [Hermes Studio](https://github.com/JPeetz/Hermes-Studio) — power-user browser studio built around crews, execution approvals, visual memory graphs, workflow DAGs, and one of the deepest cron/job-management interfaces in the ecosystem.
+- [Hermes War Room](https://github.com/Naroh091/hermes-war-room) — browser-based operations floor that makes Hermes’ native orchestration visible with mission control, team rosters, live agent status, and per-agent task queues.
 - [Hermes Telegram Mini App](https://github.com/clawvader-tech/hermes-telegram-miniapp) — mobile-first Telegram Mini App that adds chat, cron control, system health, and background agent spawning directly inside Telegram with hardened auth and tunnel-based deployment docs.
 - [Atomic Bot](https://github.com/AtomicBot-ai/atomicbot) — native desktop launcher that recently added one-click Hermes setup on macOS and Windows, bundling dashboard, terminal, logs, and file browsing for users who want a faster no-terminal path.
 - [Web3Hermes](https://github.com/Web3CZ/Web3Hermes) — lightweight Chinese-localized WebUI focused on desktop browser chat, sessions, workspace, and task views for mainland users.
@@ -168,12 +169,14 @@ If you are new to Hermes, this order works well:
 - [Model Provider Plugins](https://hermes-agent.nousresearch.com/docs/developer-guide/model-provider-plugin) — official guide to shipping first-class inference backends as drop-in plugins, including provider profiles, auto-discovery, CLI wiring, and override behavior for custom or patched model routes.
 - [Context Engine Plugins](https://hermes-agent.nousresearch.com/docs/developer-guide/context-engine-plugin) — official reference for replacing Hermes’s built-in context compressor with custom engines such as DAG-based or lossless context-management strategies.
 - [Hermes Memory UI](https://github.com/xraysight/hermes-memory-ui) — read-only dashboard plugin for inspecting `MEMORY.md`, `USER.md`, and optional holographic SQLite memory without bypassing Hermes’s normal memory-write safeguards.
+- [memory-files-dashboard-plugin](https://github.com/wobbywells/memory-files-dashboard-plugin) — dashboard plugin that safely exposes `USER.md` and `MEMORY.md` editing through dedicated file APIs instead of forcing operators to patch them by hand.
 - [MemPalace](https://github.com/neilharding/hermes_memorypalace) — workspace-scoped hierarchical memory provider with local ChromaDB + SQLite recall and explicit/implicit memory lanes.
 - [Mnemosyne](https://github.com/AxDSan/mnemosyne) — local-first SQLite memory provider for Hermes with sub-millisecond retrieval, optional vector/FTS recall, MCP tools, and migration paths from cloud memory backends.
 - [MemOS](https://github.com/MemTensor/MemOS) — broader memory OS that now ships a Hermes local plugin with hybrid retrieval, smart deduplication, visual memory management, and a shared multi-agent knowledge layer.
 - [agentmemory](https://github.com/rohitg00/agentmemory) — external long-term memory engine with a dedicated Hermes memory-provider plugin, REST/MCP access, session replay, and a real-time viewer for cross-session recall.
 - [hermes-observational-memory](https://github.com/intertwine/hermes-observational-memory) — standalone memory-provider plugin that lets Hermes share a local markdown memory store with Claude Code and Codex, with searchable observations and optional writeback.
 - [hermes-plugins](https://github.com/42-evey/hermes-plugins) — community plugin bundle with operational add-ons.
+- [hermes-tools](https://github.com/axisdynamics/hermes-tools) — production-grade native plugin pack with inter-agent pub/sub, provider failover, and persistent memory primitives.
 - [hermes-notification](https://github.com/itgoyo/hermes-notification) — tiny cross-platform plugin that fires native desktop notifications and sound when Hermes finishes a response.
 - [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) — richer web-search routing.
 - [hermes-opencode-plugin](https://github.com/zaycruz/hermes-opencode-plugin) — lets Hermes hand software-engineering tasks to OpenCode’s multi-agent harness.
@@ -212,6 +215,7 @@ If you are new to Hermes, this order works well:
 - [nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent) — Nix/NixOS packaging.
 - [hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker) — simple Docker image approach.
 - [hermes-agent-template](https://github.com/Crustocean/hermes-agent-template) — deployment template for cloud setups.
+- [hermes-suite](https://github.com/sunnysktsang/hermes-suite) — single-container Docker/Podman image that packages hermes-agent, hermes-webui, and hermes-dashboard for rootless and multi-service deployments.
 - [HermesHQ](https://github.com/jpalmae/hermeshq) — Docker-first control plane for managing multiple Hermes Agent instances from one web app.
 - [portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes) — Portainer and Docker Compose style deployment.
 - [hermes-autonomous-server](https://github.com/JackTheGit/hermes-autonomous-server) — unattended server-style deployment.
@@ -288,6 +292,7 @@ If you are new to Hermes, this order works well:
 
 - [Hermes Agent Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) — bilingual community book with downloadable PDFs that goes beyond setup into memory, skills, self-improvement loops, and multi-agent usage patterns.
 - [Hermes Agent Guide (白皮书 / Whitepaper)](https://github.com/jwangkun/hermes-agent-guide) — large Chinese markdown book that turns scattered docs into a structured path covering architecture, deployment, migration, monetization, and multi-agent operation.
+- [awesome-hermes-usecases](https://github.com/aliaihub/awesome-hermes-usecases) — evidence-backed catalog of real-world Hermes use cases, with primary sources and runnable demos.
 - [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — another curated resource list worth checking alongside this repo.
 
 ### Videos
