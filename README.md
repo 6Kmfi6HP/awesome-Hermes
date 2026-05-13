@@ -123,6 +123,7 @@ If you are new to Hermes, this order works well:
 - [Scarf](https://github.com/awizemann/scarf) — native macOS GUI with multi-window local/remote server support over SSH, covering chat, dashboard, sessions, memory, cron, MCP, and config workflows from one desktop app.
 - [Hermes Desktop (native macOS over SSH)](https://github.com/dodo-reach/hermes-desktop) — native Mac workspace that connects straight to a Hermes host over SSH, keeps the remote machine as the source of truth, and exposes sessions, skills, usage views, and a real terminal without a browser layer.
 - [Hermes WebUI](https://github.com/nesquena/hermes-webui) — mature browser UI that aims for near CLI parity, including chat, sessions, file browsing, and remote access workflows.
+- [Hermes AI Agent — VS Code Extension](https://github.com/joaompfp/hermes-vscode) — VS Code sidebar for Hermes CLI over ACP, with streaming chat, tool traces, session persistence, and a skills picker.
 - [Hermes WebUI (ops dashboard)](https://github.com/sanchomuzax/hermes-webui) — read-only monitoring and configuration dashboard for sessions, cron, skills, and config data.
 - [Hermes Agent WebUI](https://github.com/laolaoshiren/hermes-agent-webui) — chat-first self-hosted frontend that focuses on multi-session conversation workflows and safer public deployment defaults instead of a control-panel-heavy layout.
 - [Hermes Control Interface](https://github.com/xaspx/hermes-control-interface) — self-hosted control surface with a browser terminal, file explorer, profile and gateway controls, cron/session monitoring, token analytics, and system metrics behind a simple password gate.
@@ -157,7 +158,9 @@ If you are new to Hermes, this order works well:
 - [black-forest-labs/skills](https://github.com/black-forest-labs/skills) — skills around FLUX and image workflows.
 - [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) — typed, structured skill workflows.
 - [litprog-skill](https://github.com/tlehman/litprog-skill) — literate-programming-oriented skill workflow.
+- [awesome-hermes-skills](https://github.com/ChuckSRQ/awesome-hermes-skills) — curated, install-ready Hermes skill pack covering research, artifact previews, self-improvement benchmarks, and GitHub workflows.
 - [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) — generates reusable skills from repeated work.
+- [Super Hermes](https://github.com/Cranot/super-hermes) — analytical skill set that teaches Hermes to write sharper reasoning lenses, expose blind spots, and report structural constraints during deep analysis.
 - [hermeshub](https://github.com/amanning3390/hermeshub) — community discovery hub for Hermes skills.
 - [skilldock.io](https://github.com/chigwell/skilldock.io) — cross-agent skill registry.
 
@@ -237,6 +240,7 @@ If you are new to Hermes, this order works well:
 - [hermes-android](https://github.com/raulvidis/hermes-android) — Android bridge.
 - [hermes-miniverse](https://github.com/teknium1/hermes-miniverse) — bridge into Miniverse environments.
 - [hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) — bridge patterns for Hermes with other coding agents.
+- [hermes-computer-use](https://github.com/Noah3521/hermes-computer-use) — pixel-level browser automation MCP server for Hermes, driving stock Chrome through Xvfb and OS-level input for harder-to-detect web workflows.
 - [evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) — Hermes and Claude Code bridge idea.
 - [reina](https://github.com/Crustocean/reina) — Hermes-oriented integration inside the Crustocean platform.
 - [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) — blockchain analytics via MCP-style integration.
