@@ -163,6 +163,7 @@ If you are new to Hermes, this order works well:
 - [Super Hermes](https://github.com/Cranot/super-hermes) — analytical skill set that teaches Hermes to write sharper reasoning lenses, expose blind spots, and report structural constraints during deep analysis.
 - [hermeshub](https://github.com/amanning3390/hermeshub) — community discovery hub for Hermes skills.
 - [skilldock.io](https://github.com/chigwell/skilldock.io) — cross-agent skill registry.
+- [HyperDirector](https://github.com/gloweaseco-leo/hyperdirector) — Hermes skill pack for structured HyperFrames video production, with brief→storyboard→HTML→render workflow and install scripts.
 
 ### Plugins and add-ons
 
@@ -184,6 +185,7 @@ If you are new to Hermes, this order works well:
 - [hermes-observational-memory](https://github.com/intertwine/hermes-observational-memory) — standalone memory-provider plugin that lets Hermes share a local markdown memory store with Claude Code and Codex, with searchable observations and optional writeback.
 - [hermes-plugins](https://github.com/42-evey/hermes-plugins) — community plugin bundle with operational add-ons.
 - [hermes-tools](https://github.com/axisdynamics/hermes-tools) — production-grade native plugin pack with inter-agent pub/sub, provider failover, and persistent memory primitives.
+- [Hermes Plugin: Carabiner](https://github.com/donovan-yohan/hermes-plugin-carabiner) — Honcho-backed relationship memory plugin for specialist-agent handoffs, feedback loops, and peer context before delegations.
 - [hermes-notification](https://github.com/itgoyo/hermes-notification) — tiny cross-platform plugin that fires native desktop notifications and sound when Hermes finishes a response.
 - [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) — richer web-search routing.
 - [hermes-opencode-plugin](https://github.com/zaycruz/hermes-opencode-plugin) — lets Hermes hand software-engineering tasks to OpenCode’s multi-agent harness.
@@ -245,6 +247,7 @@ If you are new to Hermes, this order works well:
 - [hermes-miniverse](https://github.com/teknium1/hermes-miniverse) — bridge into Miniverse environments.
 - [hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) — bridge patterns for Hermes with other coding agents.
 - [hermes-computer-use](https://github.com/Noah3521/hermes-computer-use) — pixel-level browser automation MCP server for Hermes, driving stock Chrome through Xvfb and OS-level input for harder-to-detect web workflows.
+- [Hermes Skills MCP Server](https://github.com/poogas/hermes-skill-installer) — MCP bridge that lets Hermes search, inspect, install, list, and remove skills on the host even when the agent runs inside an isolated container.
 - [evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) — Hermes and Claude Code bridge idea.
 - [reina](https://github.com/Crustocean/reina) — Hermes-oriented integration inside the Crustocean platform.
 - [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) — blockchain analytics via MCP-style integration.
