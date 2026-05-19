@@ -178,6 +178,7 @@ If you are new to Hermes, this order works well:
 - [memory-files-dashboard-plugin](https://github.com/wobbywells/memory-files-dashboard-plugin) — dashboard plugin that safely exposes `USER.md` and `MEMORY.md` editing through dedicated file APIs instead of forcing operators to patch them by hand.
 - [MemPalace](https://github.com/neilharding/hermes_memorypalace) — workspace-scoped hierarchical memory provider with local ChromaDB + SQLite recall and explicit/implicit memory lanes.
 - [Mnemosyne](https://github.com/AxDSan/mnemosyne) — local-first SQLite memory provider for Hermes with sub-millisecond retrieval, optional vector/FTS recall, MCP tools, and migration paths from cloud memory backends.
+- [Hermes Memory Provider (Basic Memory)](https://github.com/basicmachines-co/hermes-basic-memory) — memory-provider plugin that swaps in a Basic Memory knowledge graph, adds search-before-answer recall, per-turn capture, session summaries, and direct `/bm-*` control commands.
 - [MemOS](https://github.com/MemTensor/MemOS) — broader memory OS that now ships a Hermes local plugin with hybrid retrieval, smart deduplication, visual memory management, and a shared multi-agent knowledge layer.
 - [agentmemory](https://github.com/rohitg00/agentmemory) — external long-term memory engine with a dedicated Hermes memory-provider plugin, REST/MCP access, session replay, and a real-time viewer for cross-session recall.
 - [mem9 Hermes Plugin](https://github.com/mem9-ai/mem9-hermes-plugin) — hosted persistent memory plugin for Hermes with semantic recall, turn-by-turn extraction, and quick CLI setup.
@@ -249,6 +250,7 @@ If you are new to Hermes, this order works well:
 - [hermes-computer-use](https://github.com/Noah3521/hermes-computer-use) — pixel-level browser automation MCP server for Hermes, driving stock Chrome through Xvfb and OS-level input for harder-to-detect web workflows.
 - [Hermes Skills MCP Server](https://github.com/poogas/hermes-skill-installer) — MCP bridge that lets Hermes search, inspect, install, list, and remove skills on the host even when the agent runs inside an isolated container.
 - [evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) — Hermes and Claude Code bridge idea.
+- [hermes-claude-code](https://github.com/DevvGwardo/hermes-claude-code) — MCP server and plugin bridge that delegates coding-heavy tasks from Hermes to Claude Code CLI sub-agents for implementation, testing, and git work.
 - [reina](https://github.com/Crustocean/reina) — Hermes-oriented integration inside the Crustocean platform.
 - [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) — blockchain analytics via MCP-style integration.
 - [hermes-council](https://github.com/Ridwannurudeen/hermes-council) — adversarial multi-view decision support.
