@@ -269,6 +269,8 @@ If you are new to Hermes, this order works well:
 - [Hermes-Agent-Online-RL](https://github.com/ar0cket1/Hermes-Agent-Online-RL) — online RL loop for adapting Hermes-backed local or hosted models from live feedback.
 - [Hermes Incident Commander](https://github.com/Lethe044/hermes-incident-commander) — autonomous SRE operator that detects incidents, fans out diagnosis with subagents, heals services, and turns novel incidents into reusable prevention skills.
 - [Hermes Skill Forge](https://github.com/Lethe044/hermes-skill-marketplace) — experimental self-evolving agent that turns repeated work into tested, publishable skills instead of stopping at one-off task completion.
+- [Hermes Agent (CaMeL fork)](https://github.com/nativ3ai/hermes-agent-camel) — Hermes fork with opt-in CaMeL trust boundaries and runtime guardrails against indirect prompt injection.
+- [Hermes Skill Distillation](https://github.com/beardthelion/hermes-skill-distillation) — hackathon pipeline that turns real task trajectories into fine-tuning data for Hermes 4.
 
 ### Domain-specific applications
 
@@ -299,6 +301,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Atlas MCP](https://github.com/ksimback/hermes-atlas-mcp) — MCP server that exposes the live Hermes Atlas catalog to Claude Desktop, Cursor, Continue, and other MCP-aware clients so they can search Hermes tools, guides, and ecosystem projects from inside the agent.
 - [Hermes-Agent-Action-Plan](https://github.com/vectrocomputers/Hermes-Agent-Action-Plan) — privacy-first operating philosophy and configuration playbook.
 - [LLM-WIKI-TO-AGENT-Template](https://github.com/AlexChanshuo/LLM-WIKI-TO-AGENT-Template) — reproducible blueprint for combining an Obsidian vault, a Hermes Telegram librarian, and GitHub backups into a single personal knowledge workflow.
+- [Hermes Memory Stack](https://github.com/yelixir-dev/hermes-memory-stack) — modular bootstrap stack for layered memory, llmwiki routing, and optional NotebookLM/source-pack workflows.
 - [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) — Windows WSL2 setup path.
 
 ### Books and curated lists
