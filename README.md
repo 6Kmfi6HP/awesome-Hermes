@@ -137,6 +137,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Studio](https://github.com/JPeetz/Hermes-Studio) — power-user browser studio built around crews, execution approvals, visual memory graphs, workflow DAGs, and one of the deepest cron/job-management interfaces in the ecosystem.
 - [Hermes War Room](https://github.com/Naroh091/hermes-war-room) — browser-based operations floor that makes Hermes’ native orchestration visible with mission control, team rosters, live agent status, and per-agent task queues.
 - [Hermes Telegram Mini App](https://github.com/clawvader-tech/hermes-telegram-miniapp) — mobile-first Telegram Mini App that adds chat, cron control, system health, and background agent spawning directly inside Telegram with hardened auth and tunnel-based deployment docs.
+- [Hermes Voice Agent](https://github.com/onlockj/hermes-voice-agent) — low-latency Telegram voice channel with a PWA frontend, OpenAI Realtime pipeline, barge-in support, and one-shot deploy docs.
 - [Atomic Bot](https://github.com/AtomicBot-ai/atomicbot) — native desktop launcher that recently added one-click Hermes setup on macOS and Windows, bundling dashboard, terminal, logs, and file browsing for users who want a faster no-terminal path.
 - [Web3Hermes](https://github.com/Web3CZ/Web3Hermes) — lightweight Chinese-localized WebUI focused on desktop browser chat, sessions, workspace, and task views for mainland users.
 - [Hermes HUD UI](https://github.com/joeynyc/hermes-hudui) — browser-based consciousness monitor for Hermes that visualizes memory, token costs, skills, cron jobs, and growth snapshots directly from ~/.hermes/.
@@ -300,6 +301,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Atlas](https://github.com/ksimback/hermes-ecosystem) — community-maintained ecosystem map and companion site covering vetted Hermes projects, themed resource lists, live repo metadata, beginner guides, and narrative reports on the broader ecosystem.
 - [Hermes Atlas MCP](https://github.com/ksimback/hermes-atlas-mcp) — MCP server that exposes the live Hermes Atlas catalog to Claude Desktop, Cursor, Continue, and other MCP-aware clients so they can search Hermes tools, guides, and ecosystem projects from inside the agent.
 - [Hermes-Agent-Action-Plan](https://github.com/vectrocomputers/Hermes-Agent-Action-Plan) — privacy-first operating philosophy and configuration playbook.
+- [hermes-fleet-setup](https://github.com/Pu11en/hermes-fleet-setup) — practical 10-bot Telegram fleet guide with isolated profiles, per-agent GitHub auth, and start/stop scripts.
 - [LLM-WIKI-TO-AGENT-Template](https://github.com/AlexChanshuo/LLM-WIKI-TO-AGENT-Template) — reproducible blueprint for combining an Obsidian vault, a Hermes Telegram librarian, and GitHub backups into a single personal knowledge workflow.
 - [Hermes Memory Stack](https://github.com/yelixir-dev/hermes-memory-stack) — modular bootstrap stack for layered memory, llmwiki routing, and optional NotebookLM/source-pack workflows.
 - [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) — Windows WSL2 setup path.
