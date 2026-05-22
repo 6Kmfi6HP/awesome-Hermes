@@ -127,6 +127,7 @@ If you are new to Hermes, this order works well:
 - [Hermes WebUI (ops dashboard)](https://github.com/sanchomuzax/hermes-webui) — read-only monitoring and configuration dashboard for sessions, cron, skills, and config data.
 - [Hermes Agent WebUI](https://github.com/laolaoshiren/hermes-agent-webui) — chat-first self-hosted frontend that focuses on multi-session conversation workflows and safer public deployment defaults instead of a control-panel-heavy layout.
 - [Hermes Control Interface](https://github.com/xaspx/hermes-control-interface) — self-hosted control surface with a browser terminal, file explorer, profile and gateway controls, cron/session monitoring, token analytics, and system metrics behind a simple password gate.
+- [Hermes UI](https://github.com/pyrate-llama/hermes-ui) — glassmorphic single-file command center with chat, file browsing, memory, skills, Kanban, and live operational monitoring.
 - [Hermes for Web](https://github.com/reallygood83/hermes-for-web) — personalized browser workbench with onboarding packs, artifacts, and memory-aware startup flows.
 - [Portable Hermes Agent](https://github.com/rookiemann/portable-hermes-agent) — packaged desktop-style distribution for users who want an easier Windows path.
 - [hermes-agent-desktop](https://github.com/comedy1024/hermes-agent-desktop) — all-in-one Docker desktop that bundles Hermes Agent, Hermes WebUI, and a browser-accessible Debian KDE environment for users who want GUI access plus a ready-made self-hosted runtime.
@@ -160,6 +161,7 @@ If you are new to Hermes, this order works well:
 - [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) — typed, structured skill workflows.
 - [litprog-skill](https://github.com/tlehman/litprog-skill) — literate-programming-oriented skill workflow.
 - [awesome-hermes-skills](https://github.com/ChuckSRQ/awesome-hermes-skills) — curated, install-ready Hermes skill pack covering research, artifact previews, self-improvement benchmarks, and GitHub workflows.
+- [hermes-merchant](https://github.com/arimanyus/hermes-merchant) — portable Hermes skill pack for ML/AI job scraping, profile scoring, and Greenhouse application automation.
 - [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) — generates reusable skills from repeated work.
 - [Super Hermes](https://github.com/Cranot/super-hermes) — analytical skill set that teaches Hermes to write sharper reasoning lenses, expose blind spots, and report structural constraints during deep analysis.
 - [hermeshub](https://github.com/amanning3390/hermeshub) — community discovery hub for Hermes skills.
@@ -209,6 +211,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Dashboard Plugin](https://github.com/tmdgusya/hermes-dashboard-plugin) — lightweight neubrutalist dashboard add-on built on the official plugin SDK, giving Hermes web users a unified tab for sessions, skills, profiles, token usage, and editable memory files.
 - [Hermes Prompt Vault](https://github.com/LeventeNagy/hermes-prompt-vault) — prompt library plugin with /vault commands and a dashboard UI for saving, searching, and reusing prompts from any platform.
 - [Hermes Workspace Dashboard Plugin](https://github.com/outsourc-e/hermes-workspace-plugin) — dashboard tab that embeds Hermes Workspace chat, with local port auto-detection and one-command install.
+- [Hermes Canvas](https://github.com/tonbistudio/hermes-canvas) — dashboard plugin that turns the Hermes web dashboard into a live frontend creation studio with project scaffolding, dev-server control, and agent-driven editing.
 - [Hermes Achievements](https://github.com/PCinkusz/hermes-achievements) — badge system for turning real Hermes session history into collectible dashboard achievements.
 - [Agent Analytics Hermes Plugin](https://github.com/Agent-Analytics/agent-analytics-hermes-plugin) — dashboard-only analytics add-on that embeds account connection, project selection, and read-only web analytics inside the Hermes dashboard for operators who want campaign or site signals next to agent activity.
 - [Hermes Labyrinth](https://github.com/stainlu/hermes-labyrinth) — read-only dashboard plugin that treats Hermes like a flight recorder, turning prompts, tool calls, failures, approvals, memory hits, cron runs, and subagents into exportable observability trails instead of another chat UI.
