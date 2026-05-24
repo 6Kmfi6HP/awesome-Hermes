@@ -211,6 +211,7 @@ If you are new to Hermes, this order works well:
 - [Ladybug Memory Plugin](https://github.com/Ladybug-Memory/hermes-memory-plugin) — local-first memory provider that keeps Hermes recall in a single on-disk `.lbdb` graph database with typed memories, weighted recall, and optional entity extraction.
 - [Membase for Hermes](https://github.com/aristoapp/hermes-membase) — persistent memory plugin that pairs hybrid vector plus knowledge-graph recall with wiki retrieval and mirroring of Hermes’s built-in `MEMORY.md`, giving teams a shared long-term memory layer beyond local files.
 - [Hermes Dashboard Plugin](https://github.com/tmdgusya/hermes-dashboard-plugin) — lightweight neubrutalist dashboard add-on built on the official plugin SDK, giving Hermes web users a unified tab for sessions, skills, profiles, token usage, and editable memory files.
+- [Hermes Theme Editor](https://github.com/sanchomuzax/hermes-theme-editor) — dashboard plugin for visually creating, previewing, and activating custom YAML themes without hand-editing theme files.
 - [Hermes Prompt Vault](https://github.com/LeventeNagy/hermes-prompt-vault) — prompt library plugin with /vault commands and a dashboard UI for saving, searching, and reusing prompts from any platform.
 - [Hermes Workspace Dashboard Plugin](https://github.com/outsourc-e/hermes-workspace-plugin) — dashboard tab that embeds Hermes Workspace chat, with local port auto-detection and one-command install.
 - [Hermes Canvas](https://github.com/tonbistudio/hermes-canvas) — dashboard plugin that turns the Hermes web dashboard into a live frontend creation studio with project scaffolding, dev-server control, and agent-driven editing.
@@ -240,6 +241,7 @@ If you are new to Hermes, this order works well:
 - [hermesclaw](https://github.com/TheAiSingularity/hermesclaw) — runs Hermes inside NVIDIA OpenShell-style sandbox boundaries for stronger containment.
 - [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) — migration helper for older OpenClaw users.
 - [Honcho Self-Hosted for Hermes](https://github.com/elkimek/honcho-self-hosted) — self-hosted memory backend setup.
+- [Hermes Memory Installer](https://github.com/mage0535/hermes-memory-installer) — one-click persistent memory stack with SQLite FTS5, lifecycle guards, and gbrain knowledge-graph sync.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — another long-term memory layer that can complement Hermes workflows.
 
 ## Integrations and Bridges
