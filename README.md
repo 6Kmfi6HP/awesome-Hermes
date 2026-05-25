@@ -120,6 +120,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Workspace](https://github.com/outsourc-e/hermes-workspace) — the best-known browser workspace for Hermes with chat, terminal, memory, skills, and inspector.
 - [Pan UI](https://github.com/Euraika-Labs/pan-ui) — another self-hosted workspace focused on operating Hermes with a fuller control panel.
 - [Hermes Desktop (cross-platform companion)](https://github.com/fathah/hermes-desktop) — desktop wrapper that helps with install, provider setup, chat, sessions, memory, skills, and settings across macOS and Linux.
+- [Hermes Desktop for Windows](https://github.com/acegraphx/hermes-desktop-win) — native WPF workspace for Windows users who want SSH access to Hermes hosts plus sessions, files, wiki, skills, cron, and terminal management.
 - [Scarf](https://github.com/awizemann/scarf) — native macOS GUI with multi-window local/remote server support over SSH, covering chat, dashboard, sessions, memory, cron, MCP, and config workflows from one desktop app.
 - [Hermes Desktop (native macOS over SSH)](https://github.com/dodo-reach/hermes-desktop) — native Mac workspace that connects straight to a Hermes host over SSH, keeps the remote machine as the source of truth, and exposes sessions, skills, usage views, and a real terminal without a browser layer.
 - [Hermes Desktop - OS1 Edition](https://github.com/nickvasilescu/hermes-desktop-os1) — native macOS workspace for Hermes on Orgo cloud computers and SSH hosts, with VM provisioning, sessions, kanban, files, skills, cron, terminal, and WebRTC voice mode.
@@ -165,6 +166,7 @@ If you are new to Hermes, this order works well:
 - [awesome-hermes-skills](https://github.com/ChuckSRQ/awesome-hermes-skills) — curated, install-ready Hermes skill pack covering research, artifact previews, self-improvement benchmarks, and GitHub workflows.
 - [hermes-merchant](https://github.com/arimanyus/hermes-merchant) — portable Hermes skill pack for ML/AI job scraping, profile scoring, and Greenhouse application automation.
 - [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) — generates reusable skills from repeated work.
+- [Hermes Memory Skills](https://github.com/nexus9888/hermes-memory-skills) — memory-hygiene skill pack that runs dreaming and surgical trimming across different memory backends.
 - [Super Hermes](https://github.com/Cranot/super-hermes) — analytical skill set that teaches Hermes to write sharper reasoning lenses, expose blind spots, and report structural constraints during deep analysis.
 - [hermeshub](https://github.com/amanning3390/hermeshub) — community discovery hub for Hermes skills.
 - [skilldock.io](https://github.com/chigwell/skilldock.io) — cross-agent skill registry.
@@ -186,6 +188,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Memory Provider (Basic Memory)](https://github.com/basicmachines-co/hermes-basic-memory) — memory-provider plugin that swaps in a Basic Memory knowledge graph, adds search-before-answer recall, per-turn capture, session summaries, and direct `/bm-*` control commands.
 - [MemOS](https://github.com/MemTensor/MemOS) — broader memory OS that now ships a Hermes local plugin with hybrid retrieval, smart deduplication, visual memory management, and a shared multi-agent knowledge layer.
 - [agentmemory](https://github.com/rohitg00/agentmemory) — external long-term memory engine with a dedicated Hermes memory-provider plugin, REST/MCP access, session replay, and a real-time viewer for cross-session recall.
+- [Supermemory](https://github.com/supermemoryai/supermemory) — official memory engine and app with Hermes support, hybrid search, connectors, and a native long-term context layer.
 - [mem9 Hermes Plugin](https://github.com/mem9-ai/mem9-hermes-plugin) — hosted persistent memory plugin for Hermes with semantic recall, turn-by-turn extraction, and quick CLI setup.
 - [yantrikdb-hermes-plugin](https://github.com/yantrikos/yantrikdb-hermes-plugin) — self-maintaining memory provider with canonicalization, contradiction tracking, and explainable recall.
 - [hermes-observational-memory](https://github.com/intertwine/hermes-observational-memory) — standalone memory-provider plugin that lets Hermes share a local markdown memory store with Claude Code and Codex, with searchable observations and optional writeback.
