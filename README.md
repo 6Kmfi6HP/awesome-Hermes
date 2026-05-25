@@ -197,6 +197,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Plugin: Carabiner](https://github.com/donovan-yohan/hermes-plugin-carabiner) — Honcho-backed relationship memory plugin for specialist-agent handoffs, feedback loops, and peer context before delegations.
 - [hermes-notification](https://github.com/itgoyo/hermes-notification) — tiny cross-platform plugin that fires native desktop notifications and sound when Hermes finishes a response.
 - [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) — richer web-search routing.
+- [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - native Hermes Agent X/Twitter plugin for Xquik, covering tweet search, replies, user lookup, tweet monitoring, follower export, and approval-gated posting, replies, and DMs.
 - [hermes-opencode-plugin](https://github.com/zaycruz/hermes-opencode-plugin) — lets Hermes hand software-engineering tasks to OpenCode’s multi-agent harness.
 - [hermes-provider-switcher](https://github.com/tmdgusya/hermes-provider-switcher) — runs Claude Code through GLM, Kimi, MiniMax, and similar providers without manual shell env switching.
 - [hermes-lcm](https://github.com/stephenschoettler/hermes-lcm) — lossless context-management layer built around DAG summaries and drill-back tools.
