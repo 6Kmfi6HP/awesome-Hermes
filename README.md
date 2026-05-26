@@ -156,6 +156,7 @@ If you are new to Hermes, this order works well:
 - [Creating Skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills)
 - [Work with Skills](https://hermes-agent.nousresearch.com/docs/guides/work-with-skills)
 - [Shopify Skill](https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/productivity/productivity-shopify) — official optional commerce skill for managing Shopify products, orders, inventory, customers, and fulfillments directly from Hermes via GraphQL.
+- [OpenHands](https://hermes-agent.nousresearch.com/docs/user-guide/skills/optional/autonomous-ai-agents/autonomous-ai-agents-openhands) — official optional skill for delegating coding work to the OpenHands CLI in headless, model-agnostic mode.
 - [agentskills.io](https://agentskills.io) — open skill ecosystem used across multiple agent stacks.
 - [wondelai/skills](https://github.com/wondelai/skills) — broad community skill collection.
 - [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) — large security-oriented skill library.
@@ -307,6 +308,7 @@ If you are new to Hermes, this order works well:
 - [hermes-agent-anatomy](https://github.com/anneheartrecord/hermes-agent-anatomy) — Chinese codebase anatomy series with diagrams and module-by-module analysis.
 - [hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — practical setup, migration, LightRAG, Telegram, and skill-building guide.
 - [Hermes Agent + Honcho](https://docs.honcho.dev/v3/guides/integrations/hermes) — Honcho’s own integration guide explaining how Hermes uses peer modeling, durable writeback, and semantic memory tools beyond the built-in local files.
+- [Hermes Agent v0.13 Reference](https://blakecrosley.com/guides/hermes) — detailed independent reference that pulls together architecture, installation, provider auth, security, and everyday CLI operations.
 - [Hermes Agent Book](https://github.com/ZhangHanDong/hermes-book) — source-level Chinese book that walks through Hermes architecture, prompt assembly, tools, memory providers, CLI/gateway internals, and runtime design tradeoffs chapter by chapter.
 - [Hermes Atlas](https://github.com/ksimback/hermes-ecosystem) — community-maintained ecosystem map and companion site covering vetted Hermes projects, themed resource lists, live repo metadata, beginner guides, and narrative reports on the broader ecosystem.
 - [Hermes Atlas MCP](https://github.com/ksimback/hermes-atlas-mcp) — MCP server that exposes the live Hermes Atlas catalog to Claude Desktop, Cursor, Continue, and other MCP-aware clients so they can search Hermes tools, guides, and ecosystem projects from inside the agent.
