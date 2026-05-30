@@ -172,6 +172,7 @@ If you are new to Hermes, this order works well:
 - [hermeshub](https://github.com/amanning3390/hermeshub) — community discovery hub for Hermes skills.
 - [skilldock.io](https://github.com/chigwell/skilldock.io) — cross-agent skill registry.
 - [HyperDirector](https://github.com/gloweaseco-leo/hyperdirector) — Hermes skill pack for structured HyperFrames video production, with brief→storyboard→HTML→render workflow and install scripts.
+- [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) — 215 ready-to-use Chinese AI expert roles covering engineering, design, marketing, finance, and more, with explicit Hermes Agent install support via `--category` batching.
 
 ### Plugins and add-ons
 
@@ -267,6 +268,8 @@ If you are new to Hermes, this order works well:
 - [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) — blockchain analytics via MCP-style integration.
 - [hermes-council](https://github.com/Ridwannurudeen/hermes-council) — adversarial multi-view decision support.
 - [hermes-CCC](https://github.com/AlexAI-MCP/hermes-CCC) — ports core Hermes ideas and skill workflows into Claude Code Channel.
+- [Composio MCP Integration](https://composio.dev/toolkits/composio/framework/hermes-agent) — connect Hermes to 1,000+ SaaS apps through Composio's SOC 2 compliant MCP bridge, with managed OAuth, tool routing, and parallel execution.
+- [CodeGraph](https://github.com/colbymchenry/codegraph) — local pre-indexed code knowledge graph that replaces expensive grep/read cycles with direct SQLite queries, cutting token usage and tool calls by 50–90% for Hermes and other coding agents.
 
 ## Research, Multi-Agent, and Domain Projects
 
@@ -307,6 +310,7 @@ If you are new to Hermes, this order works well:
 - [llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) — general tool for compiling raw sources into an interlinked markdown wiki that Hermes users can query and extend over time.
 - [hermes-agent-anatomy](https://github.com/anneheartrecord/hermes-agent-anatomy) — Chinese codebase anatomy series with diagrams and module-by-module analysis.
 - [hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — practical setup, migration, LightRAG, Telegram, and skill-building guide.
+- [Hermes Agent Setup and Tutorial Guide (DataCamp)](https://www.datacamp.com/tutorial/hermes-agent) — comprehensive beginner-to-intermediate tutorial covering installation, local models, research workflows, and troubleshooting from a well-known educational platform.
 - [Hermes Agent + Honcho](https://docs.honcho.dev/v3/guides/integrations/hermes) — Honcho’s own integration guide explaining how Hermes uses peer modeling, durable writeback, and semantic memory tools beyond the built-in local files.
 - [Hermes Agent v0.13 Reference](https://blakecrosley.com/guides/hermes) — detailed independent reference that pulls together architecture, installation, provider auth, security, and everyday CLI operations.
 - [Hermes Agent Book](https://github.com/ZhangHanDong/hermes-book) — source-level Chinese book that walks through Hermes architecture, prompt assembly, tools, memory providers, CLI/gateway internals, and runtime design tradeoffs chapter by chapter.
