@@ -174,6 +174,8 @@ If you are new to Hermes, this order works well:
 - [HyperDirector](https://github.com/gloweaseco-leo/hyperdirector) — Hermes skill pack for structured HyperFrames video production, with brief→storyboard→HTML→render workflow and install scripts.
 - [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) — 215 ready-to-use Chinese AI expert roles covering engineering, design, marketing, finance, and more, with explicit Hermes Agent install support via `--category` batching.
 
+- [hermes-skill-atlas](https://github.com/codesstar/hermes-skill-atlas) — interactive map of 70+ curated, verified open-source Hermes skills with search and category filtering.
+- [Felo Skills Pack](https://felo.ai/skills/hermes-agent) — 12 production-ready Hermes skills for research, slides, content creation, social listening, and persistent LiveDoc workflows.
 ### Plugins and add-ons
 
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
@@ -199,6 +201,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Plugin: Carabiner](https://github.com/donovan-yohan/hermes-plugin-carabiner) — Honcho-backed relationship memory plugin for specialist-agent handoffs, feedback loops, and peer context before delegations.
 - [hermes-notification](https://github.com/itgoyo/hermes-notification) — tiny cross-platform plugin that fires native desktop notifications and sound when Hermes finishes a response.
 - [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus) — richer web-search routing.
+- [cronalytics](https://github.com/8bit64k/cronalytics) — cron analytics and observability plugin that visualizes scheduled task history, runtimes, failures, and cost across Hermes cron jobs.
 - [hermes-opencode-plugin](https://github.com/zaycruz/hermes-opencode-plugin) — lets Hermes hand software-engineering tasks to OpenCode’s multi-agent harness.
 - [hermes-provider-switcher](https://github.com/tmdgusya/hermes-provider-switcher) — runs Claude Code through GLM, Kimi, MiniMax, and similar providers without manual shell env switching.
 - [hermes-lcm](https://github.com/stephenschoettler/hermes-lcm) — lossless context-management layer built around DAG summaries and drill-back tools.
@@ -242,6 +245,7 @@ If you are new to Hermes, this order works well:
 - [portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes) — Portainer and Docker Compose style deployment.
 - [hermes-autonomous-server](https://github.com/JackTheGit/hermes-autonomous-server) — unattended server-style deployment.
 - [hermes-ha-addon](https://github.com/WolframRavenwolf/hermes-ha-addon) — packages Hermes as a Home Assistant add-on with persistent terminal and gateway access.
+- [hermes-agent-control-room](https://github.com/CryptoDmitry/hermes-agent-control-room) — control-room-first template for managing Hermes agents from one VPS to specialist teams with orchestrated workflows.
 - [Unofficial Hermes Agent Helm Chart](https://github.com/ultraworkers/hermes-agent-helm-chart) — Kubernetes packaging with explicit single-writer storage guardrails, values schema, and cloud-native composition points for teams that want a more operator-friendly deployment path than raw Docker Compose.
 - [hermesclaw](https://github.com/TheAiSingularity/hermesclaw) — runs Hermes inside NVIDIA OpenShell-style sandbox boundaries for stronger containment.
 - [openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes) — migration helper for older OpenClaw users.
@@ -249,6 +253,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Memory Installer](https://github.com/mage0535/hermes-memory-installer) — one-click persistent memory stack with SQLite FTS5, lifecycle guards, and gbrain knowledge-graph sync.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — another long-term memory layer that can complement Hermes workflows.
 
+- [Mem0 Integration](https://docs.mem0.ai/integrations/hermes) — official Mem0 memory provider plugin for Hermes with automatic background sync, zero-latency prefetch, and semantic reranking.
 ## Integrations and Bridges
 
 - [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations)
@@ -269,6 +274,8 @@ If you are new to Hermes, this order works well:
 - [hermes-council](https://github.com/Ridwannurudeen/hermes-council) — adversarial multi-view decision support.
 - [hermes-CCC](https://github.com/AlexAI-MCP/hermes-CCC) — ports core Hermes ideas and skill workflows into Claude Code Channel.
 - [Composio MCP Integration](https://composio.dev/toolkits/composio/framework/hermes-agent) — connect Hermes to 1,000+ SaaS apps through Composio's SOC 2 compliant MCP bridge, with managed OAuth, tool routing, and parallel execution.
+- [hermesclaw WeChat](https://github.com/AaronWong1999/hermesclaw) — run Hermes Agent and OpenClaw on the same WeChat account for unified messaging.
+- [hermes-nextcloud](https://github.com/adnw-vinc/hermes-nextcloud) — Hermes skill for managing Nextcloud files, notes, calendar, tasks, and contacts via WebDAV and CalDAV.
 - [CodeGraph](https://github.com/colbymchenry/codegraph) — local pre-indexed code knowledge graph that replaces expensive grep/read cycles with direct SQLite queries, cutting token usage and tool calls by 50–90% for Hermes and other coding agents.
 
 ## Research, Multi-Agent, and Domain Projects
