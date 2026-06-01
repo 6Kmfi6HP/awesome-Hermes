@@ -146,6 +146,9 @@ If you are new to Hermes, this order works well:
 - [Web3Hermes](https://github.com/Web3CZ/Web3Hermes) — lightweight Chinese-localized WebUI focused on desktop browser chat, sessions, workspace, and task views for mainland users.
 - [Hermes HUD UI](https://github.com/joeynyc/hermes-hudui) — browser-based consciousness monitor for Hermes that visualizes memory, token costs, skills, cron jobs, and growth snapshots directly from ~/.hermes/.
 - [Hermes HUD](https://github.com/joeynyc/hermes-hud) — terminal-first companion to the HUD UI for live inspection of memory, skills, mistakes, tool usage, and ongoing agent growth.
+- [Hermes Client](https://github.com/lotsoftick/hermes_client) — web-based chat interface for Hermes with multi-profile management, real-time streaming, cron/skill/plugin configuration, and PWA support for standalone desktop windows.
+- [Hermes Agent CN Desktop](https://github.com/Eynzof/hermes-agent-cn-desktop) — native Windows-first desktop client for the Chinese Hermes community, built with Tauri v2 + Rust + React, featuring runtime management, diagnostics, memory tools, and secure proxying.
+- [ClawPanel](https://github.com/qingchencloud/clawpanel) — multi-engine AI management panel supporting both OpenClaw and Hermes Agent, with a built-in AI assistant that handles environment checks, log analysis, config repair, and automated troubleshooting via Rust + Tauri v2.
 
 ## Skills, Plugins, and Extensions
 
@@ -176,6 +179,7 @@ If you are new to Hermes, this order works well:
 
 - [hermes-skill-atlas](https://github.com/codesstar/hermes-skill-atlas) — interactive map of 70+ curated, verified open-source Hermes skills with search and category filtering.
 - [Felo Skills Pack](https://felo.ai/skills/hermes-agent) — 12 production-ready Hermes skills for research, slides, content creation, social listening, and persistent LiveDoc workflows.
+- [hermes-edu-skills](https://github.com/zhongweiv/hermes-edu-skills) — 188 structured Chinese education skills covering textbook sync, exam prep, teacher tools, and family learning, installable via CLI with cross-agent export support.
 ### Plugins and add-ons
 
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
@@ -227,6 +231,7 @@ If you are new to Hermes, this order works well:
 - [Agent Analytics Hermes Plugin](https://github.com/Agent-Analytics/agent-analytics-hermes-plugin) — dashboard-only analytics add-on that embeds account connection, project selection, and read-only web analytics inside the Hermes dashboard for operators who want campaign or site signals next to agent activity.
 - [Hermes Labyrinth](https://github.com/stainlu/hermes-labyrinth) — read-only dashboard plugin that treats Hermes like a flight recorder, turning prompts, tool calls, failures, approvals, memory hits, cron runs, and subagents into exportable observability trails instead of another chat UI.
 - [Honcho Memory Plugin](https://github.com/GumbyEnder/hermes-plugins) — dashboard plugin bundle centered on a Honcho memory panel with live stats, queue health, semantic search, and drill-down views for documents and message history.
+- [GBrain](https://github.com/garrytan/gbrain) — production-grade knowledge graph brain layer by Garry Tan that performs synthesis, graph traversal, and gap analysis over personal and institutional knowledge, with hybrid vector/BM25 search, self-wiring entity graph, and crash-safe sub-agent job queue.
 
 ## Deployment and Operations
 
@@ -254,6 +259,7 @@ If you are new to Hermes, this order works well:
 - [Hindsight](https://github.com/vectorize-io/hindsight) — another long-term memory layer that can complement Hermes workflows.
 
 - [Mem0 Integration](https://docs.mem0.ai/integrations/hermes) — official Mem0 memory provider plugin for Hermes with automatic background sync, zero-latency prefetch, and semantic reranking.
+- [hermes-patches](https://github.com/Cyrene963/hermes-patches) — community patch collection for Hermes Agent covering memory metacognition, structured memory graph tools, hybrid skill selectors, multi-user isolation, and Telegram context enhancements with an overlay-first install strategy.
 ## Integrations and Bridges
 
 - [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations)
@@ -293,6 +299,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Skill Forge](https://github.com/Lethe044/hermes-skill-marketplace) — experimental self-evolving agent that turns repeated work into tested, publishable skills instead of stopping at one-off task completion.
 - [Hermes Agent (CaMeL fork)](https://github.com/nativ3ai/hermes-agent-camel) — Hermes fork with opt-in CaMeL trust boundaries and runtime guardrails against indirect prompt injection.
 - [Hermes Skill Distillation](https://github.com/beardthelion/hermes-skill-distillation) — hackathon pipeline that turns real task trajectories into fine-tuning data for Hermes 4.
+- [Oh My Hermes](https://github.com/Salomondiei08/oh-my-hermes) — opinionated autonomous workflow layer with 23 skills and 5 workflows that turns Hermes into a full-stack CTO with Kanban management, GitHub issue triage, security scanning, and human-in-the-loop deployment.
 
 ### Domain-specific applications
 
