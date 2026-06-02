@@ -150,6 +150,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent CN Desktop](https://github.com/Eynzof/hermes-agent-cn-desktop) — native Windows-first desktop client for the Chinese Hermes community, built with Tauri v2 + Rust + React, featuring runtime management, diagnostics, memory tools, and secure proxying.
 - [ClawPanel](https://github.com/qingchencloud/clawpanel) — multi-engine AI management panel supporting both OpenClaw and Hermes Agent, with a built-in AI assistant that handles environment checks, log analysis, config repair, and automated troubleshooting via Rust + Tauri v2.
 
+- [Agent Sessions](https://github.com/jazzyalex/agent-sessions) — native macOS session browser and cockpit for Hermes (and Claude Code, Codex, OpenCode, Gemini CLI), with search/filter across all past sessions, archive and resume, real-time rate-limit tracking, and analytics.
 ## Skills, Plugins, and Extensions
 
 ### Skills and skill ecosystems
@@ -233,6 +234,9 @@ If you are new to Hermes, this order works well:
 - [Honcho Memory Plugin](https://github.com/GumbyEnder/hermes-plugins) — dashboard plugin bundle centered on a Honcho memory panel with live stats, queue health, semantic search, and drill-down views for documents and message history.
 - [GBrain](https://github.com/garrytan/gbrain) — production-grade knowledge graph brain layer by Garry Tan that performs synthesis, graph traversal, and gap analysis over personal and institutional knowledge, with hybrid vector/BM25 search, self-wiring entity graph, and crash-safe sub-agent job queue.
 
+- [ClawSec](https://github.com/prompt-security/clawsec) — security skill suite maintained by Prompt Security with NVD-backed advisory feed, drift detection for SOUL.md and config files, supply-chain skill integrity verification, and a Hermes-specific `hermes-attestation-guardian` skill.
+- [ComfyUI Skills for OpenClaw](https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw) — turns any ComfyUI image-generation workflow into a callable Hermes/agent skill via CLI, with schema-based parameter mapping, multi-server routing, and dependency checking.
+- [Hermes Multi-Agent Workflow](https://github.com/tonbistudio/hermes-multi-agent-workflow) — reusable triage pipeline template built on Hermes Kanban: `sources → intake → dedup → score → research → route → Human Gate → fulfill → deliver`, with domain-agnostic engine and triage.yaml config.
 ## Deployment and Operations
 
 - [Contributing Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/contributing)
@@ -258,6 +262,8 @@ If you are new to Hermes, this order works well:
 - [Hermes Memory Installer](https://github.com/mage0535/hermes-memory-installer) — one-click persistent memory stack with SQLite FTS5, lifecycle guards, and gbrain knowledge-graph sync.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — another long-term memory layer that can complement Hermes workflows.
 
+- [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's open-source sandboxed agent runtime with a dedicated Hermes quickstart, providing hardened execution environments, network policy enforcement, and managed inference inside OpenShell. Apache 2.0.
+- [tenbox](https://github.com/78/tenbox) — lightweight x86-64/arm64 Virtual Machine Monitor for running Hermes inside hardware-accelerated VMs, offering a VM-level isolation boundary as an alternative to container-based sandboxing. Cross-platform (Windows WHVP, macOS Hypervisor Framework, Linux KVM).
 - [Mem0 Integration](https://docs.mem0.ai/integrations/hermes) — official Mem0 memory provider plugin for Hermes with automatic background sync, zero-latency prefetch, and semantic reranking.
 - [hermes-patches](https://github.com/Cyrene963/hermes-patches) — community patch collection for Hermes Agent covering memory metacognition, structured memory graph tools, hybrid skill selectors, multi-user isolation, and Telegram context enhancements with an overlay-first install strategy.
 ## Integrations and Bridges
