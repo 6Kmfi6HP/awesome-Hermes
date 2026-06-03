@@ -286,9 +286,11 @@ If you are new to Hermes, this order works well:
 - [hermes-council](https://github.com/Ridwannurudeen/hermes-council) — adversarial multi-view decision support.
 - [hermes-CCC](https://github.com/AlexAI-MCP/hermes-CCC) — ports core Hermes ideas and skill workflows into Claude Code Channel.
 - [Composio MCP Integration](https://composio.dev/toolkits/composio/framework/hermes-agent) — connect Hermes to 1,000+ SaaS apps through Composio's SOC 2 compliant MCP bridge, with managed OAuth, tool routing, and parallel execution.
+- [LangBot](https://github.com/langbot-app/LangBot) — production-grade multi-platform AI bot platform (16K+ stars) that supports Hermes Agent as a backend, covering Discord, Slack, LINE, Telegram, WeChat, Feishu, DingTalk, and QQ with built-in knowledge base orchestration and plugin system.
 - [hermesclaw WeChat](https://github.com/AaronWong1999/hermesclaw) — run Hermes Agent and OpenClaw on the same WeChat account for unified messaging.
 - [hermes-nextcloud](https://github.com/adnw-vinc/hermes-nextcloud) — Hermes skill for managing Nextcloud files, notes, calendar, tasks, and contacts via WebDAV and CalDAV.
 - [CodeGraph](https://github.com/colbymchenry/codegraph) — local pre-indexed code knowledge graph that replaces expensive grep/read cycles with direct SQLite queries, cutting token usage and tool calls by 50–90% for Hermes and other coding agents.
+- [Infisical agent-vault](https://github.com/Infisical/agent-vault) — HTTP credential proxy and vault for AI agents including Hermes, Claude Code, and OpenClaw, providing centralized secret management with fine-grained access control for agent harnesses.
 
 ## Research, Multi-Agent, and Domain Projects
 
@@ -306,6 +308,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent (CaMeL fork)](https://github.com/nativ3ai/hermes-agent-camel) — Hermes fork with opt-in CaMeL trust boundaries and runtime guardrails against indirect prompt injection.
 - [Hermes Skill Distillation](https://github.com/beardthelion/hermes-skill-distillation) — hackathon pipeline that turns real task trajectories into fine-tuning data for Hermes 4.
 - [Oh My Hermes](https://github.com/Salomondiei08/oh-my-hermes) — opinionated autonomous workflow layer with 23 skills and 5 workflows that turns Hermes into a full-stack CTO with Kanban management, GitHub issue triage, security scanning, and human-in-the-loop deployment.
+- [hermes-agent-rs](https://github.com/Lumio-Research/hermes-agent-rs) — complete Rust reimplementation of Hermes as a single ~16MB static binary with zero dependencies, 10 LLM providers, 30+ tools, 17 platform adapters, 8 memory backends, and Tokio async runtime; runs on Raspberry Pi and air-gapped servers.
 
 ### Domain-specific applications
 
@@ -348,6 +351,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent Guide (白皮书 / Whitepaper)](https://github.com/jwangkun/hermes-agent-guide) — large Chinese markdown book that turns scattered docs into a structured path covering architecture, deployment, migration, monetization, and multi-agent operation.
 - [awesome-hermes-usecases](https://github.com/aliaihub/awesome-hermes-usecases) — evidence-backed catalog of real-world Hermes use cases, with primary sources and runnable demos.
 - [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — another curated resource list worth checking alongside this repo.
+- [awesome-hermes-agent-zh](https://github.com/jefferyjob/awesome-hermes-agent-zh) — Chinese-language curated list of Hermes Agent skills, tools, integrations, and community resources.
 
 ### Videos
 
