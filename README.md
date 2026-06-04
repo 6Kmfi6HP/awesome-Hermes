@@ -181,6 +181,8 @@ If you are new to Hermes, this order works well:
 - [hermes-skill-atlas](https://github.com/codesstar/hermes-skill-atlas) — interactive map of 70+ curated, verified open-source Hermes skills with search and category filtering.
 - [Felo Skills Pack](https://felo.ai/skills/hermes-agent) — 12 production-ready Hermes skills for research, slides, content creation, social listening, and persistent LiveDoc workflows.
 - [hermes-edu-skills](https://github.com/zhongweiv/hermes-edu-skills) — 188 structured Chinese education skills covering textbook sync, exam prep, teacher tools, and family learning, installable via CLI with cross-agent export support.
+- [Mercury Agent Skills](https://github.com/cosmicstack-labs/mercury-agent-skills) — curated cross-agent skill registry with a web-based discovery hub, supporting Hermes, Claude Code, Codex, OpenClaw, and Cursor with one-click CLI install and version pinning.
+- [YouTube Skills](https://github.com/ZeroPointRepo/youtube-skills) — YouTube transcript extraction, search, and channel browsing skills for Hermes and other agents, powered by TranscriptAPI with no Google quota required.
 ### Plugins and add-ons
 
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
@@ -235,6 +237,7 @@ If you are new to Hermes, this order works well:
 - [GBrain](https://github.com/garrytan/gbrain) — production-grade knowledge graph brain layer by Garry Tan that performs synthesis, graph traversal, and gap analysis over personal and institutional knowledge, with hybrid vector/BM25 search, self-wiring entity graph, and crash-safe sub-agent job queue.
 
 - [ClawSec](https://github.com/prompt-security/clawsec) — security skill suite maintained by Prompt Security with NVD-backed advisory feed, drift detection for SOUL.md and config files, supply-chain skill integrity verification, and a Hermes-specific `hermes-attestation-guardian` skill.
+- [ClawShell](https://github.com/clawshell/clawshell) — runtime security layer for Hermes and OpenClaw that intercepts LLM API calls through a virtual-to-real key mapping proxy, scans for PII with configurable DLP patterns, isolates email access, and exposes usage auditing.
 - [ComfyUI Skills for OpenClaw](https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw) — turns any ComfyUI image-generation workflow into a callable Hermes/agent skill via CLI, with schema-based parameter mapping, multi-server routing, and dependency checking.
 - [Hermes Multi-Agent Workflow](https://github.com/tonbistudio/hermes-multi-agent-workflow) — reusable triage pipeline template built on Hermes Kanban: `sources → intake → dedup → score → research → route → Human Gate → fulfill → deliver`, with domain-agnostic engine and triage.yaml config.
 ## Deployment and Operations
@@ -351,6 +354,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent Guide (白皮书 / Whitepaper)](https://github.com/jwangkun/hermes-agent-guide) — large Chinese markdown book that turns scattered docs into a structured path covering architecture, deployment, migration, monetization, and multi-agent operation.
 - [awesome-hermes-usecases](https://github.com/aliaihub/awesome-hermes-usecases) — evidence-backed catalog of real-world Hermes use cases, with primary sources and runnable demos.
 - [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — another curated resource list worth checking alongside this repo.
+- [awesome-hermes-agent (SamurAIGPT)](https://github.com/SamurAIGPT/awesome-hermes-agent) — alternative curated list with maturity labels (production/beta/experimental) covering skills, plugins, tools, and integrations for Hermes Agent.
 - [awesome-hermes-agent-zh](https://github.com/jefferyjob/awesome-hermes-agent-zh) — Chinese-language curated list of Hermes Agent skills, tools, integrations, and community resources.
 
 ### Videos
