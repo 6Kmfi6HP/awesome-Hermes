@@ -148,6 +148,7 @@ If you are new to Hermes, this order works well:
 - [Hermes HUD](https://github.com/joeynyc/hermes-hud) — terminal-first companion to the HUD UI for live inspection of memory, skills, mistakes, tool usage, and ongoing agent growth.
 - [Hermes Client](https://github.com/lotsoftick/hermes_client) — web-based chat interface for Hermes with multi-profile management, real-time streaming, cron/skill/plugin configuration, and PWA support for standalone desktop windows.
 - [Hermes Agent CN Desktop](https://github.com/Eynzof/hermes-agent-cn-desktop) — native Windows-first desktop client for the Chinese Hermes community, built with Tauri v2 + Rust + React, featuring runtime management, diagnostics, memory tools, and secure proxying.
+- [Hermes Chat Bubble](https://github.com/clearmud/hermes-chat-bubble) — lightweight dashboard plugin that adds a floating TUI chat bubble to the Hermes Dashboard, repositioning the existing persistent chat host without opening a second session.
 - [ClawPanel](https://github.com/qingchencloud/clawpanel) — multi-engine AI management panel supporting both OpenClaw and Hermes Agent, with a built-in AI assistant that handles environment checks, log analysis, config repair, and automated troubleshooting via Rust + Tauri v2.
 
 - [Agent Sessions](https://github.com/jazzyalex/agent-sessions) — native macOS session browser and cockpit for Hermes (and Claude Code, Codex, OpenCode, Gemini CLI), with search/filter across all past sessions, archive and resume, real-time rate-limit tracking, and analytics.
@@ -182,6 +183,7 @@ If you are new to Hermes, this order works well:
 - [Felo Skills Pack](https://felo.ai/skills/hermes-agent) — 12 production-ready Hermes skills for research, slides, content creation, social listening, and persistent LiveDoc workflows.
 - [hermes-edu-skills](https://github.com/zhongweiv/hermes-edu-skills) — 188 structured Chinese education skills covering textbook sync, exam prep, teacher tools, and family learning, installable via CLI with cross-agent export support.
 - [Mercury Agent Skills](https://github.com/cosmicstack-labs/mercury-agent-skills) — curated cross-agent skill registry with a web-based discovery hub, supporting Hermes, Claude Code, Codex, OpenClaw, and Cursor with one-click CLI install and version pinning.
+- [hermes-arxiv-agent](https://github.com/genggng/hermes-arxiv-agent) — arXiv paper auto-fetching skill that generates Chinese summaries, pushes daily digests to Feishu, and provides a local or GitHub Pages reading site for browsing curated papers.
 - [YouTube Skills](https://github.com/ZeroPointRepo/youtube-skills) — YouTube transcript extraction, search, and channel browsing skills for Hermes and other agents, powered by TranscriptAPI with no Google quota required.
 ### Plugins and add-ons
 
@@ -197,6 +199,8 @@ If you are new to Hermes, this order works well:
 - [MemPalace](https://github.com/neilharding/hermes_memorypalace) — workspace-scoped hierarchical memory provider with local ChromaDB + SQLite recall and explicit/implicit memory lanes.
 - [Mnemosyne](https://github.com/AxDSan/mnemosyne) — local-first SQLite memory provider for Hermes with sub-millisecond retrieval, optional vector/FTS recall, MCP tools, and migration paths from cloud memory backends.
 - [Hermes Memory Provider (Basic Memory)](https://github.com/basicmachines-co/hermes-basic-memory) — memory-provider plugin that swaps in a Basic Memory knowledge graph, adds search-before-answer recall, per-turn capture, session summaries, and direct `/bm-*` control commands.
+- [LanceDB Hermes Agent Memory](https://github.com/lancedb/hermes-agent-memory) — LanceDB-backed memory provider that embeds a workspace-scoped LanceDB table with vector ANN recall, optional hybrid mode (vector + BM25 via RRF), and durable facts with typed memory lanes.
+- [Hermes Memory pgvector](https://github.com/andreab67/hermes-memory-pgvector) — Postgres + pgvector memory provider for multi-agent fleets, with per-minion themes, async writing, and a single embedding endpoint — no LLM in the memory hot path.
 - [MemOS](https://github.com/MemTensor/MemOS) — broader memory OS that now ships a Hermes local plugin with hybrid retrieval, smart deduplication, visual memory management, and a shared multi-agent knowledge layer.
 - [agentmemory](https://github.com/rohitg00/agentmemory) — external long-term memory engine with a dedicated Hermes memory-provider plugin, REST/MCP access, session replay, and a real-time viewer for cross-session recall.
 - [Supermemory](https://github.com/supermemoryai/supermemory) — official memory engine and app with Hermes support, hybrid search, connectors, and a native long-term context layer.
@@ -266,6 +270,7 @@ If you are new to Hermes, this order works well:
 - [Hindsight](https://github.com/vectorize-io/hindsight) — another long-term memory layer that can complement Hermes workflows.
 
 - [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's open-source sandboxed agent runtime with a dedicated Hermes quickstart, providing hardened execution environments, network policy enforcement, and managed inference inside OpenShell. Apache 2.0.
+- [NemoClaw Community](https://github.com/NVIDIA/nemoclaw-community) — NVIDIA's community-driven repository of examples, showcases, and integrations for composing constrained, inspectable agent workflows with NemoClaw blueprints.
 - [tenbox](https://github.com/78/tenbox) — lightweight x86-64/arm64 Virtual Machine Monitor for running Hermes inside hardware-accelerated VMs, offering a VM-level isolation boundary as an alternative to container-based sandboxing. Cross-platform (Windows WHVP, macOS Hypervisor Framework, Linux KVM).
 - [Mem0 Integration](https://docs.mem0.ai/integrations/hermes) — official Mem0 memory provider plugin for Hermes with automatic background sync, zero-latency prefetch, and semantic reranking.
 - [hermes-patches](https://github.com/Cyrene963/hermes-patches) — community patch collection for Hermes Agent covering memory metacognition, structured memory graph tools, hybrid skill selectors, multi-user isolation, and Telegram context enhancements with an overlay-first install strategy.
@@ -291,6 +296,7 @@ If you are new to Hermes, this order works well:
 - [Composio MCP Integration](https://composio.dev/toolkits/composio/framework/hermes-agent) — connect Hermes to 1,000+ SaaS apps through Composio's SOC 2 compliant MCP bridge, with managed OAuth, tool routing, and parallel execution.
 - [LangBot](https://github.com/langbot-app/LangBot) — production-grade multi-platform AI bot platform (16K+ stars) that supports Hermes Agent as a backend, covering Discord, Slack, LINE, Telegram, WeChat, Feishu, DingTalk, and QQ with built-in knowledge base orchestration and plugin system.
 - [hermesclaw WeChat](https://github.com/AaronWong1999/hermesclaw) — run Hermes Agent and OpenClaw on the same WeChat account for unified messaging.
+- [clawmes](https://github.com/clawnchdev/clawmes) — Hermes Agent plugin for crypto workflows: wallet management, DEX trading, lending and staking, governance voting, and on-chain automation with 100% test coverage.
 - [hermes-nextcloud](https://github.com/adnw-vinc/hermes-nextcloud) — Hermes skill for managing Nextcloud files, notes, calendar, tasks, and contacts via WebDAV and CalDAV.
 - [CodeGraph](https://github.com/colbymchenry/codegraph) — local pre-indexed code knowledge graph that replaces expensive grep/read cycles with direct SQLite queries, cutting token usage and tool calls by 50–90% for Hermes and other coding agents.
 - [Infisical agent-vault](https://github.com/Infisical/agent-vault) — HTTP credential proxy and vault for AI agents including Hermes, Claude Code, and OpenClaw, providing centralized secret management with fine-grained access control for agent harnesses.
@@ -312,6 +318,8 @@ If you are new to Hermes, this order works well:
 - [Hermes Skill Distillation](https://github.com/beardthelion/hermes-skill-distillation) — hackathon pipeline that turns real task trajectories into fine-tuning data for Hermes 4.
 - [Oh My Hermes](https://github.com/Salomondiei08/oh-my-hermes) — opinionated autonomous workflow layer with 23 skills and 5 workflows that turns Hermes into a full-stack CTO with Kanban management, GitHub issue triage, security scanning, and human-in-the-loop deployment.
 - [hermes-agent-rs](https://github.com/Lumio-Research/hermes-agent-rs) — complete Rust reimplementation of Hermes as a single ~16MB static binary with zero dependencies, 10 LLM providers, 30+ tools, 17 platform adapters, 8 memory backends, and Tokio async runtime; runs on Raspberry Pi and air-gapped servers.
+- [go-magic](https://github.com/magicwubiao/go-magic) — high-performance, ultra-lightweight Go reimplementation of Hermes Agent with a React/TypeScript web dashboard, targeting single-binary deployment for resource-constrained environments.
+- [Hermes Turbo Agent](https://github.com/wesleysimplicio/hermes-turbo-agent) — performance benchmarks, optimized hot-paths, and a turbo scoring system for production Hermes deployments targeting 100x faster execution.
 
 ### Domain-specific applications
 
