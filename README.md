@@ -152,6 +152,11 @@ If you are new to Hermes, this order works well:
 - [ClawPanel](https://github.com/qingchencloud/clawpanel) — multi-engine AI management panel supporting both OpenClaw and Hermes Agent, with a built-in AI assistant that handles environment checks, log analysis, config repair, and automated troubleshooting via Rust + Tauri v2.
 
 - [Agent Sessions](https://github.com/jazzyalex/agent-sessions) — native macOS session browser and cockpit for Hermes (and Claude Code, Codex, OpenCode, Gemini CLI), with search/filter across all past sessions, archive and resume, real-time rate-limit tracking, and analytics.
+- [CC Switch](https://github.com/farion1231/cc-switch) — cross-platform desktop all-in-one assistant that adds one-click Hermes Agent setup alongside Claude Code, Codex, OpenCode, OpenClaw, and Gemini CLI with unified model routing.
+- [AionUi](https://github.com/iOfficeAI/AionUi) — free, local, open-source 24/7 cowork app that manages Hermes Agent alongside 20+ other CLI agents with a unified workspace and custom model routing.
+- [Wesight](https://github.com/freestylefly/wesight) — open-source desktop AI agent workspace with one-click Hermes Agent setup, custom LLM model routing, and support for Claude Code, Codex, and OpenClaw.
+- [OpenClaw-Admin](https://github.com/itq5/OpenClaw-Admin) — Vue 3 AI agent management platform that supports both OpenClaw Gateway and Hermes Agent, providing a web UI for managing agents, sessions, models, channels, and skills.
+
 ## Skills, Plugins, and Extensions
 
 ### Skills and skill ecosystems
@@ -185,6 +190,7 @@ If you are new to Hermes, this order works well:
 - [Mercury Agent Skills](https://github.com/cosmicstack-labs/mercury-agent-skills) — curated cross-agent skill registry with a web-based discovery hub, supporting Hermes, Claude Code, Codex, OpenClaw, and Cursor with one-click CLI install and version pinning.
 - [hermes-arxiv-agent](https://github.com/genggng/hermes-arxiv-agent) — arXiv paper auto-fetching skill that generates Chinese summaries, pushes daily digests to Feishu, and provides a local or GitHub Pages reading site for browsing curated papers.
 - [YouTube Skills](https://github.com/ZeroPointRepo/youtube-skills) — YouTube transcript extraction, search, and channel browsing skills for Hermes and other agents, powered by TranscriptAPI with no Google quota required.
+- [21-Day Self-Interview](https://github.com/Forlives/21-day-self-interview) — Hermes Agent skill that asks three meaningful existential-psychology questions each night for 21 days, remembers every answer, and reflects your own words back on days 7, 14, and 21. Bilingual zh/en with no external dependencies.
 ### Plugins and add-ons
 
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
@@ -204,6 +210,7 @@ If you are new to Hermes, this order works well:
 - [MemOS](https://github.com/MemTensor/MemOS) — broader memory OS that now ships a Hermes local plugin with hybrid retrieval, smart deduplication, visual memory management, and a shared multi-agent knowledge layer.
 - [agentmemory](https://github.com/rohitg00/agentmemory) — external long-term memory engine with a dedicated Hermes memory-provider plugin, REST/MCP access, session replay, and a real-time viewer for cross-session recall.
 - [Supermemory](https://github.com/supermemoryai/supermemory) — official memory engine and app with Hermes support, hybrid search, connectors, and a native long-term context layer.
+- [Open Second Brain](https://github.com/itechmeat/open-second-brain) — persistent memory layer that turns an Obsidian vault into Hermes Agent's memory store, with nighty dream passes to convert repeat corrections into confirmed preferences, deterministic confidence scoring, and an MCP server for cross-agent access.
 - [mem9 Hermes Plugin](https://github.com/mem9-ai/mem9-hermes-plugin) — hosted persistent memory plugin for Hermes with semantic recall, turn-by-turn extraction, and quick CLI setup.
 - [yantrikdb-hermes-plugin](https://github.com/yantrikos/yantrikdb-hermes-plugin) — self-maintaining memory provider with canonicalization, contradiction tracking, and explainable recall.
 - [hermes-observational-memory](https://github.com/intertwine/hermes-observational-memory) — standalone memory-provider plugin that lets Hermes share a local markdown memory store with Claude Code and Codex, with searchable observations and optional writeback.
@@ -239,11 +246,15 @@ If you are new to Hermes, this order works well:
 - [Hermes Labyrinth](https://github.com/stainlu/hermes-labyrinth) — read-only dashboard plugin that treats Hermes like a flight recorder, turning prompts, tool calls, failures, approvals, memory hits, cron runs, and subagents into exportable observability trails instead of another chat UI.
 - [Honcho Memory Plugin](https://github.com/GumbyEnder/hermes-plugins) — dashboard plugin bundle centered on a Honcho memory panel with live stats, queue health, semantic search, and drill-down views for documents and message history.
 - [GBrain](https://github.com/garrytan/gbrain) — production-grade knowledge graph brain layer by Garry Tan that performs synthesis, graph traversal, and gap analysis over personal and institutional knowledge, with hybrid vector/BM25 search, self-wiring entity graph, and crash-safe sub-agent job queue.
+- [Memory OS](https://github.com/ClaudioDrews/memory-os) — 7-layer memory operating system for Hermes Agent with Qdrant vector recall, structured facts, fabric recall, auto-curated wiki, and surgical context injection, running locally with any LLM provider.
 
 - [ClawSec](https://github.com/prompt-security/clawsec) — security skill suite maintained by Prompt Security with NVD-backed advisory feed, drift detection for SOUL.md and config files, supply-chain skill integrity verification, and a Hermes-specific `hermes-attestation-guardian` skill.
 - [ClawShell](https://github.com/clawshell/clawshell) — runtime security layer for Hermes and OpenClaw that intercepts LLM API calls through a virtual-to-real key mapping proxy, scans for PII with configurable DLP patterns, isolates email access, and exposes usage auditing.
 - [ComfyUI Skills for OpenClaw](https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw) — turns any ComfyUI image-generation workflow into a callable Hermes/agent skill via CLI, with schema-based parameter mapping, multi-server routing, and dependency checking.
 - [Hermes Multi-Agent Workflow](https://github.com/tonbistudio/hermes-multi-agent-workflow) — reusable triage pipeline template built on Hermes Kanban: `sources → intake → dedup → score → research → route → Human Gate → fulfill → deliver`, with domain-agnostic engine and triage.yaml config.
+- [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) — Chinese enhanced edition of the superpowers skill pack (116K+ stars), adding 6 original skills and full localization for Hermes Agent alongside 15 other AI coding tools.
+- [Draw.io Skill](https://github.com/Agents365-ai/drawio-skill) — generates draw.io diagrams from natural language with 6 presets, vision self-check, up to 5-round refinement, 10,000+ official shapes, and PNG/SVG/PDF export.
+
 ## Deployment and Operations
 
 - [Contributing Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/contributing)
@@ -274,6 +285,8 @@ If you are new to Hermes, this order works well:
 - [tenbox](https://github.com/78/tenbox) — lightweight x86-64/arm64 Virtual Machine Monitor for running Hermes inside hardware-accelerated VMs, offering a VM-level isolation boundary as an alternative to container-based sandboxing. Cross-platform (Windows WHVP, macOS Hypervisor Framework, Linux KVM).
 - [Mem0 Integration](https://docs.mem0.ai/integrations/hermes) — official Mem0 memory provider plugin for Hermes with automatic background sync, zero-latency prefetch, and semantic reranking.
 - [hermes-patches](https://github.com/Cyrene963/hermes-patches) — community patch collection for Hermes Agent covering memory metacognition, structured memory graph tools, hybrid skill selectors, multi-user isolation, and Telegram context enhancements with an overlay-first install strategy.
+- [ClawPhone](https://github.com/marshallrichards/ClawPhone) — scripts and tweaks for running Hermes Agent (and OpenClaw, Claude Code, Codex) on Android smartphones with Termux-based deployment.
+
 ## Integrations and Bridges
 
 - [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations)
@@ -287,6 +300,7 @@ If you are new to Hermes, this order works well:
 - [hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill) — bridge patterns for Hermes with other coding agents.
 - [hermes-computer-use](https://github.com/Noah3521/hermes-computer-use) — pixel-level browser automation MCP server for Hermes, driving stock Chrome through Xvfb and OS-level input for harder-to-detect web workflows.
 - [Hermes Skills MCP Server](https://github.com/poogas/hermes-skill-installer) — MCP bridge that lets Hermes search, inspect, install, list, and remove skills on the host even when the agent runs inside an isolated container.
+- [hermes-mcp](https://github.com/mlennie/hermes-mcp) — MCP server that lets Claude Desktop, Claude.ai, and any MCP client delegate tasks to a local Hermes Agent (cron jobs, web search, email, browser, messaging) via OAuth 2.1 and cloudflared tunnel for remote access.
 - [evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) — Hermes and Claude Code bridge idea.
 - [hermes-claude-code](https://github.com/DevvGwardo/hermes-claude-code) — MCP server and plugin bridge that delegates coding-heavy tasks from Hermes to Claude Code CLI sub-agents for implementation, testing, and git work.
 - [reina](https://github.com/Crustocean/reina) — Hermes-oriented integration inside the Crustocean platform.
@@ -364,6 +378,7 @@ If you are new to Hermes, this order works well:
 - [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) — another curated resource list worth checking alongside this repo.
 - [awesome-hermes-agent (SamurAIGPT)](https://github.com/SamurAIGPT/awesome-hermes-agent) — alternative curated list with maturity labels (production/beta/experimental) covering skills, plugins, tools, and integrations for Hermes Agent.
 - [awesome-hermes-agent-zh](https://github.com/jefferyjob/awesome-hermes-agent-zh) — Chinese-language curated list of Hermes Agent skills, tools, integrations, and community resources.
+- [Hermes Agent 中文站](https://github.com/zcweah1981/awesome-hermes-agent-zh) — practical Chinese entry point covering onboarding paths, domestic deployment, OpenClaw migration, troubleshooting, and downloadable setup packs.
 
 ### Videos
 
