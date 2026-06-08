@@ -351,6 +351,7 @@ If you are new to Hermes, this order works well:
 - [mercury](https://github.com/hxsteric/mercury) — blockchain and cash-flow analysis.
 - [hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent) — autonomous research workflow.
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) — Trust scoring MCP server for AI agents on Solana. Verify agent wallet identity before x402 micropayments. Free MCP tools: `score_agent(wallet)` and `preflight_check(wallet)`. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 ## Guides, Books, Videos, and Related Lists
 
 ### Community docs and guides
