@@ -191,6 +191,7 @@ If you are new to Hermes, this order works well:
 - [hermes-arxiv-agent](https://github.com/genggng/hermes-arxiv-agent) — arXiv paper auto-fetching skill that generates Chinese summaries, pushes daily digests to Feishu, and provides a local or GitHub Pages reading site for browsing curated papers.
 - [YouTube Skills](https://github.com/ZeroPointRepo/youtube-skills) — YouTube transcript extraction, search, and channel browsing skills for Hermes and other agents, powered by TranscriptAPI with no Google quota required.
 - [21-Day Self-Interview](https://github.com/Forlives/21-day-self-interview) — Hermes Agent skill that asks three meaningful existential-psychology questions each night for 21 days, remembers every answer, and reflects your own words back on days 7, 14, and 21. Bilingual zh/en with no external dependencies.
+- [Hermes Kanban Bridge](https://github.com/GumbyEnder/hermes-kanban) — Obsidian plugin plus Hermes skill that turns Hermes into a project co-pilot living inside your Obsidian vault, breaking goals into Kanban boards, moving cards, running standups, and doing weekly reviews — fully local, no cloud.
 ### Plugins and add-ons
 
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
@@ -279,6 +280,7 @@ If you are new to Hermes, this order works well:
 - [Honcho Self-Hosted for Hermes](https://github.com/elkimek/honcho-self-hosted) — self-hosted memory backend setup.
 - [Hermes Memory Installer](https://github.com/mage0535/hermes-memory-installer) — one-click persistent memory stack with SQLite FTS5, lifecycle guards, and gbrain knowledge-graph sync.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — another long-term memory layer that can complement Hermes workflows.
+- [MNEMOS](https://github.com/ncz-os/mnemos) — production-grade memory operating system for agentic AI with four-backend persistence (PostgreSQL, Oracle 26ai, IBM Db2, SQLite), dream-state pipeline, GDPR compliance, and a unified MCP interface — supports Hermes alongside Claude Code, OpenClaw, LangChain, and others.
 
 - [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's open-source sandboxed agent runtime with a dedicated Hermes quickstart, providing hardened execution environments, network policy enforcement, and managed inference inside OpenShell. Apache 2.0.
 - [NemoClaw Community](https://github.com/NVIDIA/nemoclaw-community) — NVIDIA's community-driven repository of examples, showcases, and integrations for composing constrained, inspectable agent workflows with NemoClaw blueprints.
@@ -304,6 +306,7 @@ If you are new to Hermes, this order works well:
 - [evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin) — Hermes and Claude Code bridge idea.
 - [hermes-claude-code](https://github.com/DevvGwardo/hermes-claude-code) — MCP server and plugin bridge that delegates coding-heavy tasks from Hermes to Claude Code CLI sub-agents for implementation, testing, and git work.
 - [reina](https://github.com/Crustocean/reina) — Hermes-oriented integration inside the Crustocean platform.
+- [hermes-claude-auth](https://github.com/kristianvast/hermes-claude-auth) — Claude Code OAuth bypass tool for Hermes Agent that lets you access Claude models without the standard authentication flow.
 - [hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle) — blockchain analytics via MCP-style integration.
 - [hermes-council](https://github.com/Ridwannurudeen/hermes-council) — adversarial multi-view decision support.
 - [hermes-CCC](https://github.com/AlexAI-MCP/hermes-CCC) — ports core Hermes ideas and skill workflows into Claude Code Channel.
