@@ -183,6 +183,9 @@ If you are new to Hermes, this order works well:
 - [skilldock.io](https://github.com/chigwell/skilldock.io) — cross-agent skill registry.
 - [HyperDirector](https://github.com/gloweaseco-leo/hyperdirector) — Hermes skill pack for structured HyperFrames video production, with brief→storyboard→HTML→render workflow and install scripts.
 - [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) — 215 ready-to-use Chinese AI expert roles covering engineering, design, marketing, finance, and more, with explicit Hermes Agent install support via `--category` batching.
+- [hermes-agent-idea-workflow](https://github.com/AkoliteZA/hermes-agent-idea-workflow) — pre-build idea-to-spec workflow skills that turn rough product ideas into design docs, implementation specs, and agent-ready build handoffs.
+- [LLMQuant Skills](https://github.com/LLMQuant/skills) — 18 category finance skills covering equities, options, macro, crypto, credit, portfolio, and risk, grounded in LLMQuant Data and installable across Hermes, Claude Code, Codex, Cursor, and OpenClaw.
+- [hermes-agent-rtk-caveman](https://github.com/adityahimaone/hermes-agent-rtk-caveman) — ready-to-use RTK + Caveman configuration for 90–99% token savings on CLI operations, with 40+ pre-configured skills and one-command setup.
 
 - [hermes-skill-atlas](https://github.com/codesstar/hermes-skill-atlas) — interactive map of 70+ curated, verified open-source Hermes skills with search and category filtering.
 - [Felo Skills Pack](https://felo.ai/skills/hermes-agent) — 12 production-ready Hermes skills for research, slides, content creation, social listening, and persistent LiveDoc workflows.
@@ -216,6 +219,9 @@ If you are new to Hermes, this order works well:
 - [yantrikdb-hermes-plugin](https://github.com/yantrikos/yantrikdb-hermes-plugin) — self-maintaining memory provider with canonicalization, contradiction tracking, and explainable recall.
 - [hermes-observational-memory](https://github.com/intertwine/hermes-observational-memory) — standalone memory-provider plugin that lets Hermes share a local markdown memory store with Claude Code and Codex, with searchable observations and optional writeback.
 - [hermes-plugins](https://github.com/42-evey/hermes-plugins) — community plugin bundle with operational add-ons.
+- [ShellWard](https://github.com/jnMetaCode/shellward) — AI Agent security middleware with 8-layer defense, DLP data flow control, and prompt injection detection; zero dependencies, works as standalone SDK or OpenClaw plugin for Claude Code, Cursor, LangChain, and Hermes.
+- [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry) — 100% local observability dashboard tracking token usage, costs, tool calls, session traces, and reasoning steps across Hermes Agent, Claude Code, Codex, Gemini CLI, and 30+ other platforms.
+- [Pi Hermes Memory](https://github.com/chandra447/pi-hermes-memory) — persistent memory and learning loop for the Pi coding agent, porting Hermes-style session search, categorized memory, secret scanning, and background consolidation to Pi.
 - [hermes-tools](https://github.com/axisdynamics/hermes-tools) — production-grade native plugin pack with inter-agent pub/sub, provider failover, and persistent memory primitives.
 - [Hermes Plugin: Carabiner](https://github.com/donovan-yohan/hermes-plugin-carabiner) — Honcho-backed relationship memory plugin for specialist-agent handoffs, feedback loops, and peer context before delegations.
 - [hermes-notification](https://github.com/itgoyo/hermes-notification) — tiny cross-platform plugin that fires native desktop notifications and sound when Hermes finishes a response.
@@ -288,6 +294,8 @@ If you are new to Hermes, this order works well:
 - [Mem0 Integration](https://docs.mem0.ai/integrations/hermes) — official Mem0 memory provider plugin for Hermes with automatic background sync, zero-latency prefetch, and semantic reranking.
 - [hermes-patches](https://github.com/Cyrene963/hermes-patches) — community patch collection for Hermes Agent covering memory metacognition, structured memory graph tools, hybrid skill selectors, multi-user isolation, and Telegram context enhancements with an overlay-first install strategy.
 - [ClawPhone](https://github.com/marshallrichards/ClawPhone) — scripts and tweaks for running Hermes Agent (and OpenClaw, Claude Code, Codex) on Android smartphones with Termux-based deployment.
+- [Hermes Agent on Android](https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android) — one-line Termux installation to run Hermes Agent on any Android device.
+- [hermes-concurrent-agents](https://github.com/r0b0tlab/hermes-concurrent-agents) — deploy multiple concurrent Hermes workers on unified-memory GPUs with profile isolation, Kanban coordination, and crash recovery for maximum throughput.
 
 ## Integrations and Bridges
 
@@ -350,6 +358,9 @@ If you are new to Hermes, this order works well:
 - [hermes-startup-architect](https://github.com/dlkakbs/hermes-startup-architect) — startup planning and materials generation.
 - [mercury](https://github.com/hxsteric/mercury) — blockchain and cash-flow analysis.
 - [hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent) — autonomous research workflow.
+- [Learn Hermes Agent](https://github.com/longyunfeigu/learn-hermes-agent) — 27-chapter hands-on tutorial for building an autonomous AI agent from scratch in Python, covering the agent loop, tools, memory, skills, MCP, multi-platform gateway, and self-evolution — inspired by Hermes Agent.
+- [hermes-agent-team](https://github.com/linke-ai/hermes-agent-team) — local multi-agent team collaboration web system built on Hermes Agent with a Chinese-language UI and role-based agent orchestration.
+- [Hermes Forge](https://github.com/Mahiruxia/hermes-forge) — local-first desktop workbench integrating auto-deploy, model sync, Windows bridge, WeChat gateway, file attachments, permission approval, and GitHub auto-update.
 
 ## Guides, Books, Videos, and Related Lists
 
