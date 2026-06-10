@@ -156,6 +156,9 @@ If you are new to Hermes, this order works well:
 - [AionUi](https://github.com/iOfficeAI/AionUi) — free, local, open-source 24/7 cowork app that manages Hermes Agent alongside 20+ other CLI agents with a unified workspace and custom model routing.
 - [Wesight](https://github.com/freestylefly/wesight) — open-source desktop AI agent workspace with one-click Hermes Agent setup, custom LLM model routing, and support for Claude Code, Codex, and OpenClaw.
 - [OpenClaw-Admin](https://github.com/itq5/OpenClaw-Admin) — Vue 3 AI agent management platform that supports both OpenClaw Gateway and Hermes Agent, providing a web UI for managing agents, sessions, models, channels, and skills.
+- [iHermes](https://github.com/2winter-dev/iHermes) — mobile-first Hermes client built with Expo that connects to your own Hermes agent from Android, iOS, or Web (PWA) with no mandatory backend service.
+- [My Hermes Desktop](https://github.com/wuguirongsg/My-Hermes-Desktop) — Tauri 2 + React native companion app for macOS with zero-terminal operation and Apple-style interaction patterns.
+- [Hermes Theme Reflect](https://github.com/daletkc/hermes-theme-reflect) — premium dark theme for the Hermes Agent dashboard featuring deep navy with indigo-violet accents.
 
 ## Skills, Plugins, and Extensions
 
@@ -195,6 +198,11 @@ If you are new to Hermes, this order works well:
 - [YouTube Skills](https://github.com/ZeroPointRepo/youtube-skills) — YouTube transcript extraction, search, and channel browsing skills for Hermes and other agents, powered by TranscriptAPI with no Google quota required.
 - [21-Day Self-Interview](https://github.com/Forlives/21-day-self-interview) — Hermes Agent skill that asks three meaningful existential-psychology questions each night for 21 days, remembers every answer, and reflects your own words back on days 7, 14, and 21. Bilingual zh/en with no external dependencies.
 - [Hermes Kanban Bridge](https://github.com/GumbyEnder/hermes-kanban) — Obsidian plugin plus Hermes skill that turns Hermes into a project co-pilot living inside your Obsidian vault, breaking goals into Kanban boards, moving cards, running standups, and doing weekly reviews — fully local, no cloud.
+- [Cinema Manager](https://github.com/DavidBB-L/cinema-manager) — movie and TV resource search skill with automatic Quark cloud drive saving for media automation workflows.
+- [Hermes Proficiencies](https://github.com/sene1337/hermes-proficiencies) — shareable operating-attribute skills for encoding human SOPs and playbooks into agent-readable format with safe publishing and workspace hygiene.
+- [Hermes SkillOpt](https://github.com/magnus919/hermes-SkillOpt) — controlled skill optimization derived from Microsoft Research's SkillOpt, with text-space optimization and validation gates that improved 52 out of 52 test settings.
+- [Hermes Council](https://github.com/magnus919/hermes-council) — multi-agent debate system that spawns custom-composed expert agents to debate questions in structured rounds, producing visible transcripts and synthesized recommendations. Pure SKILL.md, zero new infrastructure.
+- [Hermes Best Models](https://github.com/fox-in-the-box-ai/hermes-best-models) — LLM evaluation benchmarks specifically designed for Hermes agents, helping operators find the best models for their use case.
 ### Plugins and add-ons
 
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
@@ -261,6 +269,11 @@ If you are new to Hermes, this order works well:
 - [Hermes Multi-Agent Workflow](https://github.com/tonbistudio/hermes-multi-agent-workflow) — reusable triage pipeline template built on Hermes Kanban: `sources → intake → dedup → score → research → route → Human Gate → fulfill → deliver`, with domain-agnostic engine and triage.yaml config.
 - [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) — Chinese enhanced edition of the superpowers skill pack (116K+ stars), adding 6 original skills and full localization for Hermes Agent alongside 15 other AI coding tools.
 - [Draw.io Skill](https://github.com/Agents365-ai/drawio-skill) — generates draw.io diagrams from natural language with 6 presets, vision self-check, up to 5-round refinement, 10,000+ official shapes, and PNG/SVG/PDF export.
+- [Hermes Tool Router](https://github.com/AtlasOmnia/hermes-tool-router) — conditional tool-schema loading that reduces first-turn token bloat by loading only the tools a prompt actually needs, with safe full-surface fallback for long or ambiguous requests.
+- [Hermes D1 Memory](https://github.com/benben17/hermes-d1-memory) — Cloudflare D1-backed external memory provider using serverless edge-deployed SQLite with FTS5, offering zero-maintenance long-term memory persistence.
+- [Hermes Voice HA Integration](https://github.com/rusty4444/hermes-voice-ha-integration) — Home Assistant voice stack that chains wake word detection, STT, Hermes LLM, and TTS back to HA media_player entirely on-device with no cloud dependency.
+- [Hardmail](https://github.com/orlyjamie/hardmail) — hardened, shell-free native email tools for Hermes covering Gmail, IMAP, SMTP, and Resend with operator-approved sends and fail-closed security defaults.
+- [Inkbox Plugin](https://github.com/inkbox-ai/hermes-agent-plugin) — Hermes Agent plugin for the Inkbox platform.
 
 ## Deployment and Operations
 
@@ -296,6 +309,8 @@ If you are new to Hermes, this order works well:
 - [ClawPhone](https://github.com/marshallrichards/ClawPhone) — scripts and tweaks for running Hermes Agent (and OpenClaw, Claude Code, Codex) on Android smartphones with Termux-based deployment.
 - [Hermes Agent on Android](https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android) — one-line Termux installation to run Hermes Agent on any Android device.
 - [hermes-concurrent-agents](https://github.com/r0b0tlab/hermes-concurrent-agents) — deploy multiple concurrent Hermes workers on unified-memory GPUs with profile isolation, Kanban coordination, and crash recovery for maximum throughput.
+- [Hermes Operator](https://github.com/UndermountainCC/hermes-operator) — Kubernetes operator for managing Hermes Agent deployments with declarative CRDs.
+- [Hermes Claude Code Local](https://github.com/KaiFelixBennett/hermes-claude-code-local) — run Hermes Agent plus Claude Code locally on llama.cpp for zero API costs, with benchmarks showing a 4-hour / 7M-token session that would have cost $94 on Claude Opus.
 
 ## Integrations and Bridges
 
@@ -345,6 +360,10 @@ If you are new to Hermes, this order works well:
 - [hermes-agent-rs](https://github.com/Lumio-Research/hermes-agent-rs) — complete Rust reimplementation of Hermes as a single ~16MB static binary with zero dependencies, 10 LLM providers, 30+ tools, 17 platform adapters, 8 memory backends, and Tokio async runtime; runs on Raspberry Pi and air-gapped servers.
 - [go-magic](https://github.com/magicwubiao/go-magic) — high-performance, ultra-lightweight Go reimplementation of Hermes Agent with a React/TypeScript web dashboard, targeting single-binary deployment for resource-constrained environments.
 - [Hermes Turbo Agent](https://github.com/wesleysimplicio/hermes-turbo-agent) — performance benchmarks, optimized hot-paths, and a turbo scoring system for production Hermes deployments targeting 100x faster execution.
+- [Perseus](https://github.com/tcconnally/perseus) — live context engine for AI assistants with resolve-before-context, session waypoints, and tool-selection intelligence designed for Hermes Agent.
+- [Hermes Code Bridge](https://github.com/xuyang-liu16/hermes-code-bridge) — use Hermes Agent as the control plane for local coding agents like Codex, Kimi Code, Claude Code, OpenCode, and Gemini CLI.
+- [Hermes System Doctor](https://github.com/AlekseiUL/hermes-system-doctor) — diagnostic and approval-gated repair planning tool for Hermes Agent that identifies issues before they become failures.
+- [Hermes Bumblebee Bridge](https://github.com/Deconstruct2021/hermes-bumblebee-bridge) — read-only supply-chain scanning for Hermes powered by Perplexity's Bumblebee with daily scans, Telegram alerts, and JARVIS-style narration.
 
 ### Domain-specific applications
 
@@ -375,6 +394,8 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent Setup and Tutorial Guide (DataCamp)](https://www.datacamp.com/tutorial/hermes-agent) — comprehensive beginner-to-intermediate tutorial covering installation, local models, research workflows, and troubleshooting from a well-known educational platform.
 - [Hermes Agent + Honcho](https://docs.honcho.dev/v3/guides/integrations/hermes) — Honcho’s own integration guide explaining how Hermes uses peer modeling, durable writeback, and semantic memory tools beyond the built-in local files.
 - [Hermes Agent v0.13 Reference](https://blakecrosley.com/guides/hermes) — detailed independent reference that pulls together architecture, installation, provider auth, security, and everyday CLI operations.
+- [Goal Video Resources](https://github.com/nemanjadotcom/goal-video-resources) — prompts, AGENTS.md, and SOUL.md files from the "I Was Wrong About Hermes Agent /goal" video.
+- [Hermes Telegram Artifacts](https://github.com/camel-vibe/hermes-telegram-artifacts) — standalone artifact server plus skill for delivering interactive HTML widgets via Telegram Mini Apps in Hermes Agent.
 - [Hermes Agent Book](https://github.com/ZhangHanDong/hermes-book) — source-level Chinese book that walks through Hermes architecture, prompt assembly, tools, memory providers, CLI/gateway internals, and runtime design tradeoffs chapter by chapter.
 - [Hermes Atlas](https://github.com/ksimback/hermes-ecosystem) — community-maintained ecosystem map and companion site covering vetted Hermes projects, themed resource lists, live repo metadata, beginner guides, and narrative reports on the broader ecosystem.
 - [Hermes Atlas MCP](https://github.com/ksimback/hermes-atlas-mcp) — MCP server that exposes the live Hermes Atlas catalog to Claude Desktop, Cursor, Continue, and other MCP-aware clients so they can search Hermes tools, guides, and ecosystem projects from inside the agent.
