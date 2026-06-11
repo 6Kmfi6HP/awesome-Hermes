@@ -189,6 +189,7 @@ If you are new to Hermes, this order works well:
 - [hermes-agent-idea-workflow](https://github.com/AkoliteZA/hermes-agent-idea-workflow) — pre-build idea-to-spec workflow skills that turn rough product ideas into design docs, implementation specs, and agent-ready build handoffs.
 - [LLMQuant Skills](https://github.com/LLMQuant/skills) — 18 category finance skills covering equities, options, macro, crypto, credit, portfolio, and risk, grounded in LLMQuant Data and installable across Hermes, Claude Code, Codex, Cursor, and OpenClaw.
 - [hermes-agent-rtk-caveman](https://github.com/adityahimaone/hermes-agent-rtk-caveman) — ready-to-use RTK + Caveman configuration for 90–99% token savings on CLI operations, with 40+ pre-configured skills and one-command setup.
+- [AI Agent Skills](https://github.com/kevinnft/ai-agent-skills) — 191 attribution-first agent skills for Hermes Agent, Claude Code, and Cursor across 28 categories with a single installer and searchable catalog.
 
 - [hermes-skill-atlas](https://github.com/codesstar/hermes-skill-atlas) — interactive map of 70+ curated, verified open-source Hermes skills with search and category filtering.
 - [Felo Skills Pack](https://felo.ai/skills/hermes-agent) — 12 production-ready Hermes skills for research, slides, content creation, social listening, and persistent LiveDoc workflows.
@@ -274,6 +275,9 @@ If you are new to Hermes, this order works well:
 - [Hermes Voice HA Integration](https://github.com/rusty4444/hermes-voice-ha-integration) — Home Assistant voice stack that chains wake word detection, STT, Hermes LLM, and TTS back to HA media_player entirely on-device with no cloud dependency.
 - [Hardmail](https://github.com/orlyjamie/hardmail) — hardened, shell-free native email tools for Hermes covering Gmail, IMAP, SMTP, and Resend with operator-approved sends and fail-closed security defaults.
 - [Inkbox Plugin](https://github.com/inkbox-ai/hermes-agent-plugin) — Hermes Agent plugin for the Inkbox platform.
+- [Multichannel Prompt Optimizer](https://github.com/Sahil-SS9/hermes-multichannel-prompt-optimizer) — plugin that rewrites user prompts before they reach the LLM with model-aware tailoring, quality scoring, and analytics across CLI, TUI, Discord, and Telegram.
+- [LLM-Wiki Obsidian Hermes](https://github.com/r0b0tlab/llm-wiki_obsidian_hermes_r0b0tlabbra1n) — filesystem-first memory system bridging LLM-Wiki, Obsidian, and Hermes with Markdown source of truth, SQLite FTS5 search, secret scanning, and tier-based context packets.
+- [Hermes Roaming](https://github.com/rtsitola/hermes-roaming) — memory roaming across machines via Syncthing with master-slave architecture and automatic import/export for multi-device Hermes setups.
 
 ## Deployment and Operations
 
@@ -364,6 +368,8 @@ If you are new to Hermes, this order works well:
 - [Hermes Code Bridge](https://github.com/xuyang-liu16/hermes-code-bridge) — use Hermes Agent as the control plane for local coding agents like Codex, Kimi Code, Claude Code, OpenCode, and Gemini CLI.
 - [Hermes System Doctor](https://github.com/AlekseiUL/hermes-system-doctor) — diagnostic and approval-gated repair planning tool for Hermes Agent that identifies issues before they become failures.
 - [Hermes Bumblebee Bridge](https://github.com/Deconstruct2021/hermes-bumblebee-bridge) — read-only supply-chain scanning for Hermes powered by Perplexity's Bumblebee with daily scans, Telegram alerts, and JARVIS-style narration.
+- [Hermes Compression Eval](https://github.com/NousResearch/hermes-compression-eval) — official offline evaluation harness for Hermes's ContextCompressor that runs probe-based quality scoring across accuracy, context awareness, and artifact trail dimensions.
+- [Home AI Mesh](https://github.com/punchtaylor/home-ai-mesh) — MIT-licensed practical guide for building a multi-node home AI mesh with Raspberry Pis, Jetsons, and GPUs coordinated over MQTT and Hermes Agent, with failover, finance, voice, and watchdog nodes.
 
 ### Domain-specific applications
 
@@ -391,6 +397,7 @@ If you are new to Hermes, this order works well:
 - [llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) — general tool for compiling raw sources into an interlinked markdown wiki that Hermes users can query and extend over time.
 - [hermes-agent-anatomy](https://github.com/anneheartrecord/hermes-agent-anatomy) — Chinese codebase anatomy series with diagrams and module-by-module analysis.
 - [hermes-optimization-guide](https://github.com/OnlyTerp/hermes-optimization-guide) — practical setup, migration, LightRAG, Telegram, and skill-building guide.
+- [Hermes Agent Source Code Guide](https://github.com/xiehongyu777/hermes-agent-guide) — Chinese-language source code learning guide that walks through Hermes Agent internals module by module.
 - [Hermes Agent Setup and Tutorial Guide (DataCamp)](https://www.datacamp.com/tutorial/hermes-agent) — comprehensive beginner-to-intermediate tutorial covering installation, local models, research workflows, and troubleshooting from a well-known educational platform.
 - [Hermes Agent + Honcho](https://docs.honcho.dev/v3/guides/integrations/hermes) — Honcho’s own integration guide explaining how Hermes uses peer modeling, durable writeback, and semantic memory tools beyond the built-in local files.
 - [Hermes Agent v0.13 Reference](https://blakecrosley.com/guides/hermes) — detailed independent reference that pulls together architecture, installation, provider auth, security, and everyday CLI operations.
