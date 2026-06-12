@@ -159,6 +159,7 @@ If you are new to Hermes, this order works well:
 - [iHermes](https://github.com/2winter-dev/iHermes) — mobile-first Hermes client built with Expo that connects to your own Hermes agent from Android, iOS, or Web (PWA) with no mandatory backend service.
 - [My Hermes Desktop](https://github.com/wuguirongsg/My-Hermes-Desktop) — Tauri 2 + React native companion app for macOS with zero-terminal operation and Apple-style interaction patterns.
 - [Hermes Theme Reflect](https://github.com/daletkc/hermes-theme-reflect) — premium dark theme for the Hermes Agent dashboard featuring deep navy with indigo-violet accents.
+- [Agent of Empires](https://github.com/agent-of-empires/agent-of-empires) — cross-platform TUI and Web management surface for multiple coding agents including Hermes, Claude Code, Codex, OpenCode, Gemini CLI, and more, with mobile-friendly access and session sharing.
 
 ## Skills, Plugins, and Extensions
 
@@ -204,6 +205,11 @@ If you are new to Hermes, this order works well:
 - [Hermes SkillOpt](https://github.com/magnus919/hermes-SkillOpt) — controlled skill optimization derived from Microsoft Research's SkillOpt, with text-space optimization and validation gates that improved 52 out of 52 test settings.
 - [Hermes Council](https://github.com/magnus919/hermes-council) — multi-agent debate system that spawns custom-composed expert agents to debate questions in structured rounds, producing visible transcripts and synthesized recommendations. Pure SKILL.md, zero new infrastructure.
 - [Hermes Best Models](https://github.com/fox-in-the-box-ai/hermes-best-models) — LLM evaluation benchmarks specifically designed for Hermes agents, helping operators find the best models for their use case.
+- [planning-with-files](https://github.com/OthmanAdi/planning-with-files) — persistent file-based planning for long-running agentic tasks with crash-proof markdown plans, deterministic completion gates, and multi-agent shared state on disk. Works with 60+ agents including Hermes via the SKILL.md standard.
+- [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) — skill that audits and rewrites content to strip AI writing patterns, compatible with Hermes, Claude Code, and OpenClaw.
+- [Hermes Skins](https://github.com/joeynyc/hermes-skins) — custom skins and visual themes for the Hermes CLI agent, with community-contributed styles.
+- [Education Agent Skills](https://github.com/GarethManning/education-agent-skills) — 165 evidence-based education skills for Claude, Codex, Hermes, and any Agent Skills-compatible tool, covering pedagogy, assessment, and classroom automation.
+
 ### Plugins and add-ons
 
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
@@ -316,6 +322,8 @@ If you are new to Hermes, this order works well:
 - [Hermes Operator](https://github.com/UndermountainCC/hermes-operator) — Kubernetes operator for managing Hermes Agent deployments with declarative CRDs.
 - [Hermes Claude Code Local](https://github.com/KaiFelixBennett/hermes-claude-code-local) — run Hermes Agent plus Claude Code locally on llama.cpp for zero API costs, with benchmarks showing a 4-hour / 7M-token session that would have cost $94 on Claude Opus.
 
+- [hermes-alpha](https://github.com/kaminocorp/hermes-alpha) — cloud-deployed version of Hermes Agent with streamlined provisioning for users who want a managed cloud runtime instead of self-hosting.
+
 ## Integrations and Bridges
 
 - [Integrations Overview](https://hermes-agent.nousresearch.com/docs/integrations)
@@ -344,6 +352,9 @@ If you are new to Hermes, this order works well:
 - [hermes-nextcloud](https://github.com/adnw-vinc/hermes-nextcloud) — Hermes skill for managing Nextcloud files, notes, calendar, tasks, and contacts via WebDAV and CalDAV.
 - [CodeGraph](https://github.com/colbymchenry/codegraph) — local pre-indexed code knowledge graph that replaces expensive grep/read cycles with direct SQLite queries, cutting token usage and tool calls by 50–90% for Hermes and other coding agents.
 - [Infisical agent-vault](https://github.com/Infisical/agent-vault) — HTTP credential proxy and vault for AI agents including Hermes, Claude Code, and OpenClaw, providing centralized secret management with fine-grained access control for agent harnesses.
+
+- [wechat-acp](https://github.com/formulahendry/wechat-acp) — bridge WeChat chat messages to any ACP-compatible AI agent including Hermes, Claude, Codex, and Gemini, covering personal chat, group chat, and bot flows.
+- [agentcookie](https://github.com/mvanhorn/agentcookie) — keeps agent sessions synced across Macs over Tailscale, so Hermes or OpenClaw on a remote machine wakes up authenticated and ready — peer-to-peer, no cloud middleman.
 
 ## Research, Multi-Agent, and Domain Projects
 
@@ -386,6 +397,7 @@ If you are new to Hermes, this order works well:
 - [Learn Hermes Agent](https://github.com/longyunfeigu/learn-hermes-agent) — 27-chapter hands-on tutorial for building an autonomous AI agent from scratch in Python, covering the agent loop, tools, memory, skills, MCP, multi-platform gateway, and self-evolution — inspired by Hermes Agent.
 - [hermes-agent-team](https://github.com/linke-ai/hermes-agent-team) — local multi-agent team collaboration web system built on Hermes Agent with a Chinese-language UI and role-based agent orchestration.
 - [Hermes Forge](https://github.com/Mahiruxia/hermes-forge) — local-first desktop workbench integrating auto-deploy, model sync, Windows bridge, WeChat gateway, file attachments, permission approval, and GitHub auto-update.
+- [RunbookHermes](https://github.com/Tommy-yw/RunbookHermes) — Hermes-native AIOps agent for evidence-driven incident response, approval-gated remediation, and runbook learning from past incidents.
 
 ## Guides, Books, Videos, and Related Lists
 
