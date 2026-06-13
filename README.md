@@ -114,6 +114,7 @@ If you are new to Hermes, this order works well:
 - [Use MCP with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-mcp-with-hermes)
 - [Use SOUL.md with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-soul-with-hermes)
 - [Use Voice Mode with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-voice-mode-with-hermes)
+- [J.A.R.V.I.S](https://github.com/eadmin2/jarvis_ai) — Iron-Man-style voice assistant and holographic HUD for Hermes Agent with local Whisper STT, ElevenLabs TTS, live tool-call visualization, approval cards, and barge-in support, all self-hosted.
 
 ## Workspaces and User Interfaces
 
@@ -160,6 +161,8 @@ If you are new to Hermes, this order works well:
 - [My Hermes Desktop](https://github.com/wuguirongsg/My-Hermes-Desktop) — Tauri 2 + React native companion app for macOS with zero-terminal operation and Apple-style interaction patterns.
 - [Hermes Theme Reflect](https://github.com/daletkc/hermes-theme-reflect) — premium dark theme for the Hermes Agent dashboard featuring deep navy with indigo-violet accents.
 - [Agent of Empires](https://github.com/agent-of-empires/agent-of-empires) — cross-platform TUI and Web management surface for multiple coding agents including Hermes, Claude Code, Codex, OpenCode, Gemini CLI, and more, with mobile-friendly access and session sharing.
+- [Hermes Link Curator](https://github.com/dodo-reach/hermes-link-curator) — link curator profile pack that turns Hermes into a librarian: send a URL, get it archived, tagged, summarized, and browsable in an Obsidian-style dashboard with a web UI.
+- [Hermes Mini App Template](https://github.com/waguriagentic/hermes-miniapp-template) — ready-to-use Telegram Mini App template for Hermes Agent that developers can fork and extend with custom tools and dashboards.
 
 ## Skills, Plugins, and Extensions
 
@@ -209,6 +212,10 @@ If you are new to Hermes, this order works well:
 - [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) — skill that audits and rewrites content to strip AI writing patterns, compatible with Hermes, Claude Code, and OpenClaw.
 - [Hermes Skins](https://github.com/joeynyc/hermes-skins) — custom skins and visual themes for the Hermes CLI agent, with community-contributed styles.
 - [Education Agent Skills](https://github.com/GarethManning/education-agent-skills) — 165 evidence-based education skills for Claude, Codex, Hermes, and any Agent Skills-compatible tool, covering pedagogy, assessment, and classroom automation.
+- [Deep Research Agent](https://github.com/CYC2002tommy/Deep-Research-Agent) — industrial-grade scientific research pipeline skill that automates literature review from abstract querying through full-text verification, Q1-Q2 journal filtering, anti-hallucination checks, and document compilation.
+- [Master Skill](https://github.com/swaylq/master-skill) — cross-agent industry OS skill that auto-researches a domain across six dimensions (leaders, tool maps, workflows, knowledge canons, information sources, terminology) and distills a deployable skill in 30–60 minutes.
+- [SkillReaper](https://github.com/thousandflowers/skillreaper) — evidence-based pruning tool that scans real transcript data to identify and safely remove unused skills, MCP servers, and agents from your stack.
+- [novel2hermes_jp](https://github.com/kgmkm/novel2hermes_jp) — Japanese novel-writing skill pack that combines Hermes memory with vecmemori external search for long-form fiction planning and drafting.
 
 ### Plugins and add-ons
 
@@ -284,6 +291,8 @@ If you are new to Hermes, this order works well:
 - [Multichannel Prompt Optimizer](https://github.com/Sahil-SS9/hermes-multichannel-prompt-optimizer) — plugin that rewrites user prompts before they reach the LLM with model-aware tailoring, quality scoring, and analytics across CLI, TUI, Discord, and Telegram.
 - [LLM-Wiki Obsidian Hermes](https://github.com/r0b0tlab/llm-wiki_obsidian_hermes_r0b0tlabbra1n) — filesystem-first memory system bridging LLM-Wiki, Obsidian, and Hermes with Markdown source of truth, SQLite FTS5 search, secret scanning, and tier-based context packets.
 - [Hermes Roaming](https://github.com/rtsitola/hermes-roaming) — memory roaming across machines via Syncthing with master-slave architecture and automatic import/export for multi-device Hermes setups.
+- [Hermes WeChat Relay](https://github.com/c1422113471-cpu/hermes-wechat-relay) — profile-local platform plugin for relaying WeChat messages through an external bridge without modifying Hermes core or replacing the built-in weixin adapter.
+- [Hermes Health Apollo](https://github.com/Infinite-Labs-AI/hermes-health-apollo) — local-first health intelligence plugin that connects wearable data, calendar context, and Gmail metadata so Hermes can answer questions between health status and next actions.
 
 ## Deployment and Operations
 
@@ -323,6 +332,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Claude Code Local](https://github.com/KaiFelixBennett/hermes-claude-code-local) — run Hermes Agent plus Claude Code locally on llama.cpp for zero API costs, with benchmarks showing a 4-hour / 7M-token session that would have cost $94 on Claude Opus.
 
 - [hermes-alpha](https://github.com/kaminocorp/hermes-alpha) — cloud-deployed version of Hermes Agent with streamlined provisioning for users who want a managed cloud runtime instead of self-hosting.
+- [Hermes Agent One-Click Kit](https://github.com/sodam-ai/Hermes-Agent_One-Click_Kit) — beginner-friendly Windows .bat installer that sets up Hermes Agent, connects messengers, and handles login with double-click execution and Korean/English docs.
 
 ## Integrations and Bridges
 
@@ -398,6 +408,7 @@ If you are new to Hermes, this order works well:
 - [hermes-agent-team](https://github.com/linke-ai/hermes-agent-team) — local multi-agent team collaboration web system built on Hermes Agent with a Chinese-language UI and role-based agent orchestration.
 - [Hermes Forge](https://github.com/Mahiruxia/hermes-forge) — local-first desktop workbench integrating auto-deploy, model sync, Windows bridge, WeChat gateway, file attachments, permission approval, and GitHub auto-update.
 - [RunbookHermes](https://github.com/Tommy-yw/RunbookHermes) — Hermes-native AIOps agent for evidence-driven incident response, approval-gated remediation, and runbook learning from past incidents.
+- [Hermes Dynamic Workflows](https://github.com/lingjiuu/hermes-dynamic-workflows) — Claude Code-style dynamic workflow engine for Hermes that lets the model write and execute sandboxed Python scripts on the fly for large-scale orchestration tasks.
 
 ## Guides, Books, Videos, and Related Lists
 
