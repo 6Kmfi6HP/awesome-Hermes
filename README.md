@@ -216,6 +216,8 @@ If you are new to Hermes, this order works well:
 - [Master Skill](https://github.com/swaylq/master-skill) — cross-agent industry OS skill that auto-researches a domain across six dimensions (leaders, tool maps, workflows, knowledge canons, information sources, terminology) and distills a deployable skill in 30–60 minutes.
 - [SkillReaper](https://github.com/thousandflowers/skillreaper) — evidence-based pruning tool that scans real transcript data to identify and safely remove unused skills, MCP servers, and agents from your stack.
 - [novel2hermes_jp](https://github.com/kgmkm/novel2hermes_jp) — Japanese novel-writing skill pack that combines Hermes memory with vecmemori external search for long-form fiction planning and drafting.
+- [dream-auto](https://github.com/StefanIsMe/dream-auto) — MCTS-powered autonomous dream system that runs background thinking cycles for Hermes, exploring alternative reasoning paths and consolidating insights between sessions.
+- [hermes-persona](https://github.com/kenyonxu/hermes-persona) — dynamic persona context injection engine for Hermes Agent, with code-driven configuration for adapting personality, tone, and behavioral rules across sessions.
 
 ### Plugins and add-ons
 
@@ -237,10 +239,15 @@ If you are new to Hermes, this order works well:
 - [agentmemory](https://github.com/rohitg00/agentmemory) — external long-term memory engine with a dedicated Hermes memory-provider plugin, REST/MCP access, session replay, and a real-time viewer for cross-session recall.
 - [Supermemory](https://github.com/supermemoryai/supermemory) — official memory engine and app with Hermes support, hybrid search, connectors, and a native long-term context layer.
 - [Open Second Brain](https://github.com/itechmeat/open-second-brain) — persistent memory layer that turns an Obsidian vault into Hermes Agent's memory store, with nighty dream passes to convert repeat corrections into confirmed preferences, deterministic confidence scoring, and an MCP server for cross-agent access.
+- [EverOS](https://github.com/EverMind-AI/EverOS) — portable, self-evolving memory layer that works across Claude Code, Codex, OpenClaw, and Hermes, with hybrid retrieval and cross-agent memory sync.
+- [LycheeMem](https://github.com/LycheeMem/LycheeMem) — lightweight long-term memory for LLM agents with MCP-native hybrid search, workspace-scoped recall, and first-class Hermes support.
+- [Sibyl Memory](https://github.com/Sibyl-Labs/Sibyl-Memory) — persistent memory plugin with structured tiers, local SQLite, no vector DB, and SDK/CLI/MCP/plugin interfaces for Hermes.
 - [mem9 Hermes Plugin](https://github.com/mem9-ai/mem9-hermes-plugin) — hosted persistent memory plugin for Hermes with semantic recall, turn-by-turn extraction, and quick CLI setup.
 - [yantrikdb-hermes-plugin](https://github.com/yantrikos/yantrikdb-hermes-plugin) — self-maintaining memory provider with canonicalization, contradiction tracking, and explainable recall.
 - [hermes-observational-memory](https://github.com/intertwine/hermes-observational-memory) — standalone memory-provider plugin that lets Hermes share a local markdown memory store with Claude Code and Codex, with searchable observations and optional writeback.
 - [hermes-plugins](https://github.com/42-evey/hermes-plugins) — community plugin bundle with operational add-ons.
+- [DashClaw](https://github.com/ucsandman/DashClaw) — governance runtime for AI agents that intercepts actions, enforces guard policies, requires approvals, and produces audit-ready decision trails.
+- [hermes-otel](https://github.com/briancaffey/hermes-otel) — OpenTelemetry plugin for Hermes Agent that exports traces, metrics, and logs for integration with Grafana, Datadog, and other OTel-compatible backends.
 - [ShellWard](https://github.com/jnMetaCode/shellward) — AI Agent security middleware with 8-layer defense, DLP data flow control, and prompt injection detection; zero dependencies, works as standalone SDK or OpenClaw plugin for Claude Code, Cursor, LangChain, and Hermes.
 - [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry) — 100% local observability dashboard tracking token usage, costs, tool calls, session traces, and reasoning steps across Hermes Agent, Claude Code, Codex, Gemini CLI, and 30+ other platforms.
 - [Pi Hermes Memory](https://github.com/chandra447/pi-hermes-memory) — persistent memory and learning loop for the Pi coding agent, porting Hermes-style session search, categorized memory, secret scanning, and background consolidation to Pi.
@@ -365,6 +372,9 @@ If you are new to Hermes, this order works well:
 
 - [wechat-acp](https://github.com/formulahendry/wechat-acp) — bridge WeChat chat messages to any ACP-compatible AI agent including Hermes, Claude, Codex, and Gemini, covering personal chat, group chat, and bot flows.
 - [agentcookie](https://github.com/mvanhorn/agentcookie) — keeps agent sessions synced across Macs over Tailscale, so Hermes or OpenClaw on a remote machine wakes up authenticated and ready — peer-to-peer, no cloud middleman.
+- [Hermes Agent QQ Plugin](https://github.com/shynloc/Hermes-Agent-QQ-Plugin) — QQ chat plugin adapted from the OpenClaw QQ bot for Hermes Agent, enabling QQ messaging as a native channel.
+- [hermes-multitenancy](https://github.com/eggyrooch-blip/hermes-multitenancy) — Feishu bot multi-tenant routing plugin for Hermes Agent, enabling one bot instance to serve multiple users with isolated profiles.
+- [hermes-tweet](https://github.com/Xquik-dev/hermes-tweet) — native Hermes Agent plugin for X/Twitter automation through Xquik, with posting, scheduling, and engagement workflows.
 
 ## Research, Multi-Agent, and Domain Projects
 
@@ -408,6 +418,7 @@ If you are new to Hermes, this order works well:
 - [hermes-agent-team](https://github.com/linke-ai/hermes-agent-team) — local multi-agent team collaboration web system built on Hermes Agent with a Chinese-language UI and role-based agent orchestration.
 - [Hermes Forge](https://github.com/Mahiruxia/hermes-forge) — local-first desktop workbench integrating auto-deploy, model sync, Windows bridge, WeChat gateway, file attachments, permission approval, and GitHub auto-update.
 - [RunbookHermes](https://github.com/Tommy-yw/RunbookHermes) — Hermes-native AIOps agent for evidence-driven incident response, approval-gated remediation, and runbook learning from past incidents.
+- [hermes-life-os](https://github.com/Lethe044/hermes-life-os) — personal OS agent that learns who you are, detects life patterns, and grows smarter about you every day, combining memory, cron, and Atropos RL for continuous self-improvement.
 - [Hermes Dynamic Workflows](https://github.com/lingjiuu/hermes-dynamic-workflows) — Claude Code-style dynamic workflow engine for Hermes that lets the model write and execute sandboxed Python scripts on the fly for large-scale orchestration tasks.
 
 ## Guides, Books, Videos, and Related Lists
