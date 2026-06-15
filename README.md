@@ -139,8 +139,10 @@ If you are new to Hermes, this order works well:
 - [Hermes Dashboard (live wiki)](https://github.com/Kori-x/hermes-dashboard) — real-time observability dashboard plus an auto-generated local wiki for skills, plugins, tools, memory, and soul files.
 - [Hermes Web UI](https://github.com/EKKOLearnAI/hermes-web-ui) — npm-installable Vue dashboard that brings multi-platform chat, profile switching, model management, analytics, logs, web terminal, and channel configuration into one operational console.
 - [Hermes Studio](https://github.com/JPeetz/Hermes-Studio) — power-user browser studio built around crews, execution approvals, visual memory graphs, workflow DAGs, and one of the deepest cron/job-management interfaces in the ecosystem.
+- [Hermes Studio (Web UI)](https://github.com/EKKOLearnAI/hermes-studio) — full-featured desktop app and web console for Hermes Agent with multi-platform chat, session management, scheduled jobs, usage analytics, platform channels, file browsing, web terminal, and voice I/O — ships as desktop app, npm package, and Docker image.
 - [Hermes War Room](https://github.com/Naroh091/hermes-war-room) — browser-based operations floor that makes Hermes’ native orchestration visible with mission control, team rosters, live agent status, and per-agent task queues.
 - [Minions](https://github.com/Agent-3-7/minions) — mission-control board for autonomous Hermes work, with persistent root sessions, task supervision, and review flow.
+- [Minions (Agent37)](https://github.com/agent37-platform/minions) — mission-control board for autonomous Hermes work with Kanban task boards, task creation screens, and review flows, installable via `npx minionsai`.
 - [Hermes Telegram Mini App](https://github.com/clawvader-tech/hermes-telegram-miniapp) — mobile-first Telegram Mini App that adds chat, cron control, system health, and background agent spawning directly inside Telegram with hardened auth and tunnel-based deployment docs.
 - [Hermes Voice Agent](https://github.com/onlockj/hermes-voice-agent) — low-latency Telegram voice channel with a PWA frontend, OpenAI Realtime pipeline, barge-in support, and one-shot deploy docs.
 - [Atomic Bot](https://github.com/AtomicBot-ai/atomicbot) — native desktop launcher that recently added one-click Hermes setup on macOS and Windows, bundling dashboard, terminal, logs, and file browsing for users who want a faster no-terminal path.
@@ -153,6 +155,7 @@ If you are new to Hermes, this order works well:
 - [ClawPanel](https://github.com/qingchencloud/clawpanel) — multi-engine AI management panel supporting both OpenClaw and Hermes Agent, with a built-in AI assistant that handles environment checks, log analysis, config repair, and automated troubleshooting via Rust + Tauri v2.
 
 - [Agent Sessions](https://github.com/jazzyalex/agent-sessions) — native macOS session browser and cockpit for Hermes (and Claude Code, Codex, OpenCode, Gemini CLI), with search/filter across all past sessions, archive and resume, real-time rate-limit tracking, and analytics.
+- [ReevesAgents](https://github.com/mertkayacs/reevesagents) — free, open-source workspace manager for AI CLI agents that bundles TUI, WebUI, MCP server, and CLI in one package with no API key required.
 - [CC Switch](https://github.com/farion1231/cc-switch) — cross-platform desktop all-in-one assistant that adds one-click Hermes Agent setup alongside Claude Code, Codex, OpenCode, OpenClaw, and Gemini CLI with unified model routing.
 - [AionUi](https://github.com/iOfficeAI/AionUi) — free, local, open-source 24/7 cowork app that manages Hermes Agent alongside 20+ other CLI agents with a unified workspace and custom model routing.
 - [Wesight](https://github.com/freestylefly/wesight) — open-source desktop AI agent workspace with one-click Hermes Agent setup, custom LLM model routing, and support for Claude Code, Codex, and OpenClaw.
@@ -182,6 +185,7 @@ If you are new to Hermes, this order works well:
 - [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills) — typed, structured skill workflows.
 - [litprog-skill](https://github.com/tlehman/litprog-skill) — literate-programming-oriented skill workflow.
 - [awesome-hermes-skills](https://github.com/ChuckSRQ/awesome-hermes-skills) — curated, install-ready Hermes skill pack covering research, artifact previews, self-improvement benchmarks, and GitHub workflows.
+- [awesome-hermes-skills (ZeroPointRepo)](https://github.com/ZeroPointRepo/awesome-hermes-skills) — 85 built-in + 78 community skills, plugins, and tools for Hermes Agent, cross-compatible with Claude Code, OpenClaw, Cursor, and Windsurf.
 - [hermes-merchant](https://github.com/arimanyus/hermes-merchant) — portable Hermes skill pack for ML/AI job scraping, profile scoring, and Greenhouse application automation.
 - [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) — generates reusable skills from repeated work.
 - [Hermes Memory Skills](https://github.com/nexus9888/hermes-memory-skills) — memory-hygiene skill pack that runs dreaming and surgical trimming across different memory backends.
@@ -326,6 +330,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Memory Installer](https://github.com/mage0535/hermes-memory-installer) — one-click persistent memory stack with SQLite FTS5, lifecycle guards, and gbrain knowledge-graph sync.
 - [Hindsight](https://github.com/vectorize-io/hindsight) — another long-term memory layer that can complement Hermes workflows.
 - [MNEMOS](https://github.com/ncz-os/mnemos) — production-grade memory operating system for agentic AI with four-backend persistence (PostgreSQL, Oracle 26ai, IBM Db2, SQLite), dream-state pipeline, GDPR compliance, and a unified MCP interface — supports Hermes alongside Claude Code, OpenClaw, LangChain, and others.
+- [Scope Recall Hermes](https://github.com/410979729/scope-recall-hermes) — scoped memory provider with SQLite truth, LanceDB semantic recall, and nightly workflow digest for Hermes Agent.
 
 - [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) — NVIDIA's open-source sandboxed agent runtime with a dedicated Hermes quickstart, providing hardened execution environments, network policy enforcement, and managed inference inside OpenShell. Apache 2.0.
 - [NemoClaw Community](https://github.com/NVIDIA/nemoclaw-community) — NVIDIA's community-driven repository of examples, showcases, and integrations for composing constrained, inspectable agent workflows with NemoClaw blueprints.
@@ -336,6 +341,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent on Android](https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android) — one-line Termux installation to run Hermes Agent on any Android device.
 - [hermes-concurrent-agents](https://github.com/r0b0tlab/hermes-concurrent-agents) — deploy multiple concurrent Hermes workers on unified-memory GPUs with profile isolation, Kanban coordination, and crash recovery for maximum throughput.
 - [Hermes Operator](https://github.com/UndermountainCC/hermes-operator) — Kubernetes operator for managing Hermes Agent deployments with declarative CRDs.
+- [ClawFleet](https://github.com/clawfleet/ClawFleet) — open-source fleet manager that deploys multiple Hermes (and OpenClaw) agents in isolated Docker containers with a browser dashboard, one-line install, and version pinning.
 - [Hermes Claude Code Local](https://github.com/KaiFelixBennett/hermes-claude-code-local) — run Hermes Agent plus Claude Code locally on llama.cpp for zero API costs, with benchmarks showing a 4-hour / 7M-token session that would have cost $94 on Claude Opus.
 
 - [hermes-alpha](https://github.com/kaminocorp/hermes-alpha) — cloud-deployed version of Hermes Agent with streamlined provisioning for users who want a managed cloud runtime instead of self-hosting.
