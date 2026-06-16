@@ -166,6 +166,8 @@ If you are new to Hermes, this order works well:
 - [Agent of Empires](https://github.com/agent-of-empires/agent-of-empires) — cross-platform TUI and Web management surface for multiple coding agents including Hermes, Claude Code, Codex, OpenCode, Gemini CLI, and more, with mobile-friendly access and session sharing.
 - [Hermes Link Curator](https://github.com/dodo-reach/hermes-link-curator) — link curator profile pack that turns Hermes into a librarian: send a URL, get it archived, tagged, summarized, and browsable in an Obsidian-style dashboard with a web UI.
 - [Hermes Mini App Template](https://github.com/waguriagentic/hermes-miniapp-template) — ready-to-use Telegram Mini App template for Hermes Agent that developers can fork and extend with custom tools and dashboards.
+- [Vessel Browser](https://github.com/unmodeled-tyler/vessel-browser) — open source chromium-based AI browser built for agent harnesses with durable state, MCP control, and a human-visible supervisory UI for long-running workflows.
+- [Hermes Island](https://github.com/esaradev/hermes-island) — macOS Dynamic Island notch app that monitors Hermes agent sessions, memory, and multi-agent workflows from the menu bar.
 
 ## Skills, Plugins, and Extensions
 
@@ -186,6 +188,7 @@ If you are new to Hermes, this order works well:
 - [litprog-skill](https://github.com/tlehman/litprog-skill) — literate-programming-oriented skill workflow.
 - [awesome-hermes-skills](https://github.com/ChuckSRQ/awesome-hermes-skills) — curated, install-ready Hermes skill pack covering research, artifact previews, self-improvement benchmarks, and GitHub workflows.
 - [awesome-hermes-skills (ZeroPointRepo)](https://github.com/ZeroPointRepo/awesome-hermes-skills) — 85 built-in + 78 community skills, plugins, and tools for Hermes Agent, cross-compatible with Claude Code, OpenClaw, Cursor, and Windsurf.
+- [hermes-skills (itgoyo)](https://github.com/itgoyo/hermes-skills) — 310+ Hermes Agent skills covering coding, marketing, design, finance, MLOps, and game development, installable by cloning into ~/.hermes/skills/.
 - [hermes-merchant](https://github.com/arimanyus/hermes-merchant) — portable Hermes skill pack for ML/AI job scraping, profile scoring, and Greenhouse application automation.
 - [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) — generates reusable skills from repeated work.
 - [Hermes Memory Skills](https://github.com/nexus9888/hermes-memory-skills) — memory-hygiene skill pack that runs dreaming and surgical trimming across different memory backends.
@@ -346,6 +349,7 @@ If you are new to Hermes, this order works well:
 
 - [hermes-alpha](https://github.com/kaminocorp/hermes-alpha) — cloud-deployed version of Hermes Agent with streamlined provisioning for users who want a managed cloud runtime instead of self-hosting.
 - [Hermes Agent One-Click Kit](https://github.com/sodam-ai/Hermes-Agent_One-Click_Kit) — beginner-friendly Windows .bat installer that sets up Hermes Agent, connects messengers, and handles login with double-click execution and Korean/English docs.
+- [claude-tap](https://github.com/liaohch3/claude-tap) — local proxy and trace viewer for AI coding agents that intercepts and inspects API traffic from Hermes, Claude Code, Codex, Gemini CLI, and others, exposing system prompts, tool calls, streaming responses, and token usage in a self-contained HTML viewer.
 
 ## Integrations and Bridges
 
