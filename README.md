@@ -161,6 +161,8 @@ If you are new to Hermes, this order works well:
 - [Wesight](https://github.com/freestylefly/wesight) — open-source desktop AI agent workspace with one-click Hermes Agent setup, custom LLM model routing, and support for Claude Code, Codex, and OpenClaw.
 - [OpenClaw-Admin](https://github.com/itq5/OpenClaw-Admin) — Vue 3 AI agent management platform that supports both OpenClaw Gateway and Hermes Agent, providing a web UI for managing agents, sessions, models, channels, and skills.
 - [iHermes](https://github.com/2winter-dev/iHermes) — mobile-first Hermes client built with Expo that connects to your own Hermes agent from Android, iOS, or Web (PWA) with no mandatory backend service.
+- [Cadux](https://github.com/raymondclowe/cadux) — fast, lightweight Android and desktop client for the Hermes Agent Gateway with SSE streaming, Bearer token auth, and LAN device pairing via a companion daemon.
+- [Hermes Swift iOS](https://github.com/hermes-webui/hermes-swift-ios) — native iPhone client for connecting to a Hermes WebUI instance over Tailscale, with QR code scanning, voice input, Share Sheet, and document picker integration.
 - [My Hermes Desktop](https://github.com/wuguirongsg/My-Hermes-Desktop) — Tauri 2 + React native companion app for macOS with zero-terminal operation and Apple-style interaction patterns.
 - [Hermes Theme Reflect](https://github.com/daletkc/hermes-theme-reflect) — premium dark theme for the Hermes Agent dashboard featuring deep navy with indigo-violet accents.
 - [Republic (Daedalus)](https://github.com/JustinPerea/Republic) — hackathon-winning dashboard theme in the visual language of The Designers Republic and Marathon, with bone-on-near-black aesthetic, radioactive yellow structural color, Geist Mono/IBM Plex typography, and full design-system documentation.
@@ -226,6 +228,7 @@ If you are new to Hermes, this order works well:
 - [novel2hermes_jp](https://github.com/kgmkm/novel2hermes_jp) — Japanese novel-writing skill pack that combines Hermes memory with vecmemori external search for long-form fiction planning and drafting.
 - [dream-auto](https://github.com/StefanIsMe/dream-auto) — MCTS-powered autonomous dream system that runs background thinking cycles for Hermes, exploring alternative reasoning paths and consolidating insights between sessions.
 - [hermes-persona](https://github.com/kenyonxu/hermes-persona) — dynamic persona context injection engine for Hermes Agent, with code-driven configuration for adapting personality, tone, and behavioral rules across sessions.
+- [Hermes Self-Iteration Skill](https://github.com/TangGV/hermes-self-iteration-skill) — upper-layer execution protocol that drives Hermes through autonomous analysis → improvement → verification → ROI-gated continuations, turning any project, system, or workflow into a self-maturing pipeline.
 
 ### Plugins and add-ons
 
@@ -313,6 +316,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Roaming](https://github.com/rtsitola/hermes-roaming) — memory roaming across machines via Syncthing with master-slave architecture and automatic import/export for multi-device Hermes setups.
 - [Hermes WeChat Relay](https://github.com/c1422113471-cpu/hermes-wechat-relay) — profile-local platform plugin for relaying WeChat messages through an external bridge without modifying Hermes core or replacing the built-in weixin adapter.
 - [Hermes Health Apollo](https://github.com/Infinite-Labs-AI/hermes-health-apollo) — local-first health intelligence plugin that connects wearable data, calendar context, and Gmail metadata so Hermes can answer questions between health status and next actions.
+- [Hermes Tavern](https://github.com/gchigoo/hermes-tavern) — standalone SillyTavern-compatible roleplay and novel runtime that runs as a plugin against Hermes Agent gateways, supporting character card import, session management, and RP-specific slash commands.
 
 ## Deployment and Operations
 
@@ -391,6 +395,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent QQ Plugin](https://github.com/shynloc/Hermes-Agent-QQ-Plugin) — QQ chat plugin adapted from the OpenClaw QQ bot for Hermes Agent, enabling QQ messaging as a native channel.
 - [hermes-multitenancy](https://github.com/eggyrooch-blip/hermes-multitenancy) — Feishu bot multi-tenant routing plugin for Hermes Agent, enabling one bot instance to serve multiple users with isolated profiles.
 - [hermes-tweet](https://github.com/Xquik-dev/hermes-tweet) — native Hermes Agent plugin for X/Twitter automation through Xquik, with posting, scheduling, and engagement workflows.
+- [Hermes Lansenger Adapter](https://github.com/lansenger-pm/hermes-lansenger-adapter) — enterprise messaging platform adapter for Hermes Agent, providing WebSocket real-time messaging, approval cards, media tools, and markdown delivery for the Lansenger (蓝信) ecosystem — pure plugin, zero core modifications.
 
 ## Research, Multi-Agent, and Domain Projects
 
@@ -416,6 +421,7 @@ If you are new to Hermes, this order works well:
 - [Hermes System Doctor](https://github.com/AlekseiUL/hermes-system-doctor) — diagnostic and approval-gated repair planning tool for Hermes Agent that identifies issues before they become failures.
 - [Hermes Bumblebee Bridge](https://github.com/Deconstruct2021/hermes-bumblebee-bridge) — read-only supply-chain scanning for Hermes powered by Perplexity's Bumblebee with daily scans, Telegram alerts, and JARVIS-style narration.
 - [Hermes Compression Eval](https://github.com/NousResearch/hermes-compression-eval) — official offline evaluation harness for Hermes's ContextCompressor that runs probe-based quality scoring across accuracy, context awareness, and artifact trail dimensions.
+- [Olympian](https://github.com/jahilldev/olympian) — AI dark factory that drives Hermes Agent through the full issue-to-PR lifecycle: plan, implement with multi-revision gates, self-review with confidence scoring, and draft PR, with a human only ever approving the plan and the final PR.
 - [Home AI Mesh](https://github.com/punchtaylor/home-ai-mesh) — MIT-licensed practical guide for building a multi-node home AI mesh with Raspberry Pis, Jetsons, and GPUs coordinated over MQTT and Hermes Agent, with failover, finance, voice, and watchdog nodes.
 
 ### Domain-specific applications
