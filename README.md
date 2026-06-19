@@ -317,6 +317,10 @@ If you are new to Hermes, this order works well:
 - [Hermes WeChat Relay](https://github.com/c1422113471-cpu/hermes-wechat-relay) — profile-local platform plugin for relaying WeChat messages through an external bridge without modifying Hermes core or replacing the built-in weixin adapter.
 - [Hermes Health Apollo](https://github.com/Infinite-Labs-AI/hermes-health-apollo) — local-first health intelligence plugin that connects wearable data, calendar context, and Gmail metadata so Hermes can answer questions between health status and next actions.
 - [Hermes Tavern](https://github.com/gchigoo/hermes-tavern) — standalone SillyTavern-compatible roleplay and novel runtime that runs as a plugin against Hermes Agent gateways, supporting character card import, session management, and RP-specific slash commands.
+- [Meshtastic Hermes Plugin](https://github.com/thpham/meshtastic-hermes-plugin) — Hermes plugin for LoRa mesh communication via Meshtastic: messaging tools, a node-interaction knowledge base, and a bidirectional gateway so the agent can chat over the mesh, with privacy-by-design packet handling.
+- [Hermes Tesla Fleet Plugin](https://github.com/Oceanswave/hermes-tescmd-plugin) — native plugin for Tesla Fleet API operations with 175 typed tools, OAuth handling, signed vehicle commands, charging, climate, security, navigation controls, and safety confirmation gates.
+- [Hermes Delegate Guard](https://github.com/mosqlee/hermes-delegate-guard) — two safety plugins that guard delegate_task calls: one blocks code-modification abuse (enforcing "Claude plans, Codex implements"), another detects and suppresses cascading tool-connectivity failures after guarded-tool errors.
+- [Hermes Mattermost Enhancer](https://github.com/colin-chang/hermes-plugin-mattermost-enhancer) — plugin that makes Hermes smarter inside Mattermost with dangerous-command approval cards via DM, /model switching, WebSocket stability improvements, and configurable approval persistence.
 
 ## Deployment and Operations
 
@@ -356,6 +360,12 @@ If you are new to Hermes, this order works well:
 - [Hermes Operator](https://github.com/UndermountainCC/hermes-operator) — Kubernetes operator for managing Hermes Agent deployments with declarative CRDs.
 - [ClawFleet](https://github.com/clawfleet/ClawFleet) — open-source fleet manager that deploys multiple Hermes (and OpenClaw) agents in isolated Docker containers with a browser dashboard, one-line install, and version pinning.
 - [Hermes Claude Code Local](https://github.com/KaiFelixBennett/hermes-claude-code-local) — run Hermes Agent plus Claude Code locally on llama.cpp for zero API costs, with benchmarks showing a 4-hour / 7M-token session that would have cost $94 on Claude Opus.
+- [Hermes Swarm Map](https://github.com/NimbleCoAI/hermes-swarm-map) — multiplayer admin and orchestration platform for managing multiple Hermes agent instances from one dashboard, with setup wizard, model cascades, multi-tenant security, budget enforcement, and platform connections for Telegram, Signal, and Mattermost.
+- [Hermes Cockpit](https://github.com/goktugozdem2/hermes-cockpit) — multi-project mission control dashboard for operators running autonomous workers, cron jobs, coding agents, and deploys across many products, with project health cards, task queues, and cross-project alerts.
+- [Hermes Advanced Profile Manager](https://github.com/MaverickKB/hermes-advanced-profile-manager) — dependency-light local WebUI for full Hermes profile management: readiness verdicts, skills & skill groups, toolsets, MCP servers, providers, delegation authority, backups, audit, and an interactive system graph.
+- [Hermes Memory-OS](https://github.com/btnalit/Hermes-Memory-OS) — engineering-focused agent OS runtime for Hermes with dual-engine memory (SQLite + flat files), deterministic state machine locks, temporal-decay weighted retrieval, and an owner-review feedback loop.
+- [Nexus Memory](https://github.com/Neboy72/nexus-memory) — universal self-hosted memory layer for AI agents: hybrid search (vector + BM25), three deployment modes (Hermes plugin, OpenClaw plugin, MCP server), and local-first storage.
+- [hermes-tescmd-plugin](https://github.com/Oceanswave/hermes-tescmd-plugin) — native Tesla Fleet API operations for Hermes, covering vehicle state, charging, climate, navigation, security, and energy sites through structured tools with confirmation gates. (Also listed under Plugins.)
 
 - [hermes-alpha](https://github.com/kaminocorp/hermes-alpha) — cloud-deployed version of Hermes Agent with streamlined provisioning for users who want a managed cloud runtime instead of self-hosting.
 - [Hermes Agent One-Click Kit](https://github.com/sodam-ai/Hermes-Agent_One-Click_Kit) — beginner-friendly Windows .bat installer that sets up Hermes Agent, connects messengers, and handles login with double-click execution and Korean/English docs.
@@ -485,6 +495,8 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent Setup: Install, Configure, and Run It 100% Free](https://www.youtube.com/watch?v=9v1DyzP7-58)
 - [I am Switching to Hermes Agent](https://www.youtube.com/watch?v=J-kSdzHr9Ek)
 - [Hermes AI Agent Explained: Persistent AI That Runs 24/7](https://www.youtube.com/watch?v=ZhCIZ-ZTcyE)
+- [Hermes Agent: Zero to Personal AI Assistant (1-Hour Course)](https://www.youtube.com/watch?v=gb5TlGw6Uks) — complete walkthrough from scratch on a VPS, covering installation, configuration, skill setup, and gateway connections.
+- [FULL Hermes Agent Tutorial For Beginners in 2026](https://www.youtube.com/watch?v=4ftONmdO9yo) — beginner-focused tutorial covering setup, Telegram integration, and practical usage patterns.
 
 ## Community
 
