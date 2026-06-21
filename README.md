@@ -171,6 +171,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Mini App Template](https://github.com/waguriagentic/hermes-miniapp-template) — ready-to-use Telegram Mini App template for Hermes Agent that developers can fork and extend with custom tools and dashboards.
 - [Vessel Browser](https://github.com/unmodeled-tyler/vessel-browser) — open source chromium-based AI browser built for agent harnesses with durable state, MCP control, and a human-visible supervisory UI for long-running workflows.
 - [Hermes Island](https://github.com/esaradev/hermes-island) — macOS Dynamic Island notch app that monitors Hermes agent sessions, memory, and multi-agent workflows from the menu bar.
+- [Hermes Console](https://github.com/dannyshmueli/obsidian-hermes-console) — Obsidian community plugin that runs Hermes Agent directly inside your vault with terminal tabs, selected-note context bridging, and a full settings UI; installable from the Obsidian Community Plugin directory.
 
 ## Skills, Plugins, and Extensions
 
@@ -433,6 +434,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Compression Eval](https://github.com/NousResearch/hermes-compression-eval) — official offline evaluation harness for Hermes's ContextCompressor that runs probe-based quality scoring across accuracy, context awareness, and artifact trail dimensions.
 - [Olympian](https://github.com/jahilldev/olympian) — AI dark factory that drives Hermes Agent through the full issue-to-PR lifecycle: plan, implement with multi-revision gates, self-review with confidence scoring, and draft PR, with a human only ever approving the plan and the final PR.
 - [Home AI Mesh](https://github.com/punchtaylor/home-ai-mesh) — MIT-licensed practical guide for building a multi-node home AI mesh with Raspberry Pis, Jetsons, and GPUs coordinated over MQTT and Hermes Agent, with failover, finance, voice, and watchdog nodes.
+- [Autocontext](https://github.com/greyhaven-ai/autocontext) — recursive self-improving harness for AI agents that iteratively refines approaches on complex goals, with native Hermes Agent skill export for seamless integration into any profile.
 
 ### Domain-specific applications
 
