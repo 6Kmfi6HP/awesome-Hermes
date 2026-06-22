@@ -230,6 +230,9 @@ If you are new to Hermes, this order works well:
 - [dream-auto](https://github.com/StefanIsMe/dream-auto) — MCTS-powered autonomous dream system that runs background thinking cycles for Hermes, exploring alternative reasoning paths and consolidating insights between sessions.
 - [hermes-persona](https://github.com/kenyonxu/hermes-persona) — dynamic persona context injection engine for Hermes Agent, with code-driven configuration for adapting personality, tone, and behavioral rules across sessions.
 - [Hermes Self-Iteration Skill](https://github.com/TangGV/hermes-self-iteration-skill) — upper-layer execution protocol that drives Hermes through autonomous analysis → improvement → verification → ROI-gated continuations, turning any project, system, or workflow into a self-maturing pipeline.
+- [SOUL.md Grader Skill](https://github.com/cobibean/soul-grader-skill) — drops-in skill for grading, reviewing, and rewriting Hermes Agent SOUL.md identity files with a research-backed 100-point rubric and a public-safe field guide.
+- [Interest Radar](https://github.com/Igloo302/interest-radar) — pure SKILL.md relevance-judgment engine that tells you how related any external content is to your interests, with a feedback loop that improves over time; platform-agnostic and zero-code.
+- [Founder OS](https://github.com/wolulabs/hermes-founder-os) — modular Hermes Agent skill pack for turning raw startup ideas into validated, build-ready SaaS workflows, splitting ideation, market research, product planning, coding, UX critique, and launch into focused specialist skills.
 
 ### Plugins and add-ons
 
@@ -371,6 +374,7 @@ If you are new to Hermes, this order works well:
 - [hermes-alpha](https://github.com/kaminocorp/hermes-alpha) — cloud-deployed version of Hermes Agent with streamlined provisioning for users who want a managed cloud runtime instead of self-hosting.
 - [Hermes Agent One-Click Kit](https://github.com/sodam-ai/Hermes-Agent_One-Click_Kit) — beginner-friendly Windows .bat installer that sets up Hermes Agent, connects messengers, and handles login with double-click execution and Korean/English docs.
 - [claude-tap](https://github.com/liaohch3/claude-tap) — local proxy and trace viewer for AI coding agents that intercepts and inspects API traffic from Hermes, Claude Code, Codex, Gemini CLI, and others, exposing system prompts, tool calls, streaming responses, and token usage in a self-contained HTML viewer.
+- [HuggingMes](https://github.com/somratpro/HuggingMes) — self-hosted Hermes Agent gateway for Hugging Face Spaces that runs 24/7 on the free tier, with Cloudflare proxy for outbound traffic, persistent HF Dataset backup, JupyterLab terminal, and one-click duplicate deployment.
 
 ## Integrations and Bridges
 
