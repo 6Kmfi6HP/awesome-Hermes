@@ -303,6 +303,7 @@ If you are new to Hermes, this order works well:
 - [Honcho Memory Plugin](https://github.com/GumbyEnder/hermes-plugins) — dashboard plugin bundle centered on a Honcho memory panel with live stats, queue health, semantic search, and drill-down views for documents and message history.
 - [GBrain](https://github.com/garrytan/gbrain) — production-grade knowledge graph brain layer by Garry Tan that performs synthesis, graph traversal, and gap analysis over personal and institutional knowledge, with hybrid vector/BM25 search, self-wiring entity graph, and crash-safe sub-agent job queue.
 - [Memory OS](https://github.com/ClaudioDrews/memory-os) — 7-layer memory operating system for Hermes Agent with Qdrant vector recall, structured facts, fabric recall, auto-curated wiki, and surgical context injection, running locally with any LLM provider.
+- [Hermes Cost Lens](https://github.com/JDemler/hermes-cost-lens) — zero-build dashboard plugin for analyzing and optimizing Hermes Agent session costs, with live OpenRouter pricing, D3 visualizations, and per-session cost breakdowns accessible directly from the dashboard Sessions page.
 
 - [ClawSec](https://github.com/prompt-security/clawsec) — security skill suite maintained by Prompt Security with NVD-backed advisory feed, drift detection for SOUL.md and config files, supply-chain skill integrity verification, and a Hermes-specific `hermes-attestation-guardian` skill.
 - [ClawShell](https://github.com/clawshell/clawshell) — runtime security layer for Hermes and OpenClaw that intercepts LLM API calls through a virtual-to-real key mapping proxy, scans for PII with configurable DLP patterns, isolates email access, and exposes usage auditing.
@@ -374,6 +375,7 @@ If you are new to Hermes, this order works well:
 - [hermes-alpha](https://github.com/kaminocorp/hermes-alpha) — cloud-deployed version of Hermes Agent with streamlined provisioning for users who want a managed cloud runtime instead of self-hosting.
 - [Hermes Agent One-Click Kit](https://github.com/sodam-ai/Hermes-Agent_One-Click_Kit) — beginner-friendly Windows .bat installer that sets up Hermes Agent, connects messengers, and handles login with double-click execution and Korean/English docs.
 - [claude-tap](https://github.com/liaohch3/claude-tap) — local proxy and trace viewer for AI coding agents that intercepts and inspects API traffic from Hermes, Claude Code, Codex, Gemini CLI, and others, exposing system prompts, tool calls, streaming responses, and token usage in a self-contained HTML viewer.
+- [Hermes One-Click](https://github.com/Devsoul2026/Hermes-One-Click) — Windows desktop distribution of Hermes that bundles hermes-agent, hermes-webui, a native WebView2 launcher, portable Python runtime, and built-in skills into an Inno Setup installer with one-click deployment and no dev environment required.
 - [HuggingMes](https://github.com/somratpro/HuggingMes) — self-hosted Hermes Agent gateway for Hugging Face Spaces that runs 24/7 on the free tier, with Cloudflare proxy for outbound traffic, persistent HF Dataset backup, JupyterLab terminal, and one-click duplicate deployment.
 
 ## Integrations and Bridges
