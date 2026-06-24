@@ -233,8 +233,11 @@ If you are new to Hermes, this order works well:
 - [SOUL.md Grader Skill](https://github.com/cobibean/soul-grader-skill) — drops-in skill for grading, reviewing, and rewriting Hermes Agent SOUL.md identity files with a research-backed 100-point rubric and a public-safe field guide.
 - [Interest Radar](https://github.com/Igloo302/interest-radar) — pure SKILL.md relevance-judgment engine that tells you how related any external content is to your interests, with a feedback loop that improves over time; platform-agnostic and zero-code.
 - [Founder OS](https://github.com/wolulabs/hermes-founder-os) — modular Hermes Agent skill pack for turning raw startup ideas into validated, build-ready SaaS workflows, splitting ideation, market research, product planning, coding, UX critique, and launch into focused specialist skills.
-
-### Plugins and add-ons
+- [B2B SDR Skill](https://github.com/iPythoning/b2b-sdr-hermes-skill) — autonomous AI SDR skill that finds buyers, qualifies leads, and manages outreach across WhatsApp, Email, and Telegram for B2B export businesses.
+- [Threads Growth Skill](https://github.com/krumjahn/threads-growth-skill) — systematically improve your Threads content using your own real data with personalized optimization strategies and performance analytics.
+- [Skills Judgment](https://github.com/zzyong24/skills-judgment) — self-sustaining skill lifecycle management that applies natural-selection principles to keep your Hermes skill ecosystem lean, relevant, and automatically culled.
+- [Link Bookmark Skill](https://github.com/PeterCha90/link-bookmark) — capture unread link bookmarks from chat channels and organize them for later review, with channel-aware grouping.
+- [Android Phone Control Skill](https://github.com/patrickdass93/android-phone-control-skill) — safe Android device control via ADB for Hermes, enabling screen state, calls, SMS, notifications, and device-info operations with consent gates.
 
 - [Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
 - [Built-in Plugins](https://hermes-agent.nousresearch.com/docs/user-guide/features/built-in-plugins) — official catalog of opt-in bundled plugins such as disk cleanup, Langfuse tracing, Spotify control, Google Meet joining, image backends, and dashboard examples that ship inside Hermes itself.
@@ -377,6 +380,9 @@ If you are new to Hermes, this order works well:
 - [claude-tap](https://github.com/liaohch3/claude-tap) — local proxy and trace viewer for AI coding agents that intercepts and inspects API traffic from Hermes, Claude Code, Codex, Gemini CLI, and others, exposing system prompts, tool calls, streaming responses, and token usage in a self-contained HTML viewer.
 - [Hermes One-Click](https://github.com/Devsoul2026/Hermes-One-Click) — Windows desktop distribution of Hermes that bundles hermes-agent, hermes-webui, a native WebView2 launcher, portable Python runtime, and built-in skills into an Inno Setup installer with one-click deployment and no dev environment required.
 - [HuggingMes](https://github.com/somratpro/HuggingMes) — self-hosted Hermes Agent gateway for Hugging Face Spaces that runs 24/7 on the free tier, with Cloudflare proxy for outbound traffic, persistent HF Dataset backup, JupyterLab terminal, and one-click duplicate deployment.
+- [Render Hermes Agent Template](https://github.com/render-examples/hermes-render) — official one-click Render deployment template with persistent disk, dashboard, and Docker web service setup.
+- [Telegram Bot Keep-Alive Proxy](https://github.com/vaibhavjnf/telegram-india-unblock) — self-healing hotfix that keeps your Hermes Telegram bot alive when ISPs block api.telegram.org, routing through a live SOCKS5 exit with automatic fallback.
+- [Hermes Telegram Proxy](https://github.com/alt-glitch/hermes-telegram-proxy) — hardened Cloudflare Worker reverse-proxy for the Telegram Bot API that reaches api.telegram.org from blocked regions without a VPN; bot token never touches logs.
 
 ## Integrations and Bridges
 
@@ -413,6 +419,10 @@ If you are new to Hermes, this order works well:
 - [hermes-multitenancy](https://github.com/eggyrooch-blip/hermes-multitenancy) — Feishu bot multi-tenant routing plugin for Hermes Agent, enabling one bot instance to serve multiple users with isolated profiles.
 - [hermes-tweet](https://github.com/Xquik-dev/hermes-tweet) — native Hermes Agent plugin for X/Twitter automation through Xquik, with posting, scheduling, and engagement workflows.
 - [Hermes Lansenger Adapter](https://github.com/lansenger-pm/hermes-lansenger-adapter) — enterprise messaging platform adapter for Hermes Agent, providing WebSocket real-time messaging, approval cards, media tools, and markdown delivery for the Lansenger (蓝信) ecosystem — pure plugin, zero core modifications.
+- [LiteLLM Agent Control Plane](https://github.com/LiteLLM-Labs/litellm-agent-control-plane) — unified control plane supporting Hermes, OpenCode, Claude Managed Agents, Cursor Agents API, and DeepAgents from one interface, with agent vault, sandbox, and AI gateway routing. (~1K ★)
+- [Hermes LINE Bridge](https://github.com/hfujikawa77/hermes-line-bridge) — standalone LINE ↔ Hermes Agent bridge via an OpenAI-compatible API server, enabling LINE messaging as a native Hermes channel.
+- [Zo-Hermes Bridge](https://github.com/JacKALaing/zo-hermes) — Hermes Agent bridge for Zo Computer, providing a Zo-compatible FastAPI server and setup skill for the Zo ecosystem.
+- [Cursor SDK for Hermes](https://github.com/AureliusIvan/cursor-sdk-for-hermes) — use Cursor Composer as a model provider in Hermes via a local OpenAI-compatible proxy over cursor-sdk, with a declarative Hermes plugin.
 
 ## Research, Multi-Agent, and Domain Projects
 
@@ -441,6 +451,7 @@ If you are new to Hermes, this order works well:
 - [Olympian](https://github.com/jahilldev/olympian) — AI dark factory that drives Hermes Agent through the full issue-to-PR lifecycle: plan, implement with multi-revision gates, self-review with confidence scoring, and draft PR, with a human only ever approving the plan and the final PR.
 - [Home AI Mesh](https://github.com/punchtaylor/home-ai-mesh) — MIT-licensed practical guide for building a multi-node home AI mesh with Raspberry Pis, Jetsons, and GPUs coordinated over MQTT and Hermes Agent, with failover, finance, voice, and watchdog nodes.
 - [Autocontext](https://github.com/greyhaven-ai/autocontext) — recursive self-improving harness for AI agents that iteratively refines approaches on complex goals, with native Hermes Agent skill export for seamless integration into any profile.
+- [Hermes Multi-Agent System](https://github.com/sergiocoding96/hermes-multi-agent) — Paperclip + Hermes + MemOS multi-agent system with autoresearch self-improving loops, research skills, and session persistence.
 
 ### Domain-specific applications
 
