@@ -153,6 +153,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent CN Desktop](https://github.com/Eynzof/hermes-agent-cn-desktop) — native Windows-first desktop client for the Chinese Hermes community, built with Tauri v2 + Rust + React, featuring runtime management, diagnostics, memory tools, and secure proxying.
 - [Hermes Chat Bubble](https://github.com/clearmud/hermes-chat-bubble) — lightweight dashboard plugin that adds a floating TUI chat bubble to the Hermes Dashboard, repositioning the existing persistent chat host without opening a second session.
 - [ClawPanel](https://github.com/qingchencloud/clawpanel) — multi-engine AI management panel supporting both OpenClaw and Hermes Agent, with a built-in AI assistant that handles environment checks, log analysis, config repair, and automated troubleshooting via Rust + Tauri v2.
+- [hermes-pwa](https://github.com/stasstepv/hermes-pwa) — unofficial mobile PWA for Hermes Agent that installs as a dashboard plugin and adds a Mobile tab for chatting, approving actions, and monitoring your agent from a phone.
 
 - [Agent Sessions](https://github.com/jazzyalex/agent-sessions) — native macOS session browser and cockpit for Hermes (and Claude Code, Codex, OpenCode, Gemini CLI), with search/filter across all past sessions, archive and resume, real-time rate-limit tracking, and analytics.
 - [ReevesAgents](https://github.com/mertkayacs/reevesagents) — free, open-source workspace manager for AI CLI agents that bundles TUI, WebUI, MCP server, and CLI in one package with no API key required.
@@ -172,6 +173,7 @@ If you are new to Hermes, this order works well:
 - [Vessel Browser](https://github.com/unmodeled-tyler/vessel-browser) — open source chromium-based AI browser built for agent harnesses with durable state, MCP control, and a human-visible supervisory UI for long-running workflows.
 - [Hermes Island](https://github.com/esaradev/hermes-island) — macOS Dynamic Island notch app that monitors Hermes agent sessions, memory, and multi-agent workflows from the menu bar.
 - [Hermes Console](https://github.com/dannyshmueli/obsidian-hermes-console) — Obsidian community plugin that runs Hermes Agent directly inside your vault with terminal tabs, selected-note context bridging, and a full settings UI; installable from the Obsidian Community Plugin directory.
+- [Hermes Browser Extension](https://github.com/abundantbeing/hermes-browser-extension) — Chromium side panel that connects active browser context to your local or remote Hermes runtime, with side-panel chat, tab-aware prompts, voice dictation, and theme support. Created by Jon Komet.
 
 ## Skills, Plugins, and Extensions
 
@@ -290,6 +292,7 @@ If you are new to Hermes, this order works well:
 - [Hermes DeepL Plugin](https://github.com/drmzperx/hermes-deepl-plugin) — DeepL-backed translation and usage-quota tool with zero third-party dependencies, auto-selecting Free or Pro endpoint based on key format.
 - [hermes-payguard](https://github.com/nativ3ai/hermes-payguard) — payment-control oriented plugin.
 - [Hermes Dojo](https://github.com/Yonkoo11/hermes-dojo) — self-improvement loop that mines session failures, patches weak skills, and automates overnight analyze→improve→report cycles.
+- [hermes-patchkit](https://github.com/Anry777/hermes-patchkit) — keep official Hermes Agent upstream while applying your own fixes and customizations as reusable patch packs.
 - [Ladybug Memory Plugin](https://github.com/Ladybug-Memory/hermes-memory-plugin) — local-first memory provider that keeps Hermes recall in a single on-disk `.lbdb` graph database with typed memories, weighted recall, and optional entity extraction.
 - [Membase for Hermes](https://github.com/aristoapp/hermes-membase) — persistent memory plugin that pairs hybrid vector plus knowledge-graph recall with wiki retrieval and mirroring of Hermes’s built-in `MEMORY.md`, giving teams a shared long-term memory layer beyond local files.
 - [Hermes Dashboard Plugin](https://github.com/tmdgusya/hermes-dashboard-plugin) — lightweight neubrutalist dashboard add-on built on the official plugin SDK, giving Hermes web users a unified tab for sessions, skills, profiles, token usage, and editable memory files.
@@ -329,6 +332,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Tesla Fleet Plugin](https://github.com/Oceanswave/hermes-tescmd-plugin) — native plugin for Tesla Fleet API operations with 175 typed tools, OAuth handling, signed vehicle commands, charging, climate, security, navigation controls, and safety confirmation gates.
 - [Hermes Delegate Guard](https://github.com/mosqlee/hermes-delegate-guard) — two safety plugins that guard delegate_task calls: one blocks code-modification abuse (enforcing "Claude plans, Codex implements"), another detects and suppresses cascading tool-connectivity failures after guarded-tool errors.
 - [Hermes Mattermost Enhancer](https://github.com/colin-chang/hermes-plugin-mattermost-enhancer) — plugin that makes Hermes smarter inside Mattermost with dangerous-command approval cards via DM, /model switching, WebSocket stability improvements, and configurable approval persistence.
+- [Hermes-MPM](https://github.com/davidgut1982/hermes-mpm) — multi-profile management plugin with tiered model routing (pure-Python deterministic classifier), parallel orchestrator that fans out subagent tasks in a single batched delegation call, intent fast-paths bypassing the LLM for simple queries, and a dashboard tab for tracking subagent runs. Modeled on claude-mpm.
 
 ## Deployment and Operations
 
@@ -383,6 +387,7 @@ If you are new to Hermes, this order works well:
 - [Render Hermes Agent Template](https://github.com/render-examples/hermes-render) — official one-click Render deployment template with persistent disk, dashboard, and Docker web service setup.
 - [Telegram Bot Keep-Alive Proxy](https://github.com/vaibhavjnf/telegram-india-unblock) — self-healing hotfix that keeps your Hermes Telegram bot alive when ISPs block api.telegram.org, routing through a live SOCKS5 exit with automatic fallback.
 - [Hermes Telegram Proxy](https://github.com/alt-glitch/hermes-telegram-proxy) — hardened Cloudflare Worker reverse-proxy for the Telegram Bot API that reaches api.telegram.org from blocked regions without a VPN; bot token never touches logs.
+- [HERMES-Free-SOTA](https://github.com/shagghiesuperstar/HERMES-Free-SOTA) — reusable skill and operator guide for running Hermes Agent with FreeLLMAPI's pooled free-tier quota as a Mixture-of-Agents setup, achieving SOTA-class LLM quality at zero model cost. Verified live with 65 models, 9 model families, and a built-in 6h healthcheck cron.
 
 ## Integrations and Bridges
 
@@ -440,6 +445,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Agent (CaMeL fork)](https://github.com/nativ3ai/hermes-agent-camel) — Hermes fork with opt-in CaMeL trust boundaries and runtime guardrails against indirect prompt injection.
 - [Hermes Skill Distillation](https://github.com/beardthelion/hermes-skill-distillation) — hackathon pipeline that turns real task trajectories into fine-tuning data for Hermes 4.
 - [Oh My Hermes](https://github.com/Salomondiei08/oh-my-hermes) — opinionated autonomous workflow layer with 23 skills and 5 workflows that turns Hermes into a full-stack CTO with Kanban management, GitHub issue triage, security scanning, and human-in-the-loop deployment.
+- [OMH — Oh My Hermes (multi-agent orchestration)](https://github.com/witt3rd/oh-my-hermes) — composable multi-agent orchestration skills for Hermes (91★): consensus planning (ralplan), requirements interviewing (deep-interview), verified execution (ralph), multi-eye research (deep-research), and an autopilot pipeline that chains them end to end. Installable via `hermes skills tap add witt3rd/oh-my-hermes`.
 - [hermes-agent-rs](https://github.com/Lumio-Research/hermes-agent-rs) — complete Rust reimplementation of Hermes as a single ~16MB static binary with zero dependencies, 10 LLM providers, 30+ tools, 17 platform adapters, 8 memory backends, and Tokio async runtime; runs on Raspberry Pi and air-gapped servers.
 - [go-magic](https://github.com/magicwubiao/go-magic) — high-performance, ultra-lightweight Go reimplementation of Hermes Agent with a React/TypeScript web dashboard, targeting single-binary deployment for resource-constrained environments.
 - [Hermes Turbo Agent](https://github.com/wesleysimplicio/hermes-turbo-agent) — performance benchmarks, optimized hot-paths, and a turbo scoring system for production Hermes deployments targeting 100x faster execution.
@@ -496,7 +502,8 @@ If you are new to Hermes, this order works well:
 - [LLM-WIKI-TO-AGENT-Template](https://github.com/AlexChanshuo/LLM-WIKI-TO-AGENT-Template) — reproducible blueprint for combining an Obsidian vault, a Hermes Telegram librarian, and GitHub backups into a single personal knowledge workflow.
 - [Hermes Memory Stack](https://github.com/yelixir-dev/hermes-memory-stack) — modular bootstrap stack for layered memory, llmwiki routing, and optional NotebookLM/source-pack workflows.
 - [hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu) — Windows WSL2 setup path.
-
+- [Running Hermes Agent on EKS: from docker-compose to Helm](https://ashkmb.com/blog/hermes-agent-eks-deployment/) — production-grade deployment walkthrough covering private ECR, IRSA, API key secrets, persistent volumes, and a custom Helm chart for running Hermes on Amazon EKS.
+- [Hermes Desktop Guide (日本語)](https://github.com/takunagai/hermes-desktop-guide) — unofficial Japanese-language guide for Hermes Desktop, built as an Astro Starlight static site with Obsidian-powered content, Pagefind search, and Cloudflare deployment.
 ### Books and curated lists
 
 - [Hermes Agent Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) — bilingual community book with downloadable PDFs that goes beyond setup into memory, skills, self-improvement loops, and multi-agent usage patterns.
