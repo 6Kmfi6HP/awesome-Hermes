@@ -338,6 +338,7 @@ If you are new to Hermes, this order works well:
 - [Hermes Forge](https://github.com/iknowkungfubar/hermes-forge) — self-hosted MCP server and Hermes plugin that brings the Forge guardrail framework to Hermes: response validation, rescue parsing, step enforcement, and context management for safer LLM tool-calling.
 - [Sensorium](https://github.com/TKCen/sensorium) — environment-reactive attention substrate plugin that gives Hermes a bounded inner-lifecycle layer: salience sensing, subconscious/advisory review, conscious thread capsules, and safe action preparation without autonomous outbound behavior.
 - [Shark Trading Agent](https://github.com/logiqfish/shark-trading-agent) — skinny, self-hosted paper-only autonomous trading bot that runs as a Hermes Agent profile distribution, using Alpaca paper API for market data and execution. Two keys (Alpaca paper + an LLM), no hosted services, educational.
+- [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness/tree/main/skills/hyperconsciousness) — Developer-alpha CLI skill for finding local skills, PKM notes and encrypted knowledge, with an installer for Hermes skill directories.
 
 ## Deployment and Operations
 
