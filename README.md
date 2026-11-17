@@ -198,6 +198,7 @@ If you are new to Hermes, this order works well:
 - [hermes-merchant](https://github.com/arimanyus/hermes-merchant) — portable Hermes skill pack for ML/AI job scraping, profile scoring, and Greenhouse application automation.
 - [hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) — generates reusable skills from repeated work.
 - [Hermes Memory Skills](https://github.com/nexus9888/hermes-memory-skills) — memory-hygiene skill pack that runs dreaming and surgical trimming across different memory backends.
+- [Datacircle](https://datacircle.dev) — skill (https://datacircle.dev/SKILL.md) and open API (https://api.datacircle.dev/v1) to find the best GTM APIs, with every plan's price per 1,000 and rate limits.
 - [Super Hermes](https://github.com/Cranot/super-hermes) — analytical skill set that teaches Hermes to write sharper reasoning lenses, expose blind spots, and report structural constraints during deep analysis.
 - [hermeshub](https://github.com/amanning3390/hermeshub) — community discovery hub for Hermes skills.
 - [skilldock.io](https://github.com/chigwell/skilldock.io) — cross-agent skill registry.
